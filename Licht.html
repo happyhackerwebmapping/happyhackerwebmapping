@@ -2,73 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Gspritzt Projekt Webmapping 2018! - Vergleichskarte</title>
+    <title>Fluglärm in Innsbruck 2018</title>
 
     <!--FONTS-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <!--FONTS-->
 
-    <!-- dependency on jQuery -->
-    <script type="text/javascript" src="js/jquery/jquery-3.3.1.js"></script>
+    <!-- Einbinden der Kartenlayer und Fullscreen -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
 
-    <!--LEAFLET-->
-    <link rel="stylesheet" href="js/leaflet/leaflet.css" />
-    <script src="js/leaflet/leaflet.js"></script>
-    <!--LEAFLET-->
+    <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
+    <link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" rel="stylesheet" />
 
-    <!--leaflet.search-->
-    <link rel="stylesheet" href="js/leaflet.search/leaflet-search.min.css"/>
-    <script src="js/leaflet.search/leaflet-search.min.js"></script>
-    <!--leaflet.search-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    
+    <link rel="stylesheet" href="laerm.css" />
 
-    <!--tab pic-->
-    <link rel="icon" type="image/png" sizes="32x32" href="images/gspritzt.png">
-    <!--tab pic-->
-
-    <!--leaflet.markerCluster-->
-    <link rel="stylesheet" href="js/leaflet.markercluster/MarkerCluster.css"/>
-    <link rel="stylesheet" href="js/leaflet.markercluster/MarkerCluster.Default.css"/>
-    <script src="js/leaflet.markercluster/leaflet.markercluster.js"></script>
-    <!--leaflet.markerCluster-->
-
-    <!--leaflet.hash-->
-    <script src="js/leaflet.hash/leaflet-hash.js" ></script>
-    <!--leaflet.hash-->
-
-    <!--Geojson Data Tirol-->
-    <script src="data/GI3_Tirol_2006_points.js"></script>
-    <!--Geojson Data-->
-
-    <link rel="stylesheet" href="style_relationmap.css" />
-
-    <script type="text/javascript" defer src="script_relationmap.js"></script>
+    <script defer src="laerm.js"></script>
+    <script defer src="csvjson.json"></script>
 
   </head>
   <body>
     <div id="header">
-      <h2 class="white">Orthophoto Vergleichskarte Nordtirol</h2>
-      <h3 class="white">Gletscher Tirols</h3>
+      <h2 class="white">Fluglärm in Innsbruck 2018</h2>
     </div>
 
-    <div class="topnav">
-      <ul>
-        <li><a href="index.html" style="float:left">Erklärung Gletscherrückgang</a></li>
-        <li><a href="Gspritzt_map.html">Übersichtskarte Gletscher Tirol</a></li>
-        <li><a href="relationmap.html" class="active">Orthophoto Vergleichskarte Nordtirol</a></li>
-        <li><a href="relationmap_st.html">Orthophoto Vergleichskarte Südtirol</a></li>
-        <li><a href="about_us.html">Über Uns</a></li>
-      </ul>
-    </div>
+    <h2><em><strong>Lärmkarte IBK</strong></em></h2>
 
-    <h2><em><strong>Orthophoto Vergleichskarte Vergangenheit / Jetzt</strong></em></h2>
+    <div id='map'></div>
 
-    <div id='map1'></div>
-    <div id='map2'></div>
-
-
-    <div id="footer" class="gray">
-      <p><br><br> <font color="white">You found it..;)</font></p>
-      <p>Headerbild: Blick vom Hinteren Eis auf den Hintereisferner (Foto von Johannes Branke)</p>
-    </div>
   </body>
 </html>
