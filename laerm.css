@@ -1,0 +1,17 @@
+#map {
+    width: 100%;
+    height: 70vh;
+    border: 1px solid gray;
+}
+
+body {
+    max-width: 1280px;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    color: #fff;
+    background-color: #000;
+    height: 50px;
+}

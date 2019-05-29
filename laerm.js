@@ -62,3 +62,4 @@ const layerControl = L.control.layers({
 }).addTo(karte);
 
 kartenLayer.bmapgrau.addTo(karte);
+karte.addControl(new L.Control.Fullscreen());
