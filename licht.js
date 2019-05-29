@@ -1,5 +1,3 @@
-* Lichtverschmutzung * /
-
 let karte = L.map("map");
 
 const kartenLayer = {
@@ -64,7 +62,4 @@ const layerControl = L.control.layers({
 }).addTo(karte);
 
 kartenLayer.bmapgrau.addTo(karte);
-
 karte.addControl(new L.Control.Fullscreen());
-
-karte.setView([47.25, 11.416667], 9);
