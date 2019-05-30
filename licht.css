@@ -10,6 +10,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+body p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #header {
     color: #fff;
     background-color: grey;
@@ -18,8 +22,9 @@ body {
 }
 
 .white {
-color: red;
+color: white;
 text-align: center;
 padding: 1em;
 font-family: 'Indie Flower', cursive;
+text-decoration: underline;
 }
