@@ -12,7 +12,14 @@ body {
 
 #header {
     color: #fff;
-    background-color: #000;
+    background-color: grey;
     background-image: url('images/paris_at_night.jpg');
-    height: 150px;
+    height: 250px;
+}
+
+.white {
+color: red;
+text-align: center;
+padding: 1em;
+font-family: 'Indie Flower', cursive;
 }
