@@ -10,8 +10,9 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-header {
+#header {
     color: #fff;
     background-color: #000;
-    height: 50px;
+    background-image: url('images/paris_at_night.jpg');
+    height: 150px;
 }
