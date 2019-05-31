@@ -2,34 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Fluglärm in Innsbruck 2018</title>
+    <title>Luftverschmutzung in Tirol</title>
 
-    <!--FONTS-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <!--FONTS-->
-
+   
     <!-- Einbinden der Kartenlayer und Fullscreen -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
 
     <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
     <link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
     
-    <link rel="stylesheet" href="laerm.css" />
+    <link rel="stylesheet" href="luft.css" />
 
-    <script defer src="laerm.js"></script>
-    <script defer src="csvjson.json"></script>
+    <script defer src="luft.js"></script>
+    
 
   </head>
   <body>
-    <div id="header">
-      <h2 class="white">Fluglärm in Innsbruck 2018</h2>
+      <div id="header">
+          <h2 class="white">Luftverschmutzung in Tirol</h2>
+          
+        </div>
+    
+        <div class="topnav">
+          <ul>
+            <li><a href="index.html" style="float:left">Allgemeines</a></li>
+            <li><a href="luft.html">Übersichtskarte Luftverschmutzung</a></li>
+            <li><a href="laerm.html" class="active">Übersichtskarte Lärmverschmutzung</a></li>
+            <li><a href="licht.html">Übersichtskarte Lichtverschmutzung</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+    
     </div>
 
-    <h2><em><strong>Lärmkarte IBK</strong></em></h2>
+    <h2><em><strong>Luftverschmutzung in Tirol</strong></em></h2>
 
     <div id='map'></div>
 
