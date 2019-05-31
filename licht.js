@@ -1,3 +1,5 @@
+var layerLicht;
+
 let karte = L.map(`map`, {
     center: [47, 9],
     zoom: 3
@@ -20,10 +22,14 @@ var kartenLayer = {
     }),
 };
 
+
+layerLicht = L.geoJSON.ajax('GeoJson/map.geojson')
+
 L.control.layers({
     "VIIRS_2019": kartenLayer.VIIRS_2019,
     "osm": kartenLayer.osm,
+    "Städte": layerLicht,
 }).addTo(karte);
 
-kartenlayer.osm.addTo(karte);
-kartenlayer.VIIRS_2019.addTo(karte);
+
+
