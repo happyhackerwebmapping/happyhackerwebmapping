@@ -69,19 +69,27 @@
 }
 
 .background_image {
-    background-image: url('images/milky_way.jpg');
+    background-image: url('images/milky_way_1920.jpg');
     height: 250px;
-    width: 1280px;
+    width: 100%;
     background-position: 0 50%;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
-.Inhalt p{
+main span{
+    float: left;
+    margin-left: 3em;  
+    height: 90%;
+    font-family: 'Times New Roman', Times, serif;
+    color: red; 
+}
+main p{
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid black;
+    padding: 1em;
+    background-color: grey;
 }
 
 #map {
