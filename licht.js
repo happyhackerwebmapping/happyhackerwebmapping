@@ -1,6 +1,6 @@
-var layerLicht;
 
-let karte = L.map(`map`, {
+
+let karte = L.map('map', {
     center: [47, 9],
     zoom: 3
 });

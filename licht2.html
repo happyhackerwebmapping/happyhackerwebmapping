@@ -1,58 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lichtverschmutzung in Tirol</title>
+    <title>Lichtverschmutzung in Tirol</title>
 
-  <!--FONTS-->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
-  <!--FONTS-->
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <!--FONTS-->
 
-  <!-- Einbinden der Kartenlayer und Fullscreen -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
-    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-    crossorigin="" />
+    <!-- Einbinden der Kartenlayer und Fullscreen -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
 
-  <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
-    integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
-    crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+        crossorigin=""></script>
 
 
-  <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
-  <link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css"
-    rel="stylesheet" />
+    <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
+    <link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css"
+        rel="stylesheet" />
 
-  <script src="plugins/leaflet.ajax.min.js"></script>
+    <script src="plugins/leaflet.ajax.min.js"></script>
 
-  <link rel="stylesheet" href="licht2.css" />
-  <script defer src="licht2.js"></script>
+    <link rel="stylesheet" href="licht2.css" />
+    <script defer src="licht.js"></script>
 
 </head>
+
 <body>
     <div class="header">
         <div class="inner_header">
             <div class="logo_container">
-                <h1>Das <span>L L L</span> der Verschmutzung</h1>
+                <h1> <span>Lichtverschmutzung in Tirol</span></h1>
             </div>
 
             <ul class="navigation">
-                <a a href="index.html"><li> Home</li></a>
-                <a><li> Luft</li></a>
-                <a><li> Licht</li></a>
-                <a><li> Lärm</li></a>
-                <a><li> About</li></a>
+                <a href="index.html">
+                    <li> Home</li>
+                </a>
+                <a href="luft.html">
+                    <li> Luft</li>
+                </a>
+                <a a href="licht2.html">
+                    <li> Licht</li>
+                </a>
+                <a href="laerm.html">
+                    <li> Lärm</li>
+                </a>
+                <a a href="about.html">
+                    <li> About</li>
+                </a>
             </ul>
-<br>
-            
+            <br>
+
 
         </div>
 
     </div>
-    <div class="background_image">
-
+    <div class="Inhalt">
+        <div class="background_image">
         </div>
+        <br>
+        <p>
+            Der Begriff der Lichtverschmutzung (englisch light pollution), auch Lichtsmog, oder Lichtverunreinigung
+            genannt,
+            bezeichnet die dauernde Abwesenheit völliger Dunkelheit in den davon betroffenen Gebieten der Erde und
+            bewertet
+            zugleich diesen Sachverhalt negativ. Der Vorgang, der zu diesem Zustand führt, wird Lichtimmission
+            genannt.[3]
+            Dabei
+            wird der Nachthimmel durch meist künstliche Lichtquellen aufgehellt, deren Licht in den Luftschichten der
+            Erdatmosphäre gestreut wird, womit die Überlagerung der natürlichen Dunkelheit verbunden ist. Über Städten
+            spricht
+            man auch von deren Lichtglocke. <br>
+            ------------------- <br>
+            Quelle: <code></code><a href="https://de.wikipedia.org/wiki/Lichtverschmutzung">Wikiepdia</a></code>
+        </p>
+
+        <div id='map'></div>
+
+    </div>
+
 </body>
+
 </html>
