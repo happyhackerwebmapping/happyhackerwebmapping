@@ -1,0 +1,37 @@
+#header {
+    text-align: center;
+    background-image: url('images/pollution.jpg');
+    background-repeat: no-repeat;
+    height: 360px;
+    background-position: 0 45%;
+    padding: 0 2em;
+
+}
+
+/* Navihationsleiste stylen*/
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 2em;
+    overflow: hidden;
+    background-color: brown;
+}
+
+/* Navigationslinks stylen */
+.topnav li {
+    float: left;
+}
+
+.topnav li a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#map {
+    width: 100%;
+    height: 70vh;
+    border: 1px solid gray;
+}
