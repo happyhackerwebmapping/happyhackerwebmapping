@@ -17,7 +17,7 @@
     height: 100%;
     display: block;
     margin: 0 auto;
-    background-color: black;
+    background-color:  #101010;
 }
 
 .logo_container {
@@ -40,7 +40,7 @@
 
 .logo_container h1 span {
     font-weight: 800;
-    color: red;
+    color: white;
 }
 
 .navigation {
@@ -69,9 +69,33 @@
 }
 
 .background_image {
-    background-image: url('images/milky_way.jpg');
+    background-image: url('images/milky_way_1920.jpg');
     height: 250px;
-    width: 1280px;
+    width: 100%;
     background-position: 0 50%;
-    margin: 0;
+
+}
+
+main span{
+    float: left;
+    margin-left: 3em;  
+    height: 90%;
+    font-family: 'Times New Roman', Times, serif;
+    color: red; 
+}
+main p{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    padding: 1em;
+    background-color: grey;
+}
+
+#map {
+    height: 360px;
+    width: 90%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
 }
