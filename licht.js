@@ -23,13 +23,11 @@ var kartenLayer = {
 };
 
 
-layerLicht = L.geoJSON.ajax('GeoJson/map.geojson')
+layerLicht = L.geoJSON.ajax('GeoJson/map.geojson').addTo(karte);
+
 
 L.control.layers({
     "VIIRS_2019": kartenLayer.VIIRS_2019,
     "osm": kartenLayer.osm,
     "Städte": layerLicht,
 }).addTo(karte);
-
-
-
