@@ -1,3 +1,9 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+    font-family: "Open Sans";
+}
+
 #header {
     text-align: center;
     background-image: url('images/pollution.jpg');
