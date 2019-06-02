@@ -1,50 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Lärmverschmutzung in Tirol</title>
 
-   
-    <!-- Einbinden der Kartenlayer und Fullscreen -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <title>Lärmverschmutzung in Tirol</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
 
-    <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
-    <link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" rel="stylesheet" />
+  <!-- Einbinden der Kartenlayer und Fullscreen -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 
-    
-    <link rel="stylesheet" href="laerm.css" />
-    <script src="ursulinen.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
 
-    <script defer src="laerm.js"></script>
-    
+  <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
+  <link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css"
+    rel="stylesheet" />
 
-  </head>
-  <body>
-      <div id="header">
-          <h2 class="white">Lärmverschmutzung in Tirol</h2>
-          
-        </div>
-    
-        <div class="topnav">
-          <ul>
-            <li><a href="index.html" style="float:left">Allgemeines</a></li>
-            <li><a href="luft.html">Übersichtskarte Luftverschmutzung</a></li>
-            <li><a href="laerm.html" class="active">Übersichtskarte Lärmverschmutzung</a></li>
-            <li><a href="licht.html">Übersichtskarte Lichtverschmutzung</a></li>
-            <li><a href="about.html">About</a></li>
-          </ul>
-        </div>
-    
-    </div>
 
+  <link rel="stylesheet" href="laerm.css" />
+  <script src="ursulinen.js"></script>
+
+  <script defer src="laerm.js"></script>
+
+
+</head>
+
+<body>
+  <div id="header">
+    <h2 class="white">Lärmverschmutzung in Tirol</h2>
+
+  </div>
+
+  <div class="topnav">
+    <ul>
+      <li><a href="index.html" style="float:left">Allgemeines</a></li>
+      <li><a href="luft.html">Übersichtskarte Luftverschmutzung</a></li>
+      <li><a href="laerm.html" class="active">Übersichtskarte Lärmverschmutzung</a></li>
+      <li><a href="licht.html">Übersichtskarte Lichtverschmutzung</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </div>
+
+  </div>
+
+  <main>
     <h2><em><strong>Lärmverschmutzung in Tirol</strong></em></h2>
-    <p>Test</p>
-    <!-- Informationsschwelle 	180 µg/m³ 	Einstundenmittelwert
-Alarmschwelle 	240 µg/m³ 	Einstundenmittelwert (https://www.umweltbundesamt.at/grenzwerte/)-->
-    <div id='map'></div>
+    <p>Text
+    </p>
+    Quelle: <a href="https://">Text.at</a>
+    <h3><em><strong>Fluglärm in Innsbruck</strong></em></h3>
+    <p>Der Fluglärm in der Nachbarschaft des Flughafens Innsbruck wird vom Amt der Tiroler Landesregierung, Abteilung
+      Emissionen Sicherheitstechnik Anlagen, an drei Messstellen an aussagekräftigen Orten im Umfeld des Flughafens
+      dauerregistrierend gemessen. Diese Messstellen erfassen alle Schallereignisse im Luftraum über Innsbruck oder im
+      Bereich des Flughafenareals. Weiters werden auch sonstige Schallereignisse, beispielsweise Nachbarschaftslärm im
+      Umfeld der Messstellen, erfasst.
+      Zusätzlich stellt die Austro Control GmbH Radardaten zum Flughafen Innsbruck zur Verfügung. Diese beinhalten die
+      Zeitpunkte der Landungen und der Starts sowie Überflüge mit den Parametern der Flugzeugposition, der Flughöhe und
+      der Geschwindigkeit.
+      Eine Korrelationssoftware ordnet die registrierten Schallereignisse den Radardaten zu. Dadurch erfolgt eine
+      Zuordnung der gemessenen Schallereignisse zu Fluglärm bzw.Umgebungslärm.
+    </p>
+    Quelle: <a href="https://www.tirol.gv.at/arbeit-wirtschaft/esa/laerm/fluglaerm/">Tirol.gv.at</a>
+    <figure>
+      <img src="images/ibk_flughafen.jpg" alt="Flughafen Innsbruck">
+    </figure>
+    <p>
+      Text
+    </p>
+    Quelle: <a href="https://Text">Text.at</a><br>
 
-  </body>
+
+  </main>
+
+  <div id='map'></div>
+
+</body>
+
 </html>

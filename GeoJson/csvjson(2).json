@@ -1,0 +1,3652 @@
+[
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "01.01.2018",
+    "LD Flug": "61,4",
+    "LD Umgeb": "52,6",
+    "LE Flug": "55,2",
+    "LE Umgeb": "49,2",
+    "LN Flug": "47,9",
+    "LN Umgeb": "42,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "02.01.2018",
+    "LD Flug": "62,6",
+    "LD Umgeb": "51,8",
+    "LE Flug": "55,6",
+    "LE Umgeb": 49,
+    "LN Flug": 46,
+    "LN Umgeb": "46,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "03.01.2018",
+    "LD Flug": 64,
+    "LD Umgeb": "54,7",
+    "LE Flug": "58,5",
+    "LE Umgeb": "49,9",
+    "LN Flug": "47,1",
+    "LN Umgeb": "44,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "04.01.2018",
+    "LD Flug": "63,3",
+    "LD Umgeb": "54,5",
+    "LE Flug": "58,1",
+    "LE Umgeb": "50,9",
+    "LN Flug": "48,2",
+    "LN Umgeb": "45,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "05.01.2018",
+    "LD Flug": "62,5",
+    "LD Umgeb": "51,5",
+    "LE Flug": "61,4",
+    "LE Umgeb": "49,7",
+    "LN Flug": "51,3",
+    "LN Umgeb": "43,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "06.01.2018",
+    "LD Flug": "65,9",
+    "LD Umgeb": "54,5",
+    "LE Flug": "68,6",
+    "LE Umgeb": "54,1",
+    "LN Flug": "53,5",
+    "LN Umgeb": "45,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "07.01.2018",
+    "LD Flug": 64,
+    "LD Umgeb": "54,4",
+    "LE Flug": "61,2",
+    "LE Umgeb": "52,4",
+    "LN Flug": "50,1",
+    "LN Umgeb": "46,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "08.01.2018",
+    "LD Flug": "60,6",
+    "LD Umgeb": "58,2",
+    "LE Flug": "58,6",
+    "LE Umgeb": "48,3",
+    "LN Flug": 0,
+    "LN Umgeb": "47,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "09.01.2018",
+    "LD Flug": "61,8",
+    "LD Umgeb": "53,9",
+    "LE Flug": "61,3",
+    "LE Umgeb": "50,4",
+    "LN Flug": "49,6",
+    "LN Umgeb": "44,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "10.01.2018",
+    "LD Flug": "63,1",
+    "LD Umgeb": "60,2",
+    "LE Flug": "59,3",
+    "LE Umgeb": 50,
+    "LN Flug": "51,6",
+    "LN Umgeb": "45,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "11.01.2018",
+    "LD Flug": "61,5",
+    "LD Umgeb": "53,3",
+    "LE Flug": "57,2",
+    "LE Umgeb": "46,8",
+    "LN Flug": 50,
+    "LN Umgeb": 43
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "12.01.2018",
+    "LD Flug": 64,
+    "LD Umgeb": "53,7",
+    "LE Flug": "60,4",
+    "LE Umgeb": "47,1",
+    "LN Flug": "55,7",
+    "LN Umgeb": "42,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "13.01.2018",
+    "LD Flug": "66,4",
+    "LD Umgeb": "54,2",
+    "LE Flug": "63,2",
+    "LE Umgeb": "49,4",
+    "LN Flug": "52,7",
+    "LN Umgeb": "43,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "14.01.2018",
+    "LD Flug": "61,8",
+    "LD Umgeb": "51,4",
+    "LE Flug": "57,5",
+    "LE Umgeb": "48,7",
+    "LN Flug": "45,8",
+    "LN Umgeb": "42,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "15.01.2018",
+    "LD Flug": "61,1",
+    "LD Umgeb": "54,4",
+    "LE Flug": "52,1",
+    "LE Umgeb": "49,4",
+    "LN Flug": "47,8",
+    "LN Umgeb": "43,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "16.01.2018",
+    "LD Flug": "61,8",
+    "LD Umgeb": "55,7",
+    "LE Flug": "59,5",
+    "LE Umgeb": "48,8",
+    "LN Flug": "48,2",
+    "LN Umgeb": "45,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "17.01.2018",
+    "LD Flug": "60,8",
+    "LD Umgeb": "57,9",
+    "LE Flug": "52,5",
+    "LE Umgeb": "50,8",
+    "LN Flug": "47,2",
+    "LN Umgeb": "44,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "18.01.2018",
+    "LD Flug": "62,7",
+    "LD Umgeb": "58,4",
+    "LE Flug": "53,6",
+    "LE Umgeb": "50,9",
+    "LN Flug": "49,6",
+    "LN Umgeb": "45,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "19.01.2018",
+    "LD Flug": 64,
+    "LD Umgeb": "53,5",
+    "LE Flug": "58,1",
+    "LE Umgeb": "47,5",
+    "LN Flug": "57,9",
+    "LN Umgeb": 48
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "20.01.2018",
+    "LD Flug": "67,2",
+    "LD Umgeb": "59,3",
+    "LE Flug": "64,4",
+    "LE Umgeb": "50,2",
+    "LN Flug": "52,9",
+    "LN Umgeb": "47,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "21.01.2018",
+    "LD Flug": "63,5",
+    "LD Umgeb": 52,
+    "LE Flug": "59,9",
+    "LE Umgeb": "47,1",
+    "LN Flug": "46,8",
+    "LN Umgeb": "42,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "22.01.2018",
+    "LD Flug": "61,1",
+    "LD Umgeb": "51,6",
+    "LE Flug": "48,6",
+    "LE Umgeb": "46,9",
+    "LN Flug": "51,9",
+    "LN Umgeb": "49,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "23.01.2018",
+    "LD Flug": "59,1",
+    "LD Umgeb": "53,4",
+    "LE Flug": 57,
+    "LE Umgeb": 48,
+    "LN Flug": "38,7",
+    "LN Umgeb": "42,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "24.01.2018",
+    "LD Flug": "64,1",
+    "LD Umgeb": "59,8",
+    "LE Flug": "53,8",
+    "LE Umgeb": "50,6",
+    "LN Flug": "36,5",
+    "LN Umgeb": "44,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "25.01.2018",
+    "LD Flug": "60,8",
+    "LD Umgeb": "56,8",
+    "LE Flug": "52,6",
+    "LE Umgeb": "49,6",
+    "LN Flug": 0,
+    "LN Umgeb": "45,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "26.01.2018",
+    "LD Flug": "61,7",
+    "LD Umgeb": 56,
+    "LE Flug": "55,5",
+    "LE Umgeb": 49,
+    "LN Flug": "57,3",
+    "LN Umgeb": "46,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "27.01.2018",
+    "LD Flug": 66,
+    "LD Umgeb": "53,9",
+    "LE Flug": "63,2",
+    "LE Umgeb": "50,7",
+    "LN Flug": "51,6",
+    "LN Umgeb": "44,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "28.01.2018",
+    "LD Flug": "63,1",
+    "LD Umgeb": "53,4",
+    "LE Flug": "55,3",
+    "LE Umgeb": "48,7",
+    "LN Flug": "46,1",
+    "LN Umgeb": "45,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "29.01.2018",
+    "LD Flug": "60,6",
+    "LD Umgeb": "60,5",
+    "LE Flug": "50,6",
+    "LE Umgeb": "50,6",
+    "LN Flug": "45,8",
+    "LN Umgeb": "44,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "30.01.2018",
+    "LD Flug": "58,9",
+    "LD Umgeb": "60,4",
+    "LE Flug": "57,7",
+    "LE Umgeb": "49,5",
+    "LN Flug": "45,9",
+    "LN Umgeb": "44,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "31.01.2018",
+    "LD Flug": "64,1",
+    "LD Umgeb": "59,3",
+    "LE Flug": "52,6",
+    "LE Umgeb": "50,2",
+    "LN Flug": 0,
+    "LN Umgeb": "51,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "01.02.2018",
+    "LD Flug": "64,6",
+    "LD Umgeb": "66,3",
+    "LE Flug": "54,5",
+    "LE Umgeb": "48,4",
+    "LN Flug": "50,2",
+    "LN Umgeb": "43,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "02.02.2018",
+    "LD Flug": "62,2",
+    "LD Umgeb": "54,4",
+    "LE Flug": "55,3",
+    "LE Umgeb": "47,8",
+    "LN Flug": "56,6",
+    "LN Umgeb": "44,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "03.02.2018",
+    "LD Flug": "66,1",
+    "LD Umgeb": "53,8",
+    "LE Flug": "63,5",
+    "LE Umgeb": "47,7",
+    "LN Flug": "51,2",
+    "LN Umgeb": "43,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "04.02.2018",
+    "LD Flug": "61,8",
+    "LD Umgeb": 52,
+    "LE Flug": "58,8",
+    "LE Umgeb": "46,7",
+    "LN Flug": 45,
+    "LN Umgeb": "43,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "05.02.2018",
+    "LD Flug": "60,3",
+    "LD Umgeb": "52,5",
+    "LE Flug": "49,6",
+    "LE Umgeb": "47,6",
+    "LN Flug": "45,4",
+    "LN Umgeb": "43,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "06.02.2018",
+    "LD Flug": "59,2",
+    "LD Umgeb": "52,4",
+    "LE Flug": "49,7",
+    "LE Umgeb": "49,8",
+    "LN Flug": "45,7",
+    "LN Umgeb": "44,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "07.02.2018",
+    "LD Flug": "59,9",
+    "LD Umgeb": "50,9",
+    "LE Flug": "58,5",
+    "LE Umgeb": "47,3",
+    "LN Flug": 47,
+    "LN Umgeb": "41,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "08.02.2018",
+    "LD Flug": "61,7",
+    "LD Umgeb": "54,1",
+    "LE Flug": "58,7",
+    "LE Umgeb": "48,3",
+    "LN Flug": "46,6",
+    "LN Umgeb": "44,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "09.02.2018",
+    "LD Flug": "62,5",
+    "LD Umgeb": 52,
+    "LE Flug": "57,2",
+    "LE Umgeb": "46,7",
+    "LN Flug": "57,4",
+    "LN Umgeb": "44,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "10.02.2018",
+    "LD Flug": "67,6",
+    "LD Umgeb": "51,9",
+    "LE Flug": "64,8",
+    "LE Umgeb": "49,2",
+    "LN Flug": "52,1",
+    "LN Umgeb": "43,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "11.02.2018",
+    "LD Flug": "63,3",
+    "LD Umgeb": "53,7",
+    "LE Flug": "59,6",
+    "LE Umgeb": "46,8",
+    "LN Flug": "48,4",
+    "LN Umgeb": 46
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "12.02.2018",
+    "LD Flug": "60,9",
+    "LD Umgeb": "52,7",
+    "LE Flug": 58,
+    "LE Umgeb": "49,6",
+    "LN Flug": "45,7",
+    "LN Umgeb": "46,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "13.02.2018",
+    "LD Flug": "57,3",
+    "LD Umgeb": "53,5",
+    "LE Flug": "55,1",
+    "LE Umgeb": "48,4",
+    "LN Flug": 0,
+    "LN Umgeb": 44
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "14.02.2018",
+    "LD Flug": "58,4",
+    "LD Umgeb": "52,2",
+    "LE Flug": "51,9",
+    "LE Umgeb": "47,9",
+    "LN Flug": "43,8",
+    "LN Umgeb": "45,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "15.02.2018",
+    "LD Flug": "60,8",
+    "LD Umgeb": "53,6",
+    "LE Flug": "56,9",
+    "LE Umgeb": "49,2",
+    "LN Flug": "47,5",
+    "LN Umgeb": "45,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "16.02.2018",
+    "LD Flug": "63,7",
+    "LD Umgeb": "52,8",
+    "LE Flug": "61,2",
+    "LE Umgeb": "49,7",
+    "LN Flug": "54,6",
+    "LN Umgeb": "46,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "17.02.2018",
+    "LD Flug": "67,8",
+    "LD Umgeb": "54,4",
+    "LE Flug": "67,3",
+    "LE Umgeb": "50,1",
+    "LN Flug": "55,3",
+    "LN Umgeb": "45,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "18.02.2018",
+    "LD Flug": "64,1",
+    "LD Umgeb": "51,1",
+    "LE Flug": 61,
+    "LE Umgeb": "47,4",
+    "LN Flug": 48,
+    "LN Umgeb": "43,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "19.02.2018",
+    "LD Flug": "-",
+    "LD Umgeb": "-",
+    "LE Flug": "-",
+    "LE Umgeb": "-",
+    "LN Flug": "-",
+    "LN Umgeb": "-"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "20.02.2018",
+    "LD Flug": "62,6",
+    "LD Umgeb": "53,3",
+    "LE Flug": "56,5",
+    "LE Umgeb": "46,8",
+    "LN Flug": "48,4",
+    "LN Umgeb": "44,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "21.02.2018",
+    "LD Flug": "61,1",
+    "LD Umgeb": 52,
+    "LE Flug": "59,2",
+    "LE Umgeb": "46,2",
+    "LN Flug": "49,3",
+    "LN Umgeb": "43,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "22.02.2018",
+    "LD Flug": "61,4",
+    "LD Umgeb": "51,9",
+    "LE Flug": "58,2",
+    "LE Umgeb": "47,4",
+    "LN Flug": "51,5",
+    "LN Umgeb": "42,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "23.02.2018",
+    "LD Flug": "62,2",
+    "LD Umgeb": "51,6",
+    "LE Flug": "59,7",
+    "LE Umgeb": "50,4",
+    "LN Flug": "57,5",
+    "LN Umgeb": "44,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "24.02.2018",
+    "LD Flug": "67,9",
+    "LD Umgeb": "52,6",
+    "LE Flug": "64,3",
+    "LE Umgeb": "47,3",
+    "LN Flug": "50,4",
+    "LN Umgeb": "43,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "25.02.2018",
+    "LD Flug": "62,3",
+    "LD Umgeb": "50,1",
+    "LE Flug": "59,2",
+    "LE Umgeb": "45,7",
+    "LN Flug": "49,7",
+    "LN Umgeb": "42,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "26.02.2018",
+    "LD Flug": "61,9",
+    "LD Umgeb": "50,9",
+    "LE Flug": "58,4",
+    "LE Umgeb": "45,5",
+    "LN Flug": "47,1",
+    "LN Umgeb": 42
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "27.02.2018",
+    "LD Flug": "65,3",
+    "LD Umgeb": "48,8",
+    "LE Flug": "56,9",
+    "LE Umgeb": "47,8",
+    "LN Flug": "45,7",
+    "LN Umgeb": "44,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "28.02.2018",
+    "LD Flug": "60,5",
+    "LD Umgeb": "50,2",
+    "LE Flug": 0,
+    "LE Umgeb": "48,2",
+    "LN Flug": "49,3",
+    "LN Umgeb": "41,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "01.03.2018",
+    "LD Flug": "61,6",
+    "LD Umgeb": "56,8",
+    "LE Flug": "56,4",
+    "LE Umgeb": 50,
+    "LN Flug": 0,
+    "LN Umgeb": "44,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "02.03.2018",
+    "LD Flug": "60,7",
+    "LD Umgeb": "51,8",
+    "LE Flug": "61,3",
+    "LE Umgeb": "47,5",
+    "LN Flug": "57,5",
+    "LN Umgeb": "45,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "03.03.2018",
+    "LD Flug": "67,1",
+    "LD Umgeb": "52,6",
+    "LE Flug": "66,8",
+    "LE Umgeb": "49,7",
+    "LN Flug": "55,6",
+    "LN Umgeb": 44
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "04.03.2018",
+    "LD Flug": "64,1",
+    "LD Umgeb": "51,7",
+    "LE Flug": "56,3",
+    "LE Umgeb": 49,
+    "LN Flug": "47,8",
+    "LN Umgeb": "44,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "05.03.2018",
+    "LD Flug": "62,9",
+    "LD Umgeb": "56,7",
+    "LE Flug": 57,
+    "LE Umgeb": 48,
+    "LN Flug": "49,5",
+    "LN Umgeb": "44,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "06.03.2018",
+    "LD Flug": "60,8",
+    "LD Umgeb": "52,9",
+    "LE Flug": 54,
+    "LE Umgeb": "48,8",
+    "LN Flug": "46,8",
+    "LN Umgeb": "45,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "07.03.2018",
+    "LD Flug": "63,3",
+    "LD Umgeb": "55,9",
+    "LE Flug": "58,9",
+    "LE Umgeb": "48,3",
+    "LN Flug": "39,1",
+    "LN Umgeb": "44,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "08.03.2018",
+    "LD Flug": "61,6",
+    "LD Umgeb": "54,7",
+    "LE Flug": "55,3",
+    "LE Umgeb": "50,5",
+    "LN Flug": "48,9",
+    "LN Umgeb": "46,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "09.03.2018",
+    "LD Flug": "62,9",
+    "LD Umgeb": "54,8",
+    "LE Flug": "56,7",
+    "LE Umgeb": "49,5",
+    "LN Flug": "57,9",
+    "LN Umgeb": "47,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "10.03.2018",
+    "LD Flug": 67,
+    "LD Umgeb": "54,7",
+    "LE Flug": "68,3",
+    "LE Umgeb": "50,8",
+    "LN Flug": "47,4",
+    "LN Umgeb": "47,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "11.03.2018",
+    "LD Flug": 64,
+    "LD Umgeb": "54,4",
+    "LE Flug": "61,6",
+    "LE Umgeb": "47,7",
+    "LN Flug": "47,5",
+    "LN Umgeb": "46,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "12.03.2018",
+    "LD Flug": "61,4",
+    "LD Umgeb": "55,9",
+    "LE Flug": "53,6",
+    "LE Umgeb": "47,9",
+    "LN Flug": "45,1",
+    "LN Umgeb": "45,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "13.03.2018",
+    "LD Flug": "59,5",
+    "LD Umgeb": 55,
+    "LE Flug": "56,5",
+    "LE Umgeb": "49,2",
+    "LN Flug": "45,6",
+    "LN Umgeb": "45,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "14.03.2018",
+    "LD Flug": "60,3",
+    "LD Umgeb": "52,1",
+    "LE Flug": 57,
+    "LE Umgeb": "48,5",
+    "LN Flug": "47,5",
+    "LN Umgeb": "46,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "15.03.2018",
+    "LD Flug": "60,9",
+    "LD Umgeb": "53,1",
+    "LE Flug": "56,2",
+    "LE Umgeb": "48,8",
+    "LN Flug": 0,
+    "LN Umgeb": 47
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "16.03.2018",
+    "LD Flug": "62,1",
+    "LD Umgeb": "53,2",
+    "LE Flug": 60,
+    "LE Umgeb": "48,5",
+    "LN Flug": "57,4",
+    "LN Umgeb": "47,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "17.03.2018",
+    "LD Flug": "67,3",
+    "LD Umgeb": "51,5",
+    "LE Flug": "61,7",
+    "LE Umgeb": "47,1",
+    "LN Flug": "46,5",
+    "LN Umgeb": "45,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "18.03.2018",
+    "LD Flug": "63,8",
+    "LD Umgeb": "50,7",
+    "LE Flug": "63,3",
+    "LE Umgeb": "46,8",
+    "LN Flug": "46,3",
+    "LN Umgeb": "44,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "19.03.2018",
+    "LD Flug": "62,3",
+    "LD Umgeb": "51,8",
+    "LE Flug": "61,2",
+    "LE Umgeb": "48,2",
+    "LN Flug": "47,5",
+    "LN Umgeb": "45,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "20.03.2018",
+    "LD Flug": "61,3",
+    "LD Umgeb": "53,3",
+    "LE Flug": "56,2",
+    "LE Umgeb": "47,1",
+    "LN Flug": 47,
+    "LN Umgeb": 45
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "21.03.2018",
+    "LD Flug": "60,7",
+    "LD Umgeb": 52,
+    "LE Flug": "55,9",
+    "LE Umgeb": "47,6",
+    "LN Flug": "45,5",
+    "LN Umgeb": "44,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "22.03.2018",
+    "LD Flug": "60,3",
+    "LD Umgeb": 53,
+    "LE Flug": "59,2",
+    "LE Umgeb": "48,1",
+    "LN Flug": "48,7",
+    "LN Umgeb": "45,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "23.03.2018",
+    "LD Flug": "62,8",
+    "LD Umgeb": "53,6",
+    "LE Flug": "62,4",
+    "LE Umgeb": "48,7",
+    "LN Flug": "55,4",
+    "LN Umgeb": 47
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "24.03.2018",
+    "LD Flug": "65,7",
+    "LD Umgeb": 53,
+    "LE Flug": "63,3",
+    "LE Umgeb": "49,9",
+    "LN Flug": "43,2",
+    "LN Umgeb": 46
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "25.03.2018",
+    "LD Flug": "60,9",
+    "LD Umgeb": 51,
+    "LE Flug": "55,6",
+    "LE Umgeb": "49,5",
+    "LN Flug": "51,4",
+    "LN Umgeb": "45,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "26.03.2018",
+    "LD Flug": "59,5",
+    "LD Umgeb": "51,8",
+    "LE Flug": "54,5",
+    "LE Umgeb": "48,3",
+    "LN Flug": "48,3",
+    "LN Umgeb": "44,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "27.03.2018",
+    "LD Flug": 61,
+    "LD Umgeb": "52,5",
+    "LE Flug": "52,9",
+    "LE Umgeb": "48,4",
+    "LN Flug": "45,9",
+    "LN Umgeb": "46,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "28.03.2018",
+    "LD Flug": "60,5",
+    "LD Umgeb": "55,5",
+    "LE Flug": "60,7",
+    "LE Umgeb": "48,7",
+    "LN Flug": "46,9",
+    "LN Umgeb": "47,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "29.03.2018",
+    "LD Flug": "62,9",
+    "LD Umgeb": "54,3",
+    "LE Flug": "58,7",
+    "LE Umgeb": "51,4",
+    "LN Flug": "45,8",
+    "LN Umgeb": "46,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "30.03.2018",
+    "LD Flug": "61,9",
+    "LD Umgeb": "54,2",
+    "LE Flug": "59,8",
+    "LE Umgeb": "47,7",
+    "LN Flug": 0,
+    "LN Umgeb": 48
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "31.03.2018",
+    "LD Flug": 66,
+    "LD Umgeb": "53,6",
+    "LE Flug": 65,
+    "LE Umgeb": "50,4",
+    "LN Flug": "51,6",
+    "LN Umgeb": "44,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "01.04.2018",
+    "LD Flug": "64,1",
+    "LD Umgeb": "52,4",
+    "LE Flug": "55,2",
+    "LE Umgeb": "48,7",
+    "LN Flug": "47,8",
+    "LN Umgeb": "46,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "02.04.2018",
+    "LD Flug": "57,8",
+    "LD Umgeb": "50,5",
+    "LE Flug": "46,5",
+    "LE Umgeb": "52,3",
+    "LN Flug": 0,
+    "LN Umgeb": "50,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "03.04.2018",
+    "LD Flug": "57,3",
+    "LD Umgeb": "59,5",
+    "LE Flug": 58,
+    "LE Umgeb": "56,9",
+    "LN Flug": 0,
+    "LN Umgeb": "52,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "04.04.2018",
+    "LD Flug": "57,2",
+    "LD Umgeb": "56,9",
+    "LE Flug": "53,9",
+    "LE Umgeb": "49,9",
+    "LN Flug": 0,
+    "LN Umgeb": "46,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "05.04.2018",
+    "LD Flug": "58,2",
+    "LD Umgeb": 54,
+    "LE Flug": "59,2",
+    "LE Umgeb": "50,1",
+    "LN Flug": "46,1",
+    "LN Umgeb": "46,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "06.04.2018",
+    "LD Flug": "60,5",
+    "LD Umgeb": "55,4",
+    "LE Flug": "54,4",
+    "LE Umgeb": "49,2",
+    "LN Flug": "56,1",
+    "LN Umgeb": "47,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "07.04.2018",
+    "LD Flug": "63,8",
+    "LD Umgeb": "52,5",
+    "LE Flug": "57,5",
+    "LE Umgeb": "49,5",
+    "LN Flug": 0,
+    "LN Umgeb": "46,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "08.04.2018",
+    "LD Flug": "61,9",
+    "LD Umgeb": "54,7",
+    "LE Flug": "54,2",
+    "LE Umgeb": "48,9",
+    "LN Flug": 0,
+    "LN Umgeb": "46,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "09.04.2018",
+    "LD Flug": "59,4",
+    "LD Umgeb": "55,1",
+    "LE Flug": "56,1",
+    "LE Umgeb": "49,2",
+    "LN Flug": 0,
+    "LN Umgeb": 47
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "10.04.2018",
+    "LD Flug": "57,2",
+    "LD Umgeb": "57,6",
+    "LE Flug": "47,3",
+    "LE Umgeb": "49,1",
+    "LN Flug": 0,
+    "LN Umgeb": "47,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "11.04.2018",
+    "LD Flug": "58,5",
+    "LD Umgeb": "54,5",
+    "LE Flug": "42,6",
+    "LE Umgeb": "47,6",
+    "LN Flug": 0,
+    "LN Umgeb": "48,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "12.04.2018",
+    "LD Flug": "56,7",
+    "LD Umgeb": "55,9",
+    "LE Flug": "54,5",
+    "LE Umgeb": "49,2",
+    "LN Flug": 0,
+    "LN Umgeb": "47,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "13.04.2018",
+    "LD Flug": 59,
+    "LD Umgeb": "55,7",
+    "LE Flug": "54,8",
+    "LE Umgeb": "49,7",
+    "LN Flug": "50,3",
+    "LN Umgeb": "47,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "14.04.2018",
+    "LD Flug": "59,1",
+    "LD Umgeb": "52,6",
+    "LE Flug": "54,8",
+    "LE Umgeb": "47,6",
+    "LN Flug": 0,
+    "LN Umgeb": "46,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "15.04.2018",
+    "LD Flug": "59,9",
+    "LD Umgeb": "50,9",
+    "LE Flug": "57,7",
+    "LE Umgeb": "47,8",
+    "LN Flug": 0,
+    "LN Umgeb": "47,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "16.04.2018",
+    "LD Flug": 62,
+    "LD Umgeb": "54,4",
+    "LE Flug": "58,9",
+    "LE Umgeb": "49,9",
+    "LN Flug": "47,8",
+    "LN Umgeb": "46,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "17.04.2018",
+    "LD Flug": "60,5",
+    "LD Umgeb": "54,7",
+    "LE Flug": "59,3",
+    "LE Umgeb": "50,5",
+    "LN Flug": 0,
+    "LN Umgeb": "46,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "18.04.2018",
+    "LD Flug": "58,9",
+    "LD Umgeb": "55,4",
+    "LE Flug": "58,4",
+    "LE Umgeb": "49,2",
+    "LN Flug": "47,2",
+    "LN Umgeb": "47,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "19.04.2018",
+    "LD Flug": "58,3",
+    "LD Umgeb": "54,9",
+    "LE Flug": "58,2",
+    "LE Umgeb": "50,3",
+    "LN Flug": "43,4",
+    "LN Umgeb": "47,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "20.04.2018",
+    "LD Flug": "57,5",
+    "LD Umgeb": "54,4",
+    "LE Flug": "56,7",
+    "LE Umgeb": "49,2",
+    "LN Flug": 0,
+    "LN Umgeb": "47,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "21.04.2018",
+    "LD Flug": "57,5",
+    "LD Umgeb": "51,3",
+    "LE Flug": "50,5",
+    "LE Umgeb": "49,5",
+    "LN Flug": "44,3",
+    "LN Umgeb": "46,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "22.04.2018",
+    "LD Flug": "56,1",
+    "LD Umgeb": "50,4",
+    "LE Flug": "55,4",
+    "LE Umgeb": "48,4",
+    "LN Flug": 45,
+    "LN Umgeb": 47
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "23.04.2018",
+    "LD Flug": 57,
+    "LD Umgeb": "53,7",
+    "LE Flug": "57,3",
+    "LE Umgeb": "48,2",
+    "LN Flug": "47,8",
+    "LN Umgeb": "51,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "24.04.2018",
+    "LD Flug": "58,3",
+    "LD Umgeb": "54,4",
+    "LE Flug": "56,4",
+    "LE Umgeb": "49,1",
+    "LN Flug": 0,
+    "LN Umgeb": "46,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "25.04.2018",
+    "LD Flug": "57,1",
+    "LD Umgeb": 54,
+    "LE Flug": "55,9",
+    "LE Umgeb": "48,6",
+    "LN Flug": "46,2",
+    "LN Umgeb": "46,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "26.04.2018",
+    "LD Flug": "60,7",
+    "LD Umgeb": "55,1",
+    "LE Flug": "60,4",
+    "LE Umgeb": 49,
+    "LN Flug": "49,6",
+    "LN Umgeb": "48,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "27.04.2018",
+    "LD Flug": "55,3",
+    "LD Umgeb": "54,5",
+    "LE Flug": 57,
+    "LE Umgeb": 50,
+    "LN Flug": "42,5",
+    "LN Umgeb": "47,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "28.04.2018",
+    "LD Flug": "56,1",
+    "LD Umgeb": "51,2",
+    "LE Flug": "50,9",
+    "LE Umgeb": "51,4",
+    "LN Flug": 0,
+    "LN Umgeb": "46,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "29.04.2018",
+    "LD Flug": "54,4",
+    "LD Umgeb": "50,4",
+    "LE Flug": "46,1",
+    "LE Umgeb": "47,3",
+    "LN Flug": 0,
+    "LN Umgeb": 48
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "30.04.2018",
+    "LD Flug": "55,2",
+    "LD Umgeb": "53,5",
+    "LE Flug": "52,8",
+    "LE Umgeb": "49,2",
+    "LN Flug": 0,
+    "LN Umgeb": "46,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "01.05.2018",
+    "LD Flug": "54,7",
+    "LD Umgeb": 50,
+    "LE Flug": 58,
+    "LE Umgeb": "48,3",
+    "LN Flug": "45,5",
+    "LN Umgeb": "46,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "02.05.2018",
+    "LD Flug": "58,6",
+    "LD Umgeb": "55,7",
+    "LE Flug": "52,9",
+    "LE Umgeb": "48,7",
+    "LN Flug": "50,3",
+    "LN Umgeb": "46,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "03.05.2018",
+    "LD Flug": "58,4",
+    "LD Umgeb": 56,
+    "LE Flug": "54,8",
+    "LE Umgeb": "48,3",
+    "LN Flug": "48,9",
+    "LN Umgeb": "46,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "04.05.2018",
+    "LD Flug": "56,9",
+    "LD Umgeb": "55,4",
+    "LE Flug": "56,5",
+    "LE Umgeb": "48,7",
+    "LN Flug": "48,5",
+    "LN Umgeb": "46,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "05.05.2018",
+    "LD Flug": "56,1",
+    "LD Umgeb": 53,
+    "LE Flug": "56,5",
+    "LE Umgeb": "48,8",
+    "LN Flug": 0,
+    "LN Umgeb": 46
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "06.05.2018",
+    "LD Flug": "56,4",
+    "LD Umgeb": "52,1",
+    "LE Flug": "49,1",
+    "LE Umgeb": "51,4",
+    "LN Flug": "51,2",
+    "LN Umgeb": "47,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "07.05.2018",
+    "LD Flug": "58,9",
+    "LD Umgeb": "54,9",
+    "LE Flug": "56,9",
+    "LE Umgeb": "50,2",
+    "LN Flug": "46,3",
+    "LN Umgeb": "47,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "08.05.2018",
+    "LD Flug": "60,4",
+    "LD Umgeb": "54,1",
+    "LE Flug": "57,2",
+    "LE Umgeb": "48,6",
+    "LN Flug": "44,8",
+    "LN Umgeb": "46,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "09.05.2018",
+    "LD Flug": "57,5",
+    "LD Umgeb": "54,8",
+    "LE Flug": "59,5",
+    "LE Umgeb": "50,7",
+    "LN Flug": "46,3",
+    "LN Umgeb": "48,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "10.05.2018",
+    "LD Flug": "55,9",
+    "LD Umgeb": "54,9",
+    "LE Flug": 0,
+    "LE Umgeb": "48,9",
+    "LN Flug": 0,
+    "LN Umgeb": "47,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "11.05.2018",
+    "LD Flug": "51,2",
+    "LD Umgeb": "53,2",
+    "LE Flug": "57,5",
+    "LE Umgeb": "51,9",
+    "LN Flug": 0,
+    "LN Umgeb": "50,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "12.05.2018",
+    "LD Flug": "59,6",
+    "LD Umgeb": "51,8",
+    "LE Flug": 52,
+    "LE Umgeb": "49,5",
+    "LN Flug": "50,2",
+    "LN Umgeb": "46,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "13.05.2018",
+    "LD Flug": "60,9",
+    "LD Umgeb": "52,2",
+    "LE Flug": 54,
+    "LE Umgeb": "49,2",
+    "LN Flug": "28,9",
+    "LN Umgeb": "46,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "14.05.2018",
+    "LD Flug": "58,5",
+    "LD Umgeb": "58,2",
+    "LE Flug": "58,8",
+    "LE Umgeb": "54,6",
+    "LN Flug": 0,
+    "LN Umgeb": 52
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "15.05.2018",
+    "LD Flug": "62,1",
+    "LD Umgeb": "55,2",
+    "LE Flug": "56,7",
+    "LE Umgeb": 51,
+    "LN Flug": "46,4",
+    "LN Umgeb": "47,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "16.05.2018",
+    "LD Flug": "60,4",
+    "LD Umgeb": "53,9",
+    "LE Flug": "55,3",
+    "LE Umgeb": "50,9",
+    "LN Flug": "46,4",
+    "LN Umgeb": "47,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "17.05.2018",
+    "LD Flug": "58,8",
+    "LD Umgeb": "55,3",
+    "LE Flug": "58,4",
+    "LE Umgeb": "50,4",
+    "LN Flug": "48,9",
+    "LN Umgeb": "47,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "18.05.2018",
+    "LD Flug": "59,6",
+    "LD Umgeb": "54,7",
+    "LE Flug": "54,8",
+    "LE Umgeb": 51,
+    "LN Flug": "49,7",
+    "LN Umgeb": "47,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "19.05.2018",
+    "LD Flug": "61,2",
+    "LD Umgeb": "52,5",
+    "LE Flug": "53,8",
+    "LE Umgeb": 50,
+    "LN Flug": "53,1",
+    "LN Umgeb": "47,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "20.05.2018",
+    "LD Flug": "62,6",
+    "LD Umgeb": "50,9",
+    "LE Flug": "53,8",
+    "LE Umgeb": "49,6",
+    "LN Flug": "49,5",
+    "LN Umgeb": "46,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "21.05.2018",
+    "LD Flug": "55,3",
+    "LD Umgeb": "51,9",
+    "LE Flug": "49,4",
+    "LE Umgeb": "49,8",
+    "LN Flug": "45,2",
+    "LN Umgeb": "47,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "22.05.2018",
+    "LD Flug": "57,2",
+    "LD Umgeb": 54,
+    "LE Flug": "57,4",
+    "LE Umgeb": 50,
+    "LN Flug": 0,
+    "LN Umgeb": "46,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "23.05.2018",
+    "LD Flug": "58,6",
+    "LD Umgeb": "54,2",
+    "LE Flug": "57,4",
+    "LE Umgeb": "50,4",
+    "LN Flug": 0,
+    "LN Umgeb": "46,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "24.05.2018",
+    "LD Flug": "59,9",
+    "LD Umgeb": "62,6",
+    "LE Flug": "57,8",
+    "LE Umgeb": "50,2",
+    "LN Flug": 47,
+    "LN Umgeb": "47,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "25.05.2018",
+    "LD Flug": "60,9",
+    "LD Umgeb": "60,6",
+    "LE Flug": "57,8",
+    "LE Umgeb": "54,8",
+    "LN Flug": "45,5",
+    "LN Umgeb": "46,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "26.05.2018",
+    "LD Flug": "61,1",
+    "LD Umgeb": 52,
+    "LE Flug": "55,6",
+    "LE Umgeb": "49,9",
+    "LN Flug": "51,8",
+    "LN Umgeb": "46,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "27.05.2018",
+    "LD Flug": "60,9",
+    "LD Umgeb": "51,9",
+    "LE Flug": 56,
+    "LE Umgeb": "49,4",
+    "LN Flug": 0,
+    "LN Umgeb": "46,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "28.05.2018",
+    "LD Flug": "58,2",
+    "LD Umgeb": "55,7",
+    "LE Flug": "44,2",
+    "LE Umgeb": "49,6",
+    "LN Flug": 0,
+    "LN Umgeb": "46,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "29.05.2018",
+    "LD Flug": "55,2",
+    "LD Umgeb": 55,
+    "LE Flug": "56,1",
+    "LE Umgeb": "50,5",
+    "LN Flug": 0,
+    "LN Umgeb": "47,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "30.05.2018",
+    "LD Flug": "58,4",
+    "LD Umgeb": "60,3",
+    "LE Flug": "58,3",
+    "LE Umgeb": "49,7",
+    "LN Flug": 0,
+    "LN Umgeb": "47,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "31.05.2018",
+    "LD Flug": "56,7",
+    "LD Umgeb": "50,9",
+    "LE Flug": "55,6",
+    "LE Umgeb": "49,7",
+    "LN Flug": "48,7",
+    "LN Umgeb": "42,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "01.06.2018",
+    "LD Flug": "59,9",
+    "LD Umgeb": "55,4",
+    "LE Flug": "58,1",
+    "LE Umgeb": "53,4",
+    "LN Flug": "53,7",
+    "LN Umgeb": "47,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "02.06.2018",
+    "LD Flug": "63,2",
+    "LD Umgeb": "55,4",
+    "LE Flug": "63,3",
+    "LE Umgeb": "51,3",
+    "LN Flug": "57,3",
+    "LN Umgeb": "47,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "03.06.2018",
+    "LD Flug": "61,9",
+    "LD Umgeb": "50,8",
+    "LE Flug": "56,8",
+    "LE Umgeb": "50,6",
+    "LN Flug": "52,8",
+    "LN Umgeb": "47,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "04.06.2018",
+    "LD Flug": "57,2",
+    "LD Umgeb": "54,5",
+    "LE Flug": "58,7",
+    "LE Umgeb": "52,8",
+    "LN Flug": "48,2",
+    "LN Umgeb": "47,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "05.06.2018",
+    "LD Flug": "59,2",
+    "LD Umgeb": "55,3",
+    "LE Flug": "60,9",
+    "LE Umgeb": "50,4",
+    "LN Flug": "50,2",
+    "LN Umgeb": "47,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "06.06.2018",
+    "LD Flug": 60,
+    "LD Umgeb": "54,5",
+    "LE Flug": "60,5",
+    "LE Umgeb": "50,2",
+    "LN Flug": "53,4",
+    "LN Umgeb": "49,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "07.06.2018",
+    "LD Flug": "58,8",
+    "LD Umgeb": "55,8",
+    "LE Flug": "54,7",
+    "LE Umgeb": "49,6",
+    "LN Flug": 0,
+    "LN Umgeb": "46,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "08.06.2018",
+    "LD Flug": "57,5",
+    "LD Umgeb": 54,
+    "LE Flug": "58,7",
+    "LE Umgeb": "49,7",
+    "LN Flug": "50,7",
+    "LN Umgeb": "46,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "09.06.2018",
+    "LD Flug": "62,6",
+    "LD Umgeb": "53,4",
+    "LE Flug": "61,2",
+    "LE Umgeb": "50,1",
+    "LN Flug": "53,4",
+    "LN Umgeb": "46,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "10.06.2018",
+    "LD Flug": "60,8",
+    "LD Umgeb": "50,1",
+    "LE Flug": 58,
+    "LE Umgeb": "48,3",
+    "LN Flug": "58,1",
+    "LN Umgeb": "45,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "11.06.2018",
+    "LD Flug": "58,6",
+    "LD Umgeb": "54,5",
+    "LE Flug": "50,3",
+    "LE Umgeb": "50,3",
+    "LN Flug": 43,
+    "LN Umgeb": "46,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "12.06.2018",
+    "LD Flug": "58,9",
+    "LD Umgeb": "55,8",
+    "LE Flug": 61,
+    "LE Umgeb": "50,8",
+    "LN Flug": "52,6",
+    "LN Umgeb": "46,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "13.06.2018",
+    "LD Flug": "62,4",
+    "LD Umgeb": "54,2",
+    "LE Flug": "60,2",
+    "LE Umgeb": "51,2",
+    "LN Flug": "46,7",
+    "LN Umgeb": "45,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "14.06.2018",
+    "LD Flug": "57,8",
+    "LD Umgeb": "54,5",
+    "LE Flug": "55,3",
+    "LE Umgeb": "50,1",
+    "LN Flug": "47,7",
+    "LN Umgeb": "46,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "15.06.2018",
+    "LD Flug": "59,3",
+    "LD Umgeb": 52,
+    "LE Flug": "57,6",
+    "LE Umgeb": "50,3",
+    "LN Flug": 49,
+    "LN Umgeb": 48
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "16.06.2018",
+    "LD Flug": "60,6",
+    "LD Umgeb": "57,4",
+    "LE Flug": "55,8",
+    "LE Umgeb": "50,8",
+    "LN Flug": "52,5",
+    "LN Umgeb": "46,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "17.06.2018",
+    "LD Flug": "61,4",
+    "LD Umgeb": "53,3",
+    "LE Flug": "54,2",
+    "LE Umgeb": "49,4",
+    "LN Flug": "56,1",
+    "LN Umgeb": "51,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "18.06.2018",
+    "LD Flug": "61,1",
+    "LD Umgeb": "54,9",
+    "LE Flug": "62,8",
+    "LE Umgeb": "50,4",
+    "LN Flug": "46,6",
+    "LN Umgeb": "46,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "19.06.2018",
+    "LD Flug": "61,2",
+    "LD Umgeb": "54,3",
+    "LE Flug": "54,8",
+    "LE Umgeb": "49,9",
+    "LN Flug": "46,5",
+    "LN Umgeb": "46,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "20.06.2018",
+    "LD Flug": "60,8",
+    "LD Umgeb": "56,4",
+    "LE Flug": "58,2",
+    "LE Umgeb": "50,9",
+    "LN Flug": "46,8",
+    "LN Umgeb": "47,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "21.06.2018",
+    "LD Flug": "57,2",
+    "LD Umgeb": "55,1",
+    "LE Flug": "58,2",
+    "LE Umgeb": "52,3",
+    "LN Flug": "51,6",
+    "LN Umgeb": "48,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "22.06.2018",
+    "LD Flug": "60,2",
+    "LD Umgeb": 62,
+    "LE Flug": "47,7",
+    "LE Umgeb": "50,4",
+    "LN Flug": 51,
+    "LN Umgeb": "46,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "23.06.2018",
+    "LD Flug": 63,
+    "LD Umgeb": "54,3",
+    "LE Flug": "56,9",
+    "LE Umgeb": "50,7",
+    "LN Flug": "51,9",
+    "LN Umgeb": "46,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "24.06.2018",
+    "LD Flug": "61,7",
+    "LD Umgeb": "51,1",
+    "LE Flug": "58,6",
+    "LE Umgeb": "50,1",
+    "LN Flug": "54,3",
+    "LN Umgeb": "46,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "25.06.2018",
+    "LD Flug": "58,2",
+    "LD Umgeb": 54,
+    "LE Flug": "57,6",
+    "LE Umgeb": "51,2",
+    "LN Flug": "47,2",
+    "LN Umgeb": "45,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "26.06.2018",
+    "LD Flug": 59,
+    "LD Umgeb": "52,9",
+    "LE Flug": 58,
+    "LE Umgeb": "50,2",
+    "LN Flug": "48,7",
+    "LN Umgeb": "47,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "27.06.2018",
+    "LD Flug": "60,4",
+    "LD Umgeb": "53,9",
+    "LE Flug": "62,4",
+    "LE Umgeb": "51,6",
+    "LN Flug": "49,5",
+    "LN Umgeb": "46,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "28.06.2018",
+    "LD Flug": 62,
+    "LD Umgeb": "54,4",
+    "LE Flug": "59,7",
+    "LE Umgeb": "51,6",
+    "LN Flug": "48,3",
+    "LN Umgeb": "47,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "29.06.2018",
+    "LD Flug": "58,1",
+    "LD Umgeb": 53,
+    "LE Flug": 59,
+    "LE Umgeb": "50,6",
+    "LN Flug": "49,1",
+    "LN Umgeb": "47,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "30.06.2018",
+    "LD Flug": "62,9",
+    "LD Umgeb": "52,4",
+    "LE Flug": "59,8",
+    "LE Umgeb": "50,3",
+    "LN Flug": "57,7",
+    "LN Umgeb": "44,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "01.07.2018",
+    "LD Flug": "61,2",
+    "LD Umgeb": "50,5",
+    "LE Flug": "54,3",
+    "LE Umgeb": "49,2",
+    "LN Flug": "56,1",
+    "LN Umgeb": 47
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "02.07.2018",
+    "LD Flug": "56,8",
+    "LD Umgeb": "54,8",
+    "LE Flug": "54,7",
+    "LE Umgeb": "49,3",
+    "LN Flug": "48,8",
+    "LN Umgeb": "46,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "03.07.2018",
+    "LD Flug": 60,
+    "LD Umgeb": "54,7",
+    "LE Flug": "56,6",
+    "LE Umgeb": "50,6",
+    "LN Flug": "46,7",
+    "LN Umgeb": "50,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "04.07.2018",
+    "LD Flug": "62,1",
+    "LD Umgeb": "54,3",
+    "LE Flug": "59,3",
+    "LE Umgeb": "49,7",
+    "LN Flug": 46,
+    "LN Umgeb": "46,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "05.07.2018",
+    "LD Flug": "59,5",
+    "LD Umgeb": "55,2",
+    "LE Flug": "61,2",
+    "LE Umgeb": "53,5",
+    "LN Flug": "55,5",
+    "LN Umgeb": "46,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "06.07.2018",
+    "LD Flug": "60,7",
+    "LD Umgeb": "52,6",
+    "LE Flug": 58,
+    "LE Umgeb": "50,6",
+    "LN Flug": "50,5",
+    "LN Umgeb": "46,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "07.07.2018",
+    "LD Flug": "63,8",
+    "LD Umgeb": "52,6",
+    "LE Flug": "60,4",
+    "LE Umgeb": 49,
+    "LN Flug": "52,9",
+    "LN Umgeb": "46,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "08.07.2018",
+    "LD Flug": "59,7",
+    "LD Umgeb": "51,1",
+    "LE Flug": 58,
+    "LE Umgeb": "49,4",
+    "LN Flug": "47,2",
+    "LN Umgeb": "45,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "09.07.2018",
+    "LD Flug": "56,8",
+    "LD Umgeb": "53,2",
+    "LE Flug": "54,5",
+    "LE Umgeb": "48,3",
+    "LN Flug": "46,1",
+    "LN Umgeb": "45,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "10.07.2018",
+    "LD Flug": "58,4",
+    "LD Umgeb": "58,2",
+    "LE Flug": "56,8",
+    "LE Umgeb": "48,5",
+    "LN Flug": 0,
+    "LN Umgeb": "44,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "11.07.2018",
+    "LD Flug": "62,5",
+    "LD Umgeb": "55,7",
+    "LE Flug": "59,4",
+    "LE Umgeb": "50,4",
+    "LN Flug": "51,9",
+    "LN Umgeb": "46,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "12.07.2018",
+    "LD Flug": 59,
+    "LD Umgeb": "53,2",
+    "LE Flug": "59,8",
+    "LE Umgeb": "48,8",
+    "LN Flug": "52,4",
+    "LN Umgeb": "45,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "13.07.2018",
+    "LD Flug": "56,1",
+    "LD Umgeb": "52,8",
+    "LE Flug": "57,7",
+    "LE Umgeb": "49,3",
+    "LN Flug": "50,5",
+    "LN Umgeb": "44,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "14.07.2018",
+    "LD Flug": "63,9",
+    "LD Umgeb": 51,
+    "LE Flug": "58,9",
+    "LE Umgeb": 47,
+    "LN Flug": "49,3",
+    "LN Umgeb": "43,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "15.07.2018",
+    "LD Flug": "59,6",
+    "LD Umgeb": "53,8",
+    "LE Flug": "57,7",
+    "LE Umgeb": "54,1",
+    "LN Flug": "48,9",
+    "LN Umgeb": "43,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "16.07.2018",
+    "LD Flug": "58,7",
+    "LD Umgeb": "51,4",
+    "LE Flug": "53,2",
+    "LE Umgeb": "47,2",
+    "LN Flug": "51,9",
+    "LN Umgeb": "42,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "17.07.2018",
+    "LD Flug": "58,9",
+    "LD Umgeb": "52,5",
+    "LE Flug": "57,2",
+    "LE Umgeb": "47,5",
+    "LN Flug": "48,2",
+    "LN Umgeb": "43,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "18.07.2018",
+    "LD Flug": "60,5",
+    "LD Umgeb": "52,6",
+    "LE Flug": "55,8",
+    "LE Umgeb": 48,
+    "LN Flug": 0,
+    "LN Umgeb": "44,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "19.07.2018",
+    "LD Flug": "57,7",
+    "LD Umgeb": "52,7",
+    "LE Flug": "57,9",
+    "LE Umgeb": "48,4",
+    "LN Flug": "46,4",
+    "LN Umgeb": "43,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "20.07.2018",
+    "LD Flug": "58,1",
+    "LD Umgeb": "52,9",
+    "LE Flug": "55,7",
+    "LE Umgeb": "49,6",
+    "LN Flug": 50,
+    "LN Umgeb": "44,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "21.07.2018",
+    "LD Flug": "64,2",
+    "LD Umgeb": "52,1",
+    "LE Flug": "58,2",
+    "LE Umgeb": "49,8",
+    "LN Flug": "60,3",
+    "LN Umgeb": "45,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "22.07.2018",
+    "LD Flug": "62,5",
+    "LD Umgeb": "48,9",
+    "LE Flug": "57,6",
+    "LE Umgeb": "45,7",
+    "LN Flug": 52,
+    "LN Umgeb": "43,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "23.07.2018",
+    "LD Flug": "59,7",
+    "LD Umgeb": "53,3",
+    "LE Flug": "55,7",
+    "LE Umgeb": "48,5",
+    "LN Flug": "41,6",
+    "LN Umgeb": "43,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "24.07.2018",
+    "LD Flug": "57,5",
+    "LD Umgeb": "53,4",
+    "LE Flug": "56,6",
+    "LE Umgeb": "48,1",
+    "LN Flug": 0,
+    "LN Umgeb": "43,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "25.07.2018",
+    "LD Flug": "60,7",
+    "LD Umgeb": "53,8",
+    "LE Flug": "60,3",
+    "LE Umgeb": 49,
+    "LN Flug": "49,1",
+    "LN Umgeb": "43,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "26.07.2018",
+    "LD Flug": "58,5",
+    "LD Umgeb": "52,3",
+    "LE Flug": "58,4",
+    "LE Umgeb": "47,4",
+    "LN Flug": 0,
+    "LN Umgeb": "43,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "27.07.2018",
+    "LD Flug": "55,7",
+    "LD Umgeb": "52,6",
+    "LE Flug": "56,7",
+    "LE Umgeb": "48,6",
+    "LN Flug": "44,7",
+    "LN Umgeb": "48,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "28.07.2018",
+    "LD Flug": "63,5",
+    "LD Umgeb": 52,
+    "LE Flug": "53,5",
+    "LE Umgeb": "45,6",
+    "LN Flug": "48,6",
+    "LN Umgeb": "43,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "29.07.2018",
+    "LD Flug": "60,9",
+    "LD Umgeb": "48,2",
+    "LE Flug": "56,6",
+    "LE Umgeb": "46,3",
+    "LN Flug": "50,1",
+    "LN Umgeb": "42,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "30.07.2018",
+    "LD Flug": "56,5",
+    "LD Umgeb": "56,3",
+    "LE Flug": "58,6",
+    "LE Umgeb": "46,8",
+    "LN Flug": 0,
+    "LN Umgeb": "42,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "31.07.2018",
+    "LD Flug": "57,8",
+    "LD Umgeb": 58,
+    "LE Flug": "52,8",
+    "LE Umgeb": 49,
+    "LN Flug": 0,
+    "LN Umgeb": "46,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "01.08.2018",
+    "LD Flug": "58,2",
+    "LD Umgeb": "55,2",
+    "LE Flug": "58,8",
+    "LE Umgeb": "47,4",
+    "LN Flug": "47,5",
+    "LN Umgeb": "53,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "02.08.2018",
+    "LD Flug": "56,4",
+    "LD Umgeb": "54,5",
+    "LE Flug": "58,4",
+    "LE Umgeb": "47,1",
+    "LN Flug": "52,3",
+    "LN Umgeb": "42,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "03.08.2018",
+    "LD Flug": "56,3",
+    "LD Umgeb": "51,7",
+    "LE Flug": "57,8",
+    "LE Umgeb": "47,2",
+    "LN Flug": "48,5",
+    "LN Umgeb": "42,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "04.08.2018",
+    "LD Flug": "62,9",
+    "LD Umgeb": "51,7",
+    "LE Flug": "51,3",
+    "LE Umgeb": "46,6",
+    "LN Flug": 50,
+    "LN Umgeb": 43
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "05.08.2018",
+    "LD Flug": "60,3",
+    "LD Umgeb": "48,8",
+    "LE Flug": "54,9",
+    "LE Umgeb": "46,6",
+    "LN Flug": "55,3",
+    "LN Umgeb": "41,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "06.08.2018",
+    "LD Flug": "58,3",
+    "LD Umgeb": "53,2",
+    "LE Flug": 55,
+    "LE Umgeb": "54,4",
+    "LN Flug": "53,6",
+    "LN Umgeb": "42,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "07.08.2018",
+    "LD Flug": "60,7",
+    "LD Umgeb": "53,5",
+    "LE Flug": "55,1",
+    "LE Umgeb": "49,2",
+    "LN Flug": "46,2",
+    "LN Umgeb": "42,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "08.08.2018",
+    "LD Flug": "58,9",
+    "LD Umgeb": "56,4",
+    "LE Flug": 58,
+    "LE Umgeb": 48,
+    "LN Flug": "54,3",
+    "LN Umgeb": "42,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "09.08.2018",
+    "LD Flug": "55,9",
+    "LD Umgeb": "54,4",
+    "LE Flug": "52,9",
+    "LE Umgeb": "48,9",
+    "LN Flug": 0,
+    "LN Umgeb": "42,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "10.08.2018",
+    "LD Flug": "59,4",
+    "LD Umgeb": "50,9",
+    "LE Flug": "58,9",
+    "LE Umgeb": "47,2",
+    "LN Flug": "46,7",
+    "LN Umgeb": "42,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "11.08.2018",
+    "LD Flug": "63,1",
+    "LD Umgeb": 51,
+    "LE Flug": "52,5",
+    "LE Umgeb": "46,7",
+    "LN Flug": "52,2",
+    "LN Umgeb": "43,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "12.08.2018",
+    "LD Flug": "60,2",
+    "LD Umgeb": "48,5",
+    "LE Flug": "58,5",
+    "LE Umgeb": "48,1",
+    "LN Flug": "54,7",
+    "LN Umgeb": "44,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "13.08.2018",
+    "LD Flug": "56,8",
+    "LD Umgeb": "54,6",
+    "LE Flug": "53,8",
+    "LE Umgeb": "48,2",
+    "LN Flug": "49,6",
+    "LN Umgeb": "48,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "14.08.2018",
+    "LD Flug": "61,3",
+    "LD Umgeb": "54,2",
+    "LE Flug": "55,6",
+    "LE Umgeb": "46,7",
+    "LN Flug": "49,5",
+    "LN Umgeb": "42,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "15.08.2018",
+    "LD Flug": "59,6",
+    "LD Umgeb": "48,9",
+    "LE Flug": "58,4",
+    "LE Umgeb": "45,9",
+    "LN Flug": "46,8",
+    "LN Umgeb": "41,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "16.08.2018",
+    "LD Flug": "59,1",
+    "LD Umgeb": "53,1",
+    "LE Flug": "56,6",
+    "LE Umgeb": "47,1",
+    "LN Flug": 0,
+    "LN Umgeb": "42,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "17.08.2018",
+    "LD Flug": "55,3",
+    "LD Umgeb": "51,8",
+    "LE Flug": "58,3",
+    "LE Umgeb": "48,8",
+    "LN Flug": 0,
+    "LN Umgeb": "43,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "18.08.2018",
+    "LD Flug": "61,7",
+    "LD Umgeb": "52,3",
+    "LE Flug": "60,4",
+    "LE Umgeb": "47,7",
+    "LN Flug": "49,4",
+    "LN Umgeb": "41,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "19.08.2018",
+    "LD Flug": 61,
+    "LD Umgeb": "48,4",
+    "LE Flug": "55,2",
+    "LE Umgeb": "46,3",
+    "LN Flug": 55,
+    "LN Umgeb": "42,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "20.08.2018",
+    "LD Flug": "55,8",
+    "LD Umgeb": "53,3",
+    "LE Flug": "57,6",
+    "LE Umgeb": "46,7",
+    "LN Flug": 0,
+    "LN Umgeb": "42,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "21.08.2018",
+    "LD Flug": "57,7",
+    "LD Umgeb": "52,5",
+    "LE Flug": "58,5",
+    "LE Umgeb": "47,7",
+    "LN Flug": "47,8",
+    "LN Umgeb": "43,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "22.08.2018",
+    "LD Flug": "58,9",
+    "LD Umgeb": "53,8",
+    "LE Flug": "58,7",
+    "LE Umgeb": "49,6",
+    "LN Flug": 0,
+    "LN Umgeb": "53,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "23.08.2018",
+    "LD Flug": 62,
+    "LD Umgeb": 53,
+    "LE Flug": "59,6",
+    "LE Umgeb": "46,9",
+    "LN Flug": "48,5",
+    "LN Umgeb": "43,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "24.08.2018",
+    "LD Flug": "58,7",
+    "LD Umgeb": "51,5",
+    "LE Flug": "55,9",
+    "LE Umgeb": "46,9",
+    "LN Flug": "55,3",
+    "LN Umgeb": "51,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "25.08.2018",
+    "LD Flug": "64,7",
+    "LD Umgeb": "50,5",
+    "LE Flug": "57,7",
+    "LE Umgeb": "49,6",
+    "LN Flug": "53,7",
+    "LN Umgeb": "45,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "26.08.2018",
+    "LD Flug": "61,2",
+    "LD Umgeb": "49,3",
+    "LE Flug": 59,
+    "LE Umgeb": "46,7",
+    "LN Flug": 0,
+    "LN Umgeb": "42,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "27.08.2018",
+    "LD Flug": "58,8",
+    "LD Umgeb": "52,4",
+    "LE Flug": "58,6",
+    "LE Umgeb": "48,5",
+    "LN Flug": "47,2",
+    "LN Umgeb": "42,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "28.08.2018",
+    "LD Flug": "56,3",
+    "LD Umgeb": "53,2",
+    "LE Flug": "58,2",
+    "LE Umgeb": 48,
+    "LN Flug": 0,
+    "LN Umgeb": "43,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "29.08.2018",
+    "LD Flug": "61,3",
+    "LD Umgeb": "54,2",
+    "LE Flug": "57,9",
+    "LE Umgeb": "49,2",
+    "LN Flug": 54,
+    "LN Umgeb": "48,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "30.08.2018",
+    "LD Flug": 61,
+    "LD Umgeb": "52,8",
+    "LE Flug": "59,3",
+    "LE Umgeb": "46,1",
+    "LN Flug": 0,
+    "LN Umgeb": "41,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "31.08.2018",
+    "LD Flug": "60,3",
+    "LD Umgeb": "52,6",
+    "LE Flug": "60,1",
+    "LE Umgeb": "51,9",
+    "LN Flug": "53,2",
+    "LN Umgeb": "51,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "01.09.2018",
+    "LD Flug": "65,4",
+    "LD Umgeb": 52,
+    "LE Flug": "60,3",
+    "LE Umgeb": "47,1",
+    "LN Flug": "54,3",
+    "LN Umgeb": "42,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "02.09.2018",
+    "LD Flug": "61,7",
+    "LD Umgeb": "48,6",
+    "LE Flug": "57,1",
+    "LE Umgeb": "47,5",
+    "LN Flug": "56,2",
+    "LN Umgeb": "42,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "03.09.2018",
+    "LD Flug": "58,6",
+    "LD Umgeb": "52,1",
+    "LE Flug": "56,7",
+    "LE Umgeb": "50,2",
+    "LN Flug": "46,7",
+    "LN Umgeb": "42,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "04.09.2018",
+    "LD Flug": "57,4",
+    "LD Umgeb": 53,
+    "LE Flug": "59,2",
+    "LE Umgeb": "46,8",
+    "LN Flug": 0,
+    "LN Umgeb": "42,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "05.09.2018",
+    "LD Flug": "58,7",
+    "LD Umgeb": "55,7",
+    "LE Flug": "59,8",
+    "LE Umgeb": "47,2",
+    "LN Flug": "45,8",
+    "LN Umgeb": "41,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "06.09.2018",
+    "LD Flug": "59,3",
+    "LD Umgeb": 53,
+    "LE Flug": "58,1",
+    "LE Umgeb": "58,2",
+    "LN Flug": 0,
+    "LN Umgeb": "42,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "07.09.2018",
+    "LD Flug": "61,1",
+    "LD Umgeb": "50,6",
+    "LE Flug": "55,2",
+    "LE Umgeb": "46,5",
+    "LN Flug": "53,8",
+    "LN Umgeb": "42,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "08.09.2018",
+    "LD Flug": "63,1",
+    "LD Umgeb": "51,3",
+    "LE Flug": "59,2",
+    "LE Umgeb": "47,5",
+    "LN Flug": "51,5",
+    "LN Umgeb": "44,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "09.09.2018",
+    "LD Flug": 61,
+    "LD Umgeb": "50,9",
+    "LE Flug": "58,2",
+    "LE Umgeb": "48,2",
+    "LN Flug": "42,9",
+    "LN Umgeb": "43,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "10.09.2018",
+    "LD Flug": "60,2",
+    "LD Umgeb": "54,5",
+    "LE Flug": "58,6",
+    "LE Umgeb": "48,5",
+    "LN Flug": "46,5",
+    "LN Umgeb": 43
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "11.09.2018",
+    "LD Flug": "58,5",
+    "LD Umgeb": "53,7",
+    "LE Flug": "56,8",
+    "LE Umgeb": "48,8",
+    "LN Flug": "47,4",
+    "LN Umgeb": "43,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "12.09.2018",
+    "LD Flug": "60,7",
+    "LD Umgeb": "53,1",
+    "LE Flug": "58,1",
+    "LE Umgeb": "49,7",
+    "LN Flug": "49,8",
+    "LN Umgeb": "43,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "13.09.2018",
+    "LD Flug": "58,5",
+    "LD Umgeb": "52,9",
+    "LE Flug": "60,8",
+    "LE Umgeb": "47,9",
+    "LN Flug": "51,3",
+    "LN Umgeb": "42,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "14.09.2018",
+    "LD Flug": "59,9",
+    "LD Umgeb": "52,3",
+    "LE Flug": "59,4",
+    "LE Umgeb": "47,1",
+    "LN Flug": "44,7",
+    "LN Umgeb": "42,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "15.09.2018",
+    "LD Flug": "63,2",
+    "LD Umgeb": "54,2",
+    "LE Flug": "58,2",
+    "LE Umgeb": "46,6",
+    "LN Flug": "51,6",
+    "LN Umgeb": "41,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "16.09.2018",
+    "LD Flug": "61,3",
+    "LD Umgeb": "48,7",
+    "LE Flug": "45,6",
+    "LE Umgeb": "46,2",
+    "LN Flug": "50,8",
+    "LN Umgeb": "41,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "17.09.2018",
+    "LD Flug": "60,5",
+    "LD Umgeb": "55,1",
+    "LE Flug": "58,9",
+    "LE Umgeb": "47,7",
+    "LN Flug": "46,1",
+    "LN Umgeb": "43,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "18.09.2018",
+    "LD Flug": "60,1",
+    "LD Umgeb": "55,4",
+    "LE Flug": "55,1",
+    "LE Umgeb": 50,
+    "LN Flug": "46,8",
+    "LN Umgeb": "43,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "19.09.2018",
+    "LD Flug": "60,9",
+    "LD Umgeb": "53,9",
+    "LE Flug": "60,4",
+    "LE Umgeb": "48,9",
+    "LN Flug": "49,3",
+    "LN Umgeb": "43,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "20.09.2018",
+    "LD Flug": "60,1",
+    "LD Umgeb": "52,9",
+    "LE Flug": "59,1",
+    "LE Umgeb": "48,9",
+    "LN Flug": 0,
+    "LN Umgeb": "43,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "21.09.2018",
+    "LD Flug": "56,9",
+    "LD Umgeb": "52,1",
+    "LE Flug": "59,2",
+    "LE Umgeb": "47,8",
+    "LN Flug": "44,4",
+    "LN Umgeb": "46,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "22.09.2018",
+    "LD Flug": "63,8",
+    "LD Umgeb": "55,8",
+    "LE Flug": "58,2",
+    "LE Umgeb": "46,5",
+    "LN Flug": "52,9",
+    "LN Umgeb": "42,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "23.09.2018",
+    "LD Flug": "62,4",
+    "LD Umgeb": "51,3",
+    "LE Flug": "58,6",
+    "LE Umgeb": "47,8",
+    "LN Flug": "53,7",
+    "LN Umgeb": "45,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "24.09.2018",
+    "LD Flug": "57,7",
+    "LD Umgeb": "53,4",
+    "LE Flug": "57,5",
+    "LE Umgeb": "48,3",
+    "LN Flug": 46,
+    "LN Umgeb": "42,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "25.09.2018",
+    "LD Flug": "57,5",
+    "LD Umgeb": "52,4",
+    "LE Flug": "57,2",
+    "LE Umgeb": "48,3",
+    "LN Flug": "43,8",
+    "LN Umgeb": "43,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "26.09.2018",
+    "LD Flug": "57,4",
+    "LD Umgeb": "53,8",
+    "LE Flug": "59,5",
+    "LE Umgeb": "49,5",
+    "LN Flug": 0,
+    "LN Umgeb": "45,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "27.09.2018",
+    "LD Flug": "58,8",
+    "LD Umgeb": "53,7",
+    "LE Flug": "58,8",
+    "LE Umgeb": "49,4",
+    "LN Flug": 0,
+    "LN Umgeb": "45,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "28.09.2018",
+    "LD Flug": "58,6",
+    "LD Umgeb": "58,4",
+    "LE Flug": "59,7",
+    "LE Umgeb": "47,5",
+    "LN Flug": "48,7",
+    "LN Umgeb": 43
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "29.09.2018",
+    "LD Flug": 62,
+    "LD Umgeb": "52,4",
+    "LE Flug": "55,1",
+    "LE Umgeb": "47,3",
+    "LN Flug": "48,2",
+    "LN Umgeb": "43,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "30.09.2018",
+    "LD Flug": 60,
+    "LD Umgeb": "50,3",
+    "LE Flug": "56,9",
+    "LE Umgeb": "48,7",
+    "LN Flug": "48,3",
+    "LN Umgeb": "41,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "01.10.2018",
+    "LD Flug": "59,6",
+    "LD Umgeb": "54,2",
+    "LE Flug": "58,6",
+    "LE Umgeb": "48,9",
+    "LN Flug": "45,5",
+    "LN Umgeb": "43,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "02.10.2018",
+    "LD Flug": "63,1",
+    "LD Umgeb": "52,5",
+    "LE Flug": "57,5",
+    "LE Umgeb": "47,3",
+    "LN Flug": "46,1",
+    "LN Umgeb": "43,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "03.10.2018",
+    "LD Flug": "60,4",
+    "LD Umgeb": "53,3",
+    "LE Flug": "54,2",
+    "LE Umgeb": 48,
+    "LN Flug": "46,5",
+    "LN Umgeb": "43,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "04.10.2018",
+    "LD Flug": "56,7",
+    "LD Umgeb": "54,4",
+    "LE Flug": "55,2",
+    "LE Umgeb": "50,1",
+    "LN Flug": "50,7",
+    "LN Umgeb": 45
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "05.10.2018",
+    "LD Flug": 59,
+    "LD Umgeb": "53,7",
+    "LE Flug": "58,1",
+    "LE Umgeb": "50,1",
+    "LN Flug": 0,
+    "LN Umgeb": "45,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "06.10.2018",
+    "LD Flug": "61,8",
+    "LD Umgeb": "58,5",
+    "LE Flug": 59,
+    "LE Umgeb": "46,3",
+    "LN Flug": 0,
+    "LN Umgeb": "44,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "07.10.2018",
+    "LD Flug": "61,7",
+    "LD Umgeb": "51,5",
+    "LE Flug": 60,
+    "LE Umgeb": "47,7",
+    "LN Flug": 0,
+    "LN Umgeb": "42,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "08.10.2018",
+    "LD Flug": 55,
+    "LD Umgeb": "51,9",
+    "LE Flug": "54,9",
+    "LE Umgeb": "47,5",
+    "LN Flug": 0,
+    "LN Umgeb": "43,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "09.10.2018",
+    "LD Flug": "57,7",
+    "LD Umgeb": "59,1",
+    "LE Flug": "54,2",
+    "LE Umgeb": 48,
+    "LN Flug": 0,
+    "LN Umgeb": 45
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "10.10.2018",
+    "LD Flug": "59,5",
+    "LD Umgeb": "54,3",
+    "LE Flug": "53,1",
+    "LE Umgeb": "46,5",
+    "LN Flug": 0,
+    "LN Umgeb": "45,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "11.10.2018",
+    "LD Flug": 53,
+    "LD Umgeb": "54,9",
+    "LE Flug": "51,5",
+    "LE Umgeb": "49,1",
+    "LN Flug": 50,
+    "LN Umgeb": "44,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "12.10.2018",
+    "LD Flug": "56,3",
+    "LD Umgeb": "53,4",
+    "LE Flug": "59,7",
+    "LE Umgeb": "49,2",
+    "LN Flug": 0,
+    "LN Umgeb": "45,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "13.10.2018",
+    "LD Flug": "58,5",
+    "LD Umgeb": "52,8",
+    "LE Flug": "43,2",
+    "LE Umgeb": "47,1",
+    "LN Flug": 0,
+    "LN Umgeb": "44,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "14.10.2018",
+    "LD Flug": "58,2",
+    "LD Umgeb": 51,
+    "LE Flug": "55,8",
+    "LE Umgeb": "47,1",
+    "LN Flug": "42,4",
+    "LN Umgeb": "44,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "15.10.2018",
+    "LD Flug": "59,2",
+    "LD Umgeb": "53,3",
+    "LE Flug": 0,
+    "LE Umgeb": "48,2",
+    "LN Flug": 0,
+    "LN Umgeb": "44,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "16.10.2018",
+    "LD Flug": "57,4",
+    "LD Umgeb": "53,6",
+    "LE Flug": "54,3",
+    "LE Umgeb": "49,3",
+    "LN Flug": "46,5",
+    "LN Umgeb": "45,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "17.10.2018",
+    "LD Flug": "59,7",
+    "LD Umgeb": "53,9",
+    "LE Flug": "57,6",
+    "LE Umgeb": "49,3",
+    "LN Flug": 46,
+    "LN Umgeb": "47,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "18.10.2018",
+    "LD Flug": "59,2",
+    "LD Umgeb": "52,4",
+    "LE Flug": "57,7",
+    "LE Umgeb": 49,
+    "LN Flug": "46,1",
+    "LN Umgeb": 45
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "19.10.2018",
+    "LD Flug": "58,5",
+    "LD Umgeb": "51,9",
+    "LE Flug": "57,2",
+    "LE Umgeb": "48,3",
+    "LN Flug": "47,3",
+    "LN Umgeb": "45,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "20.10.2018",
+    "LD Flug": "58,8",
+    "LD Umgeb": "50,9",
+    "LE Flug": "51,3",
+    "LE Umgeb": "47,6",
+    "LN Flug": 0,
+    "LN Umgeb": "43,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "21.10.2018",
+    "LD Flug": "57,7",
+    "LD Umgeb": 50,
+    "LE Flug": "58,5",
+    "LE Umgeb": "47,3",
+    "LN Flug": "46,8",
+    "LN Umgeb": "43,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "22.10.2018",
+    "LD Flug": "59,2",
+    "LD Umgeb": "56,7",
+    "LE Flug": 55,
+    "LE Umgeb": 49,
+    "LN Flug": 0,
+    "LN Umgeb": "44,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "23.10.2018",
+    "LD Flug": "58,1",
+    "LD Umgeb": 54,
+    "LE Flug": "54,9",
+    "LE Umgeb": "47,8",
+    "LN Flug": 53,
+    "LN Umgeb": "43,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "24.10.2018",
+    "LD Flug": "61,6",
+    "LD Umgeb": "53,8",
+    "LE Flug": "54,5",
+    "LE Umgeb": "47,1",
+    "LN Flug": "52,7",
+    "LN Umgeb": "42,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "25.10.2018",
+    "LD Flug": 60,
+    "LD Umgeb": "55,8",
+    "LE Flug": "58,8",
+    "LE Umgeb": "49,6",
+    "LN Flug": "46,2",
+    "LN Umgeb": "43,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "26.10.2018",
+    "LD Flug": "63,6",
+    "LD Umgeb": "52,8",
+    "LE Flug": "57,7",
+    "LE Umgeb": "48,6",
+    "LN Flug": "46,7",
+    "LN Umgeb": "44,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "27.10.2018",
+    "LD Flug": "60,1",
+    "LD Umgeb": "52,6",
+    "LE Flug": "54,9",
+    "LE Umgeb": "49,5",
+    "LN Flug": 50,
+    "LN Umgeb": "51,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "28.10.2018",
+    "LD Flug": "58,9",
+    "LD Umgeb": "50,8",
+    "LE Flug": "58,6",
+    "LE Umgeb": "47,2",
+    "LN Flug": "49,4",
+    "LN Umgeb": "42,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "29.10.2018",
+    "LD Flug": 59,
+    "LD Umgeb": "53,5",
+    "LE Flug": "58,2",
+    "LE Umgeb": 51,
+    "LN Flug": "47,4",
+    "LN Umgeb": "46,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "30.10.2018",
+    "LD Flug": "53,7",
+    "LD Umgeb": "53,3",
+    "LE Flug": "53,8",
+    "LE Umgeb": "51,4",
+    "LN Flug": 0,
+    "LN Umgeb": "46,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "31.10.2018",
+    "LD Flug": "57,3",
+    "LD Umgeb": 55,
+    "LE Flug": 55,
+    "LE Umgeb": "58,7",
+    "LN Flug": "34,1",
+    "LN Umgeb": "54,6"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "01.11.2018",
+    "LD Flug": "55,4",
+    "LD Umgeb": "51,7",
+    "LE Flug": "42,1",
+    "LE Umgeb": "46,4",
+    "LN Flug": 0,
+    "LN Umgeb": "44,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "02.11.2018",
+    "LD Flug": "56,4",
+    "LD Umgeb": "51,5",
+    "LE Flug": "51,1",
+    "LE Umgeb": "46,9",
+    "LN Flug": "46,1",
+    "LN Umgeb": "42,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "03.11.2018",
+    "LD Flug": "58,1",
+    "LD Umgeb": "53,3",
+    "LE Flug": "51,6",
+    "LE Umgeb": "47,2",
+    "LN Flug": "46,3",
+    "LN Umgeb": "43,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "04.11.2018",
+    "LD Flug": "56,6",
+    "LD Umgeb": "50,5",
+    "LE Flug": 57,
+    "LE Umgeb": "47,5",
+    "LN Flug": "42,7",
+    "LN Umgeb": "45,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "05.11.2018",
+    "LD Flug": "54,1",
+    "LD Umgeb": "53,5",
+    "LE Flug": "47,4",
+    "LE Umgeb": "49,2",
+    "LN Flug": 0,
+    "LN Umgeb": "44,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "06.11.2018",
+    "LD Flug": "",
+    "LD Umgeb": "",
+    "LE Flug": "",
+    "LE Umgeb": "",
+    "LN Flug": "",
+    "LN Umgeb": ""
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "07.11.2018",
+    "LD Flug": "",
+    "LD Umgeb": "",
+    "LE Flug": "",
+    "LE Umgeb": "",
+    "LN Flug": "",
+    "LN Umgeb": ""
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "08.11.2018",
+    "LD Flug": "",
+    "LD Umgeb": "",
+    "LE Flug": "",
+    "LE Umgeb": "",
+    "LN Flug": "",
+    "LN Umgeb": ""
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "09.11.2018",
+    "LD Flug": "58,6",
+    "LD Umgeb": "53,6",
+    "LE Flug": "56,8",
+    "LE Umgeb": "49,5",
+    "LN Flug": 0,
+    "LN Umgeb": 46
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "10.11.2018",
+    "LD Flug": "53,8",
+    "LD Umgeb": "54,6",
+    "LE Flug": "41,4",
+    "LE Umgeb": "47,4",
+    "LN Flug": "47,5",
+    "LN Umgeb": "45,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "11.11.2018",
+    "LD Flug": "53,2",
+    "LD Umgeb": 56,
+    "LE Flug": 0,
+    "LE Umgeb": "56,2",
+    "LN Flug": "48,6",
+    "LN Umgeb": "44,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "12.11.2018",
+    "LD Flug": "57,3",
+    "LD Umgeb": "54,2",
+    "LE Flug": "28,5",
+    "LE Umgeb": 49,
+    "LN Flug": "49,2",
+    "LN Umgeb": 46
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "13.11.2018",
+    "LD Flug": "58,2",
+    "LD Umgeb": "52,7",
+    "LE Flug": 56,
+    "LE Umgeb": 46,
+    "LN Flug": "46,8",
+    "LN Umgeb": "42,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "14.11.2018",
+    "LD Flug": "58,5",
+    "LD Umgeb": "55,1",
+    "LE Flug": "55,4",
+    "LE Umgeb": "49,2",
+    "LN Flug": "47,1",
+    "LN Umgeb": 45
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "15.11.2018",
+    "LD Flug": "61,4",
+    "LD Umgeb": "54,7",
+    "LE Flug": 54,
+    "LE Umgeb": "46,2",
+    "LN Flug": 49,
+    "LN Umgeb": "42,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "16.11.2018",
+    "LD Flug": "59,1",
+    "LD Umgeb": "51,7",
+    "LE Flug": "53,7",
+    "LE Umgeb": "46,2",
+    "LN Flug": "46,6",
+    "LN Umgeb": "42,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "17.11.2018",
+    "LD Flug": 56,
+    "LD Umgeb": "53,2",
+    "LE Flug": "54,5",
+    "LE Umgeb": 47,
+    "LN Flug": "45,3",
+    "LN Umgeb": "43,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "18.11.2018",
+    "LD Flug": "56,9",
+    "LD Umgeb": 50,
+    "LE Flug": "55,1",
+    "LE Umgeb": 46,
+    "LN Flug": "45,8",
+    "LN Umgeb": "41,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "19.11.2018",
+    "LD Flug": 59,
+    "LD Umgeb": "51,8",
+    "LE Flug": "56,1",
+    "LE Umgeb": "46,4",
+    "LN Flug": "48,4",
+    "LN Umgeb": 43
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "20.11.2018",
+    "LD Flug": "60,8",
+    "LD Umgeb": "52,7",
+    "LE Flug": "52,7",
+    "LE Umgeb": "48,4",
+    "LN Flug": "49,7",
+    "LN Umgeb": "44,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "21.11.2018",
+    "LD Flug": "61,1",
+    "LD Umgeb": "53,9",
+    "LE Flug": "52,9",
+    "LE Umgeb": "50,6",
+    "LN Flug": "49,5",
+    "LN Umgeb": "41,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "22.11.2018",
+    "LD Flug": "59,4",
+    "LD Umgeb": "51,8",
+    "LE Flug": "59,2",
+    "LE Umgeb": "48,5",
+    "LN Flug": "47,1",
+    "LN Umgeb": "43,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "23.11.2018",
+    "LD Flug": "58,4",
+    "LD Umgeb": "53,4",
+    "LE Flug": "41,6",
+    "LE Umgeb": "49,4",
+    "LN Flug": "32,8",
+    "LN Umgeb": 45
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "24.11.2018",
+    "LD Flug": "54,9",
+    "LD Umgeb": "51,3",
+    "LE Flug": "51,6",
+    "LE Umgeb": "45,1",
+    "LN Flug": "45,3",
+    "LN Umgeb": "42,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "25.11.2018",
+    "LD Flug": "57,2",
+    "LD Umgeb": "50,2",
+    "LE Flug": 59,
+    "LE Umgeb": "45,6",
+    "LN Flug": "51,7",
+    "LN Umgeb": "41,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "26.11.2018",
+    "LD Flug": "59,4",
+    "LD Umgeb": "53,6",
+    "LE Flug": "57,6",
+    "LE Umgeb": "47,3",
+    "LN Flug": "45,7",
+    "LN Umgeb": "41,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "27.11.2018",
+    "LD Flug": "58,7",
+    "LD Umgeb": "51,6",
+    "LE Flug": "52,3",
+    "LE Umgeb": "46,6",
+    "LN Flug": "46,6",
+    "LN Umgeb": "41,7"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "28.11.2018",
+    "LD Flug": "58,8",
+    "LD Umgeb": "52,4",
+    "LE Flug": "56,1",
+    "LE Umgeb": "47,9",
+    "LN Flug": "46,9",
+    "LN Umgeb": "43,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "29.11.2018",
+    "LD Flug": "58,2",
+    "LD Umgeb": "54,4",
+    "LE Flug": 53,
+    "LE Umgeb": "49,3",
+    "LN Flug": 0,
+    "LN Umgeb": "44,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "30.11.2018",
+    "LD Flug": "57,3",
+    "LD Umgeb": "51,7",
+    "LE Flug": "58,2",
+    "LE Umgeb": "46,8",
+    "LN Flug": "46,2",
+    "LN Umgeb": "44,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "01.12.2018",
+    "LD Flug": "59,4",
+    "LD Umgeb": "50,9",
+    "LE Flug": "52,8",
+    "LE Umgeb": "48,5",
+    "LN Flug": "46,3",
+    "LN Umgeb": "43,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "02.12.2018",
+    "LD Flug": "59,1",
+    "LD Umgeb": "52,1",
+    "LE Flug": "59,8",
+    "LE Umgeb": "50,3",
+    "LN Flug": "47,8",
+    "LN Umgeb": "48,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "03.12.2018",
+    "LD Flug": "60,3",
+    "LD Umgeb": "53,3",
+    "LE Flug": "58,8",
+    "LE Umgeb": "48,9",
+    "LN Flug": "52,6",
+    "LN Umgeb": "45,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "04.12.2018",
+    "LD Flug": "59,7",
+    "LD Umgeb": "52,8",
+    "LE Flug": "54,2",
+    "LE Umgeb": "48,9",
+    "LN Flug": 48,
+    "LN Umgeb": "42,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "05.12.2018",
+    "LD Flug": "60,5",
+    "LD Umgeb": 54,
+    "LE Flug": "51,8",
+    "LE Umgeb": 48,
+    "LN Flug": "46,7",
+    "LN Umgeb": "46,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "06.12.2018",
+    "LD Flug": "61,2",
+    "LD Umgeb": "54,4",
+    "LE Flug": "54,9",
+    "LE Umgeb": 49,
+    "LN Flug": "49,7",
+    "LN Umgeb": "44,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "07.12.2018",
+    "LD Flug": "60,2",
+    "LD Umgeb": "53,3",
+    "LE Flug": "57,9",
+    "LE Umgeb": "49,6",
+    "LN Flug": "47,6",
+    "LN Umgeb": 52
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "08.12.2018",
+    "LD Flug": "60,8",
+    "LD Umgeb": "53,5",
+    "LE Flug": "48,7",
+    "LE Umgeb": "46,8",
+    "LN Flug": "46,1",
+    "LN Umgeb": "43,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "09.12.2018",
+    "LD Flug": "61,7",
+    "LD Umgeb": "52,6",
+    "LE Flug": "54,8",
+    "LE Umgeb": "50,3",
+    "LN Flug": "50,8",
+    "LN Umgeb": "45,8"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "10.12.2018",
+    "LD Flug": "59,4",
+    "LD Umgeb": "54,6",
+    "LE Flug": "58,8",
+    "LE Umgeb": 50,
+    "LN Flug": "47,1",
+    "LN Umgeb": "45,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "11.12.2018",
+    "LD Flug": "58,8",
+    "LD Umgeb": "52,2",
+    "LE Flug": "55,2",
+    "LE Umgeb": 47,
+    "LN Flug": 46,
+    "LN Umgeb": "43,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "12.12.2018",
+    "LD Flug": "58,3",
+    "LD Umgeb": 52,
+    "LE Flug": "57,5",
+    "LE Umgeb": "48,5",
+    "LN Flug": 0,
+    "LN Umgeb": "43,2"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "13.12.2018",
+    "LD Flug": "58,6",
+    "LD Umgeb": "52,4",
+    "LE Flug": "57,8",
+    "LE Umgeb": 47,
+    "LN Flug": 0,
+    "LN Umgeb": "43,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "14.12.2018",
+    "LD Flug": "58,7",
+    "LD Umgeb": "52,6",
+    "LE Flug": "57,8",
+    "LE Umgeb": "48,4",
+    "LN Flug": "45,9",
+    "LN Umgeb": "43,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "15.12.2018",
+    "LD Flug": "62,1",
+    "LD Umgeb": "52,6",
+    "LE Flug": "58,8",
+    "LE Umgeb": "48,4",
+    "LN Flug": "45,4",
+    "LN Umgeb": "42,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "16.12.2018",
+    "LD Flug": "60,7",
+    "LD Umgeb": "49,9",
+    "LE Flug": "62,3",
+    "LE Umgeb": "47,1",
+    "LN Flug": "48,9",
+    "LN Umgeb": "43,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "17.12.2018",
+    "LD Flug": "57,4",
+    "LD Umgeb": "52,4",
+    "LE Flug": "59,8",
+    "LE Umgeb": "48,8",
+    "LN Flug": "47,6",
+    "LN Umgeb": "44,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "18.12.2018",
+    "LD Flug": "58,7",
+    "LD Umgeb": "53,5",
+    "LE Flug": "53,2",
+    "LE Umgeb": "49,1",
+    "LN Flug": "46,2",
+    "LN Umgeb": "44,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "19.12.2018",
+    "LD Flug": "60,1",
+    "LD Umgeb": "52,7",
+    "LE Flug": "58,9",
+    "LE Umgeb": "49,9",
+    "LN Flug": "49,7",
+    "LN Umgeb": 45
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "20.12.2018",
+    "LD Flug": "59,2",
+    "LD Umgeb": 53,
+    "LE Flug": "56,2",
+    "LE Umgeb": "49,9",
+    "LN Flug": "48,1",
+    "LN Umgeb": "45,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "21.12.2018",
+    "LD Flug": "63,2",
+    "LD Umgeb": "54,8",
+    "LE Flug": "60,3",
+    "LE Umgeb": "50,8",
+    "LN Flug": "56,4",
+    "LN Umgeb": "47,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "22.12.2018",
+    "LD Flug": "66,9",
+    "LD Umgeb": "55,4",
+    "LE Flug": "64,6",
+    "LE Umgeb": "49,8",
+    "LN Flug": 0,
+    "LN Umgeb": "44,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "23.12.2018",
+    "LD Flug": 65,
+    "LD Umgeb": "51,6",
+    "LE Flug": "64,8",
+    "LE Umgeb": "51,7",
+    "LN Flug": 54,
+    "LN Umgeb": "47,5"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "24.12.2018",
+    "LD Flug": "62,7",
+    "LD Umgeb": "53,5",
+    "LE Flug": 0,
+    "LE Umgeb": 45,
+    "LN Flug": 0,
+    "LN Umgeb": "46,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "25.12.2018",
+    "LD Flug": "59,4",
+    "LD Umgeb": "49,6",
+    "LE Flug": "50,8",
+    "LE Umgeb": "46,2",
+    "LN Flug": 0,
+    "LN Umgeb": "41,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "26.12.2018",
+    "LD Flug": "61,8",
+    "LD Umgeb": "51,5",
+    "LE Flug": "58,3",
+    "LE Umgeb": "48,3",
+    "LN Flug": 0,
+    "LN Umgeb": "43,1"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "27.12.2018",
+    "LD Flug": 60,
+    "LD Umgeb": "52,4",
+    "LE Flug": "56,5",
+    "LE Umgeb": "49,6",
+    "LN Flug": "29,3",
+    "LN Umgeb": "46,9"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "28.12.2018",
+    "LD Flug": "62,5",
+    "LD Umgeb": 53,
+    "LE Flug": "61,3",
+    "LE Umgeb": "49,6",
+    "LN Flug": "52,7",
+    "LN Umgeb": 45
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "29.12.2018",
+    "LD Flug": "46,1",
+    "LD Umgeb": 67,
+    "LE Flug": 0,
+    "LE Umgeb": "66,9",
+    "LN Flug": 0,
+    "LN Umgeb": "53,4"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "30.12.2018",
+    "LD Flug": "58,9",
+    "LD Umgeb": "63,3",
+    "LE Flug": "60,7",
+    "LE Umgeb": "48,5",
+    "LN Flug": "48,5",
+    "LN Umgeb": "43,3"
+  },
+  {
+    "Latlng": "47.1546169, 11.227637",
+    "date": "31.12.2018",
+    "LD Flug": "60,5",
+    "LD Umgeb": "59,7",
+    "LE Flug": 0,
+    "LE Umgeb": "65,9",
+    "LN Flug": 0,
+    "LN Umgeb": "70,6"
+  }
+]
