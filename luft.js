@@ -31,3 +31,6 @@ async function OzonLaden(url) {
     const jsonDaten = await antwort.json();
 };
 OzonLaden();
+
+// Fullscreen
+karte.addControl(new L.Control.Fullscreen());
