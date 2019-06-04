@@ -6,7 +6,8 @@
 }
 
 .header {
-    width: 100%;
+    width: 1280px;
+    margin: auto;
     height: 80px;
     display: block;
     background-color: #101010;
@@ -71,26 +72,27 @@
 .background_image {
     background-image: url('images/milky_way_1920.jpg');
     height: 250px;
-    width: 100%;
     background-position: 0 50%;
+    margin: auto;
+    width: 1280px;
+
 
 }
 
 main span{
     float: left;
-    margin-left: 3em;  
+    margin-left: 1.8em;  
     height: 90%;
     font-family: 'Times New Roman', Times, serif;
     color: black; 
     font-weight: 1000;
 }
 main p{
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 1280px;
     border: 1px solid black;
-    padding: 1em;
     background-color: #5DBCD2 ;
+    margin: auto;
+
 }
 
 #map {
