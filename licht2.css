@@ -1,24 +1,20 @@
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
-
 .header {
     width: 1280px;
     margin: auto;
     height: 80px;
     display: block;
     background-color: #101010;
+    width: 80vw;
+
 }
+
 
 .inner_header {
     width: 1000px;
     height: 100%;
     display: block;
     margin: 0 auto;
-    background-color:  #101010;
+    background-color: #101010;
 }
 
 .logo_container {
@@ -69,36 +65,78 @@
     font-size: 20px;
 }
 
-.background_image {
+body {
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+
+}
+
+.background_image_licht {
     background-image: url('images/milky_way_1920.jpg');
     height: 250px;
     background-position: 0 50%;
     margin: auto;
-    width: 1280px;
 
 
 }
 
-main span{
+.background_image_luft {
+    background-image: url('images/milky_way_1920.jpg');
+    height: 250px;
+    background-position: 0 50%;
+    margin: auto;
+
+
+}
+
+.background_image_laerm {
+    background-image: url('images/milky_way_1920.jpg');
+    height: 250px;
+    background-position: 0 50%;
+    margin: auto;
+
+
+}
+
+.background_image_about {
+    background-image: url('images/milky_way_1920.jpg');
+    height: 250px;
+    background-position: 0 50%;
+    margin: auto;
+
+
+}
+
+.background_image_index {
+    background-image: url('images/milky_way_1920.jpg');
+    height: 250px;
+    background-position: 0 50%;
+    margin: auto;
+
+
+}
+
+
+
+
+ h3 {
     float: left;
-    margin-left: 1.8em;  
+    margin-left: 0.2em;
     height: 90%;
     font-family: 'Times New Roman', Times, serif;
-    color: black; 
+    color: red;
     font-weight: 1000;
 }
-main p{
-    width: 1280px;
+
+main p {
     border: 1px solid black;
-    background-color: #5DBCD2 ;
+    background-color: #5DBCD2;
     margin: auto;
 
 }
 
 #map {
     height: 900px;
-    width: 90%;
     border: 1px solid black;
-    margin-left: auto;
-    margin-right: auto;
 }

@@ -32,7 +32,6 @@ karte.addLayer(
 L.control.layers({
     "VIIRS_2019": kartenLayer.VIIRS_2019,
     "osm": kartenLayer.osm,
-    //"Städte": layerLicht,
     "VIIRS_2014": kartenLayer.VIIRS_2014,
     "VIIRS_2013": kartenLayer.VIIRS_2013,
     "Stamen Terrain": kartenLayer.stamen_terrain,
