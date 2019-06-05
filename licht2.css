@@ -65,6 +65,7 @@ body {
     height: 80vh;
     margin: auto;
     background-color: gainsboro;
+    font-family: 'Montserrat';
 
 }
 
@@ -78,7 +79,7 @@ body {
 }
 
 .background_image_luft {
-    background-image: url('images/milky_way_1920.jpg');
+    background-image: url('images/pollution.jpg');
     height: 250px;
     background-position: 0 50%;
     margin: auto;
@@ -129,9 +130,12 @@ body {
     float: left;
     margin-left: 0.2em;
     height: 90%;
-    font-family: 'Times New Roman', Times, serif;
     color: black;
     font-weight: 1000;
+}
+
+h2{
+font-family: 'Montserrat';
 }
 
 main p {
@@ -141,5 +145,9 @@ main p {
 
 #map {
     height: 900px;
-    border: 1px solid black;
+ 
+}
+
+#image {
+    height: 900px;
 }

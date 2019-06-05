@@ -2,94 +2,95 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lärmverschmutzung in Tirol</title>
 
+  <!--FONTS-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <!--FONTS-->
 
-  <!-- Einbinden der Schrift-->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+  <!-- Einbinden der Kartenlayer und Fullscreen -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
 
-  <!-- Einbinden Leaflet-->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+    integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+    crossorigin=""></script>
 
-  <!-- Einbinden Fullscreen -->
+  <!--leaflet.search-->
+  <link rel="stylesheet" href="js/leaflet.search/leaflet-search.min.css" />
+  <script src="js/leaflet.search/leaflet-search.min.js"></script>
+  <!--leaflet.search-->
+
   <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
   <link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css"
     rel="stylesheet" />
 
-  <!-- Einbinden eigener Daten -->
+  <script src="plugins/leaflet.ajax.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.min.css" rel="stylesheet" />
+
   <link rel="stylesheet" href="licht2.css" />
   <script defer src="laerm.js"></script>
-
 
 </head>
 
 <body>
-  <div id="header">
-    <h2 class="white">Lärmverschmutzung in Tirol</h2>
+  <div class="header">
+    <div class="inner_header">
+      <div class="logo_container">
+        <h1> <span>Lichtverschmutzung in Tirol</span></h1>
+      </div>
 
-  </div>
+      <ul class="navigation">
+        <a href="home.html">
+          <li> Home</li>
+        </a>
+        <a href="luft.html">
+          <li> Luft</li>
+        </a>
+        <a href="licht2.html">
+          <li> Licht</li>
+        </a>
+        <a href="laerm.html">
+          <li> Lärm</li>
+        </a>
+        <a href="research.html">
+          <li>Research </li>
+        </a>
+        <a href="about.html">
+          <li> About</li>
+        </a>
 
-  <div class="topnav">
-    <ul>
-      <li><a href="index.html" style="float:left">Allgemeines</a></li>
-      <li><a href="luft.html">Übersichtskarte Luftverschmutzung</a></li>
-      <li><a href="laerm.html" class="active">Übersichtskarte Lärmverschmutzung</a></li>
-      <li><a href="licht2.html">Übersichtskarte Lichtverschmutzung</a></li>
-      <li><a href="about.html">About</a></li>
-    </ul>
-  </div>
+      </ul>
+      <br>
+
+
+    </div>
 
   </div>
 
   <main>
-    <h2><strong>Lärmverschmutzung in Tirol</strong></h2>
-    <p>Text
-    </p>
-    Quelle: <a href="https://">Text.at</a>
-    <h3><em><strong>Grundlegendes über Lärm</strong></em></h3>
-    <h4>Was ist Schall?</h4>
-    <p>Schall kann als Druckschwankung der Luft definiert werden, die für das menschliche Ohr
-      wahrnehmbar ist.
-      Wie bei einem Dominoeffekt wird von der Schallquelle ausgehend, eine Wellenbewegung der Luft
-      ausgelöst. Diese Wellenbewegung pflanzt sich über die benachbarten Luftpartikel fort, die weiter von
-      der Quelle entfernt sind. Je nach Medium breitet sich Schall mit unterschiedlicher Geschwindigkeit
-      aus, in der Luft mit 333 m/s.
-      Wenn nichts anderes angegeben ist, wird unter dem Begriff Schallpegel immer der Schalldruckpegel
-      verstanden. Handelsübliche Schallpegelmessgeräte messen den Schalldruckpegel.</p>
-    Quelle: <a href="https://www.data.gv.at/katalog/dataset/80607cc6-8fc1-4b2e-8517-716de8f1ba63">Data.gv.at</a>
+    <div class="background_image_laerm">
+    </div>
     <br>
-    <h4>Schalldruck und Hörfeld</h4>
-    <p>Gegenüber dem statischen Luftdruck (105 Pa) sind die hörbaren Schalldruckschwankungen sehr
-      gering und liegen im Bereich von 20 μPa (2 x 10-5 Pa) bis ca.100 Pa.
-      20 μPa entspricht der Hörschwelle einer normalhörenden Person, das heißt, ab einem Schalldruck
-      von 20 μPa ist der Schall für das menschliche Ohr hörbar. Ein Schalldruck von 100 Pa ist so laut, dass
-      er als schmerzhaft empfunden wird, deshalb die Bezeichnung Schmerzschwelle. Über einen
-      Schalldruck von 100 Pa ist das menschliche Ohr nicht mehr in der Lage eindeutig zu unterscheiden,
-      ob der einwirkende Schall lauter oder leiser, sondern nur ob er mehr oder weniger schmerzhaft
-      empfunden wird.
-      Der Bereich zwischen Hörschwelle und Schmerzschwelle wird als Hörfeld bezeichnet.
-      Auf Grund des außerordentlich großen Schalldruckbereichs des menschlichen Gehörs – ein Verhältnis
-      von mehr als einer Million zu eins – würde eine lineare Skala (in Pa) bei der Messung von
-      Schalldrücken zu großen und unhandlichen Zahlen führen und wäre in graphischer Form praktisch
-      nicht darstellbar. Deshalb ist es naheliegend, den Schalldruck in einem logarithmischen Maßstab
-      anzugeben, um somit einen überschaubaren Bereich zu erhalten. Dieser Bereich wurde dem Hörfeld
-      angepasst, wobei 0 dB die Hörschwelle bei 20 μPa und 130 dB die Schmerzschwelle bei ca. 100 Pa
-      repräsentieren.</p>
-    Quelle: <a href="https://www.data.gv.at/katalog/dataset/80607cc6-8fc1-4b2e-8517-716de8f1ba63">Data.gv.at</a>
+
     <br>
-    <h4>Frequelnzbewertung</h4>
-    <p>Das menschliche Gehör hat die Eigenschaft, physikalisch gleich laute Töne in verschiedenen
-      Frequenzen unterschiedlich laut zu empfinden. So wird ein Ton mit einer Frequenz von 1 kHz bei
-      einer Lautstärke von 40 dB vom Ohr gleich laut empfunden wie ein Ton von 31,5 Hz bei 80 dB.
-      Da das Schallpegelmessgerät nur in der Lage ist, den physikalischen Schalldruckpegel zu messen,
-      muss diese Eigenschaft des Gehörs nachgebildet werden. Die A - Bewertung stellt die bestmögliche
-      Anpassung an das menschliche Gehör dar.</p>
-    Quelle: <a href="https://www.data.gv.at/katalog/dataset/80607cc6-8fc1-4b2e-8517-716de8f1ba63">Data.gv.at</a>
     <br>
-    <h3><em><strong>Fluglärm in Innsbruck</strong></em></h3>
-    <p>Der Fluglärm in der Nachbarschaft des Flughafens Innsbruck wird vom Amt der Tiroler Landesregierung, Abteilung
+    <br>
+    <p>
+      <h3> Fluglärm in Innsbruck:</h3>
+      <br>
+      
+      <br>
+      <br>
+      <br>
+      Der Fluglärm in der Nachbarschaft des Flughafens Innsbruck wird vom Amt der Tiroler Landesregierung, Abteilung
       Emissionen Sicherheitstechnik Anlagen, an drei Messstellen an aussagekräftigen Orten im Umfeld des Flughafens
       dauerregistrierend gemessen. Diese Messstellen erfassen alle Schallereignisse im Luftraum über Innsbruck oder im
       Bereich des Flughafenareals. Weiters werden auch sonstige Schallereignisse, beispielsweise Nachbarschaftslärm im
@@ -99,45 +100,28 @@
       der Geschwindigkeit.
       Eine Korrelationssoftware ordnet die registrierten Schallereignisse den Radardaten zu. Dadurch erfolgt eine
       Zuordnung der gemessenen Schallereignisse zu Fluglärm bzw.Umgebungslärm.
-    </p>
 
-    Quelle: <a href="https://www.tirol.gv.at/arbeit-wirtschaft/esa/laerm/fluglaerm/">Tirol.gv.at</a>
-    <figure>
-      <img src="images/ibk_flughafen.jpg" alt="Flughafen Innsbruck">
-    </figure>
-    <p>
-      Text
+      <br>------------------- <br>
+      Quelle: <code></code><a href="https://de.wikipedia.org/wiki/Lichtverschmutzung">Wikiepdia</a></code>
     </p>
-    Quelle: <a href="https://Text">Text.at</a><br>
-
+    <br>
 
   </main>
 
   <div id='map'></div>
-  <br>
-  <table>
-    <tr>
-      <th><h4>Erklärungen zur Karte:</h4></th>
-    </tr>
-    <tr>
-      <th><h4>Tages-Lärmindex (LD)</h4></th>
-      <td><p>Der Tag-Lärmindex ist der A-bewertete energieäquivalente Dauerschallpegel für die Belastung
-        während der Tagzeit. Die Tagzeit ist der Zeitraum zwischen 06:00 Uhr und 19:00 Uhr.</p></td>
-    </tr>
-    <tr>
-      <th><h4>Abend-Lärmindex (LE)</h4></th>
-      <td><p>Der Abend-Lärmindex ist der A-bewertete energieäquivalente Dauerschallpegel für die Belastung
-        während der Abendzeit. Die Abendzeit ist der Zeitraum zwischen 19:00 Uhr und 22:00 Uhr.</p></td>
-    </tr>
-    <tr>
-      <th><h4>Nacht-Lärmindex (LN)</h4></th>
-      <td><p>Der Nacht-Lärmindex ist der A-bewertete energieäquivalente Dauerschallpegel für die Belastung
-        während der Nachtzeit. Die Nachtzeit ist der Zeitraum zwischen 22:00 Uhr und 06:00 Uhr.</p></td>
-    </tr>
-    <tr>
-      <th>Quelle: <a href="https://www.data.gv.at/katalog/dataset/80607cc6-8fc1-4b2e-8517-716de8f1ba63">Data.gv.at</a></th>
-    </tr>
-  </table>
+
+
+  <footer>
+    <!-- TODO: ein nav-Element mit zwei Links auf die vorherige Etappe und die nächste Etappe mit den Klassen "back" und "next" sowie den Link-Texten "vorhergehender Stop" und "nächster Stop". Die Links verweisen auf die entsprechenden Etappen in der Form https://username.github.io/nz/index.html -->
+    <div class="footer">
+
+      <h2>
+        Ende
+      </h2>
+
+    </div>
+  </footer>
+
 </body>
 
 </html>

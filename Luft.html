@@ -4,7 +4,11 @@
     <meta charset="utf-8">
     <title>Luftverschmutzung in Tirol</title>
 
-   
+      <!--FONTS-->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+      <!--FONTS-->
+      
     <!-- Einbinden der Kartenlayer und Fullscreen -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 
@@ -15,7 +19,7 @@
     <link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" rel="stylesheet" />
 
     
-    <link rel="stylesheet" href="luft.css" />
+    <link rel="stylesheet" href="licht2.css" />
     
     <!--jsonp request-->
     <script defer src = "http://luft.umweltbundesamt.at/pub/ozonbericht/aktuell.json"> </script>
@@ -24,28 +28,90 @@
 
   </head>
   <body>
-      <div id="header">
-          <h2 class="white">Luftverschmutzung in Tirol</h2>
-          
-        </div>
-    
-        <div class="topnav">
-          <ul>
-            <li><a href="index.html" style="float:left">Allgemeines</a></li>
-            <li><a href="luft.html">Übersichtskarte Luftverschmutzung</a></li>
-            <li><a href="laerm.html" class="active">Übersichtskarte Lärmverschmutzung</a></li>
-            <li><a href="licht.html">Übersichtskarte Lichtverschmutzung</a></li>
-            <li><a href="about.html">About</a></li>
-          </ul>
-        </div>
-    
-    
-
-    <h2><em><strong>Luftverschmutzung in Tirol</strong></em></h2>
-    <p>Test</p>
-    <!-- Informationsschwelle 	180 µg/m³ 	Einstundenmittelwert
-Alarmschwelle 	240 µg/m³ 	Einstundenmittelwert (https://www.umweltbundesamt.at/grenzwerte/)-->
-    <div id='map'></div>
-    <script src="luft.js"></script>
+      <div class="header">
+          <div class="inner_header">
+              <div class="logo_container">
+                  <h1> <span>Lichtverschmutzung in Tirol</span></h1>
+              </div>
+  
+              <ul class="navigation">
+                  <a href="home.html">
+                      <li> Home</li>
+                  </a>
+                  <a href="luft.html">
+                      <li> Luft</li>
+                  </a>
+                  <a href="licht2.html">
+                      <li> Licht</li>
+                  </a>
+                  <a href="laerm.html">
+                      <li> Lärm</li>
+                  </a>
+                  <a href="research.html">
+                          <li>Research </li>
+                      </a>
+                  <a href="about.html">
+                      <li> About</li>
+                  </a>
+                 
+              </ul>
+              <br>
+  
+  
+          </div>
+  
+      </div>
+  
+      <main>
+          <div class="background_image_luft">
+          </div>
+          <br>
+  
+          <br>
+          <br>
+          <br>
+          <p>
+              <h3> Allgemeines:</h3>
+              <br>
+              <br>
+              <br>
+              <br>
+              Der Begriff der Lichtverschmutzung (englisch light pollution), auch Lichtsmog, oder Lichtverunreinigung
+              genannt,
+              bezeichnet die dauernde Abwesenheit völliger Dunkelheit in den davon betroffenen Gebieten der Erde und
+              bewertet
+              zugleich diesen Sachverhalt negativ. Der Vorgang, der zu diesem Zustand führt, wird Lichtimmission
+              genannt.[3]
+              Dabei
+              wird der Nachthimmel durch meist künstliche Lichtquellen aufgehellt, deren Licht in den Luftschichten
+              der
+              Erdatmosphäre gestreut wird, womit die Überlagerung der natürlichen Dunkelheit verbunden ist. Über
+              Städten
+              spricht
+              man auch von deren Lichtglocke. <br>
+              ------------------- <br>
+              Quelle: <code></code><a href="https://de.wikipedia.org/wiki/Lichtverschmutzung">Wikiepdia</a></code>
+          </p>
+          <br>
+  
+      </main>
+  
+      <div id='map'></div>
+  
+  
+      <footer>
+          <!-- TODO: ein nav-Element mit zwei Links auf die vorherige Etappe und die nächste Etappe mit den Klassen "back" und "next" sowie den Link-Texten "vorhergehender Stop" und "nächster Stop". Die Links verweisen auf die entsprechenden Etappen in der Form https://username.github.io/nz/index.html -->
+          <div class="footer">
+  
+              <h2>
+                  Ende
+              </h2>
+  
+          </div>
+      </footer>
+  
   </body>
 </html>
+<!-- Informationsschwelle 	180 µg/m³ 	Einstundenmittelwert
+Alarmschwelle 	240 µg/m³ 	Einstundenmittelwert (https://www.umweltbundesamt.at/grenzwerte/)-->
+<script src="luft.js"></script>
