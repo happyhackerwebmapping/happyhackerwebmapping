@@ -29,7 +29,7 @@
     display: table-cell;
     vertical-align: middle;
     font-family: 'Montserrat';
-    font-size: 2em;
+    font-size: 1em;
 }
 
 
@@ -43,8 +43,9 @@
     display: table;
     float: left;
     padding: 0px 20px;
- 
+    text-decoration: none;
 }
+
 
 .navigation a:last-child {
     padding-right: 0;
@@ -58,6 +59,20 @@
     font-family: 'Montserrat';
     font-size: 20px;
 }
+
+
+
+.navigation a li:active{
+    color: green;
+    
+}
+
+
+.navigation a li:hover{
+    color: green;
+    text-decoration: none;
+}
+
 
 body {
     width: 80vw;
@@ -125,7 +140,7 @@ body {
 
 
 
- h3 {
+h3 {
     float: left;
     margin-left: 0.2em;
     height: 90%;
@@ -133,8 +148,8 @@ body {
     font-weight: 1000;
 }
 
-h2{
-font-family: 'Montserrat';
+h2 {
+    font-family: 'Montserrat';
 }
 
 main p {
@@ -144,7 +159,7 @@ main p {
 
 #map {
     height: 900px;
- 
+
 }
 
 #image {
