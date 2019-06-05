@@ -54,41 +54,19 @@ karte.setView(
 
 
 //Positionsmarker hinzufügen
-let MARKER = (
-    ursulinen = L.marker(
-        [47.262791, 11.368775],
-    völs = L.marker(
-        [47.253736,11.319013],
-    allerheiligen = L.marker(
+let ursulinen = L.marker(
+        [47.262791, 11.368775]
+    ).addTo(karte);
+let völs = L.marker(
+        [47.253736,11.319013]
+    ).addTo(karte);
+let allerheiligen = L.marker(
         [47.266833,11.359073]
-).addTo(karte)
+    ).addTo(karte);
 
 
-//Popup zum Pin hängen
 ursulinen.bindPopup(
-    `<h1>Standtort: Ursulinen
-    <a href="images/ursulinen_ln.jpg">Nacht-Lärmindex 2018</a>`
-).openPopup();
-
-
-const ld = L.featureGroup().addTo(karte);
-layerControl.addOverlay(ld, "Tag-Lärmindex");
-const le = L.featureGroup().addTo(karte);
-layerControl.addOverlay(ld, "Abend-Lärmindex");
-const ln = L.featureGroup().addTo(karte);
-layerControl.addOverlay(ld, "Nacht-Lärmindex");
-
-
-let MARKER = L.featureGroup().addTo(karte);
-
-for (let blick of ADLERBLICKE) {
-    let blickpin = L.marker(
-        [blick.lat, blick.lng]
-    ).addTo(blickeGruppe);
-    blickpin.bindPopup(
-        `<h1>Standort: ${blick.standort}</h1>
-        <p>Höhe: ${blick.seehoehe} m</p>
-        <em>Kunde: ${blick.kunde}</em>`
-    )
-}
-
+        `<h1>Standtort: Ursulinen
+        <img src="images/ursulinen_ld.jpg">`
+    ).openPopup();
+    
