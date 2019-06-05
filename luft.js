@@ -21,16 +21,22 @@ L.control.layers({
     "OSM": kartenLayer.osm,
 }).addTo(karte);
 
-// Ozonwerte
-const url = "http://luft.umweltbundesamt.at/pub/ozonbericht/aktuell.json";
+let jsonpResponse = function(data) {
+    console.log(data)
 
-async function OzonLaden(url) {
-    console.log("lade", url);
+}
 
-    const antwort = await fetch(url);
-    const jsonDaten = await antwort.json();
-};
-OzonLaden();
+
+// // Ozonwerte
+// const url = "http://luft.umweltbundesamt.at/pub/ozonbericht/aktuell.json";
+
+// async function OzonLaden(url) {
+//     console.log("lade", url);
+
+//     const antwort = await fetch(url);
+//     const jsonDaten = await antwort.json();
+// };
+// OzonLaden();
 
 // Fullscreen
 karte.addControl(new L.Control.Fullscreen());

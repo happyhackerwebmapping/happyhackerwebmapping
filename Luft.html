@@ -16,8 +16,10 @@
 
     
     <link rel="stylesheet" href="luft.css" />
-
-    <script defer src="luft.js"></script>
+    
+    <!--jsonp request-->
+    <script defer src = "http://luft.umweltbundesamt.at/pub/ozonbericht/aktuell.json"> </script>
+    
     
 
   </head>
@@ -37,13 +39,13 @@
           </ul>
         </div>
     
-    </div>
+    
 
     <h2><em><strong>Luftverschmutzung in Tirol</strong></em></h2>
     <p>Test</p>
     <!-- Informationsschwelle 	180 µg/m³ 	Einstundenmittelwert
 Alarmschwelle 	240 µg/m³ 	Einstundenmittelwert (https://www.umweltbundesamt.at/grenzwerte/)-->
     <div id='map'></div>
-
+    <script src="luft.js"></script>
   </body>
 </html>
