@@ -64,9 +64,17 @@ let allerheiligen = L.marker(
         [47.266833,11.359073]
     ).addTo(karte);
 
-
+// Popup hinzufügen
 ursulinen.bindPopup(
         `<h1>Standtort: Ursulinen
-        <img src="images/ursulinen_ld.jpg">`
-    ).openPopup();
+        <img src="images/ursulinen.jpg">`
+    );
+völs.bindPopup(
+        `<h1>Standtort: Völs
+        <img src="images/voels.jpg">`
+    );
+allerheiligen.bindPopup(
+        `<h1>Standtort: Allerheiligen
+        <img src="images/allerheiligen.jpg">`
+    );
     
