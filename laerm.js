@@ -60,7 +60,6 @@ let ursulinen = L.marker(
 let völs = L.marker(
     [47.253736, 11.319013]
 ).addTo(karte);
-
 let allerheiligen = L.marker(
     [47.266833, 11.359073]
 ).addTo(karte);
@@ -78,9 +77,3 @@ allerheiligen.bindPopup(
     `<h1>Standtort: Allerheiligen
         <img src="images/allerheiligen.jpg">`
 );
-
-var coords = new L.Control.Coordinates();
-coords.addTo(karte);
-karte.on('click', function (e) {
-    coords.setCoordinates(e);
-});
