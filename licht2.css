@@ -29,7 +29,7 @@
     display: table-cell;
     vertical-align: middle;
     font-family: 'Montserrat';
-    font-size: 1em;
+    font-size: 2em;
 }
 
 
@@ -57,18 +57,18 @@
     height: 100%;
     color: white;
     font-family: 'Montserrat';
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
 
-.navigation a li:active{
+.navigation a li:active {
     color: green;
-    
+
 }
 
 
-.navigation a li:hover{
+.navigation a li:hover {
     color: green;
     text-decoration: none;
 }
@@ -139,7 +139,6 @@ body {
 
 
 
-
 h3 {
     float: left;
     margin-left: 0.2em;
@@ -166,6 +165,23 @@ main p {
     height: 900px;
 }
 
-.table_erklaerung{
-    background-color: rgb(181,181,181);
+.table_erklaerung {
+    background-color: rgb(181, 181, 181);
+}
+
+
+.inhalt img {
+    width: 100%;
+    height: 30%;
+    margin: auto;
+}
+
+.inhalt figcaption{
+ 
+    color: gray;
+    margin-left: -12em;
+    float: left;
+    width: 11.5em;
+    font-size: 0.8em;
+
 }

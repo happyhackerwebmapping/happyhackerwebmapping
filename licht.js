@@ -3,6 +3,8 @@ let karte = L.map('map', {
     zoom: 10
 });
 
+let layerTirol;
+
 var kartenLayer = {
     VIIRS_2019: L.tileLayer.wms("https://www.lightpollutionmap.info/geoserver/gwc/service/wms?", {
         layers: 'PostGIS:VIIRS_2019',
@@ -32,6 +34,8 @@ karte.addLayer(
     kartenLayer.stamen_terrain
 );
 
+
+
 new L.Control.MiniMap(
     L.tileLayer("https://{s}.wien.gv.at/basemap/geolandbasemap/normal/google3857/{z}/{y}/{x}.png", {
         subdomains: ["maps", "maps1", "maps2", "maps3", "maps4"],
@@ -42,10 +46,19 @@ new L.Control.MiniMap(
     }
 ).addTo(karte);
 
-layerLicht = L.geoJSON.ajax('GeoJson/map.geojson').addTo(karte);
+
+layerTirol = L.imageOverlay('<img src="images/lightpollution.jpg">', [
+    [40, 11],
+    [39, 10]
+]).addTo(karte);
+
+let Stiegelreith = L.marker([47.238, 11.223]).bindPopup('Stiegelreith'),
+    Innsbruck = L.marker([47.265351, 11.384622]).bindPopup('4711');
+
+    let Hotspots = L.layerGroup([Stiegelreith, Innsbruck]);
 
 
-L.control.layers({
+objBasemaps = {
     "VIIRS_2019": kartenLayer.VIIRS_2019,
     "osm": kartenLayer.osm,
     //"Städte": layerLicht,
@@ -53,7 +66,12 @@ L.control.layers({
     "VIIRS_2013": kartenLayer.VIIRS_2013,
     "Stamen Terrain": kartenLayer.stamen_terrain,
     "Basemap Gelände": kartenLayer.bmapgelaende,
-}).addTo(karte);
+}
 
-L.circle([47, 11], 1000).addTo(karte).bindPopup("I am a circle");
+objOverlays = {
+    "Tirol Image": layerTirol,
+    "Hotspots": Hotspots,
+};
+
+ctlLayers = L.control.layers(objBasemaps, objOverlays).addTo(karte);
 
