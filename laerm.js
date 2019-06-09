@@ -75,5 +75,5 @@ völs.bindPopup(
 );
 allerheiligen.bindPopup(
     `<h1>Standtort: Allerheiligen
-        <img src="images/allerheiligen.jpg">`
+        <img src="images/allerheiligen.jpg" class="allerheiligen">`
 );
