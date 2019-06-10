@@ -67,13 +67,13 @@ let allerheiligen = L.marker(
 // Popup hinzufügen
 ursulinen.bindPopup(
     `<h1>Standtort: Ursulinen
-        <img src="images/ursulinen.jpg">`
+        <img class='zoom' src="images/ursulinen.jpg">`
 );
 völs.bindPopup(
     `<h1>Standtort: Völs
-        <img src="images/voels.jpg">`
+        <img class='zoom' src="images/voels.jpg">`
 );
 allerheiligen.bindPopup(
     `<h1>Standtort: Allerheiligen
-        <img src="images/allerheiligen.jpg" class="allerheiligen">`
+        <img class='zoom' src="images/allerheiligen.jpg">`
 );
