@@ -188,10 +188,10 @@ main p {
 }
 
 .zoom {
-    background-image: "images/allerheiligen.jpg" "images/ursulinen.jpg" "images/voels.jpg";
+    background-image: "images/allerheiligen_klein.jpg" "images/ursulinen_klein.jpg" "images/voels_klein.jpg";
     transition: transform .2s; 
 }
   
 .zoom:hover {
-    transform: scale(1.5); 
+    transform: scale(4); 
   }
