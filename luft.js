@@ -23,8 +23,12 @@ L.control.layers({
 
 let jsonpResponse = function(data) {
     console.log(data)
+    
+    
+    
 
 }
+
 
 
 // // Ozonwerte

@@ -92,9 +92,9 @@ body {
 }
 
 .background_image_luft {
-    background-image: url('images/pollution.jpg');
-    height: 250px;
-    background-position: 0 50%;
+    background-image: url('images/runner.jpg');
+    height: 320px;
+    background-position: 90% 48%;
     margin: auto;
 
 
@@ -156,7 +156,7 @@ main p {
 }
 
 #map {
-    height: 900px;
+    height: 600px;
 
 }
 
