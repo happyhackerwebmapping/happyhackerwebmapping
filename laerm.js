@@ -9,10 +9,6 @@ const kartenLayer = {
         subdomains: ["maps", "maps1", "maps2", "maps3", "maps4"],
         attribution: 'Datenquelle: <a href="https://www.basemap.at">basemap.at</a>'
     }),
-    bmapoverlay: L.tileLayer("https://{s}.wien.gv.at/basemap/bmapoverlay/normal/google3857/{z}/{y}/{x}.png", {
-        subdomains: ["maps", "maps1", "maps2", "maps3", "maps4"],
-        attribution: 'Datenquelle: <a href="https://www.basemap.at">basemap.at</a>'
-    }),
     bmapgrau: L.tileLayer("https://{s}.wien.gv.at/basemap/bmapgrau/normal/google3857/{z}/{y}/{x}.png", {
         subdomains: ["maps", "maps1", "maps2", "maps3", "maps4"],
         attribution: 'Datenquelle: <a href="https://www.basemap.at">basemap.at</a>'
@@ -25,24 +21,13 @@ const kartenLayer = {
         subdomains: ["maps", "maps1", "maps2", "maps3", "maps4"],
         attribution: 'Datenquelle: <a href="https://www.basemap.at">basemap.at</a>'
     }),
-    bmapgelaende: L.tileLayer("https://{s}.wien.gv.at/basemap/bmapgelaende/grau/google3857/{z}/{y}/{x}.jpeg", {
-        subdomains: ["maps", "maps1", "maps2", "maps3", "maps4"],
-        attribution: 'Datenquelle: <a href="https://www.basemap.at">basemap.at</a>'
-    }),
-    bmapoberflaeche: L.tileLayer("https://{s}.wien.gv.at/basemap/bmapoberflaeche/grau/google3857/{z}/{y}/{x}.jpeg", {
-        subdomains: ["maps", "maps1", "maps2", "maps3", "maps4"],
-        attribution: 'Datenquelle: <a href="https://www.basemap.at">basemap.at</a>'
-    }),
 };
 
 const layerControl = L.control.layers({
     "Geoland Basemap": kartenLayer.geolandbasemap,
     "Geoland Basemap Grau": kartenLayer.bmapgrau,
-    "Geoland Basemap Overlay": kartenLayer.bmapoverlay,
     "Geoland Basemap High DPI": kartenLayer.bmaphidpi,
     "Geoland Basemap Orthofoto": kartenLayer.bmaporthofoto30cm,
-    "Geoland Basemap Gelände": kartenLayer.bmapgelaende,
-    "Geoland Basemap Oberfläche": kartenLayer.bmapoberflaeche,
     "OpenStreetMap": kartenLayer.osm,
 }).addTo(karte);
 
@@ -67,13 +52,18 @@ let allerheiligen = L.marker(
 // Popup hinzufügen
 ursulinen.bindPopup(
     `<h1>Standtort: Ursulinen
-        <img class='zoom' src="images/ursulinen.jpg">`
+        <img class='zoom' src="images/ursulinen_klein.jpg">`
 );
 völs.bindPopup(
     `<h1>Standtort: Völs
-        <img class='zoom' src="images/voels.jpg">`
+        <img class='zoom' src="images/voels_klein.jpg">`
 );
 allerheiligen.bindPopup(
     `<h1>Standtort: Allerheiligen
-        <img class='zoom' src="images/allerheiligen.jpg">`
+        <img class='zoom' src="images/allerheiligen_klein.jpg">`
 );
+
+function imagesoeffnen {
+    Fenster=window.open(target= "_blank" <img src="images/allerheiligen.jpg"> );
+    Fenster.focus()
+};
