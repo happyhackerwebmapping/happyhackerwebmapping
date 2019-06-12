@@ -53,7 +53,7 @@ let jsonpResponse = function (data) {
         Ozon 1h Max: ${ozon1hmax}
         `)
 
-        var ozonPoints = [lat, lng, ozon1hmax]
+        var ozonPoints = [lat, lng, ozon1hmax/300]
         console.log(ozonPoints)
 
         // var idw = L.idwLayer([ozonPoints],{
@@ -94,8 +94,31 @@ let jsonpResponse = function (data) {
             ], // lat, lng, intensity
 
             {
-                radius: 25,
+                radius: 50,
+                opacity: 0.5,
                 
+                //Grenzwerte
+                //300µg: 1
+                //270µg: 0.9
+                //240µg: 0.8
+                //210µg: 0.7
+                //180µg: 0.6
+                //150µg: 0.5
+                //120µg: 0.4
+                //90µg: 0.3
+                //60µg: 0.2
+                //30µg: 0.1
+
+
+                gradient: {   
+                    0.1: "green",
+                    0.2: "yellow",
+                    0.3: "orange",
+                    0.4: "red",
+                    
+                    
+
+                }
             }).addTo(karte);
     }
 
