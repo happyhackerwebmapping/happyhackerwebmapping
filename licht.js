@@ -3,7 +3,7 @@ let karte = L.map('map', {
     zoom: 10
 });
 
-//var hash = new L.Hash(karte);
+const hash = new L.Hash(karte);
 
 var kartenLayer = {
     VIIRS_2019: L.tileLayer.wms("https://www.lightpollutionmap.info/geoserver/gwc/service/wms?", {
@@ -138,3 +138,11 @@ ctlLayers = L.control.layers(objBasemaps, objOverlays).addTo(karte);
 
 karte.addControl(new L.Control.Fullscreen());
 
+let karte2 = L.map(`map2`).setView(new L.LatLng(0,0), 0); 
+
+L.tileLayer.zoomify(`images/TileGroup`, { 
+            width: 5472, 
+            height: 3648,
+            tolerance: 0.8,
+            attribution: 'Photo: Bjørn Sandvik'
+        }).addTo(karte2);

@@ -166,6 +166,13 @@ main p {
 
 }
 
+#map2{
+    height: 600px;
+    border: 2px solid black;
+    
+
+}
+
 #image {
     height: 900px;
 }
