@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Luftverschmutzung in Tirol</title>
 
-      <!--FONTS-->
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-      <!--FONTS-->
-      
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <!--FONTS-->
+
     <!-- Einbinden der Kartenlayer und Fullscreen -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 
@@ -16,97 +17,184 @@
     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
 
     <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
-    <link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" rel="stylesheet" />
+    <link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css"
+        rel="stylesheet" />
 
     <script src="plugins/leaflet-heat.js"></script>
-    
-    
+
+
     <!-- <script src="plugins/leaflet-idw.js"></script>
     <script src="plugins/heatmap.js"></script>
     <script src="plugins/leaflet-heatmap.js"></script> -->
-    
-    
-    
-    
+
+
+
+
     <link rel="stylesheet" href="licht2.css" />
-    
+
     <!--jsonp request-->
-    <script defer src = "http://luft.umweltbundesamt.at/pub/ozonbericht/aktuell.json"> </script>
-    
+    <script defer src="http://luft.umweltbundesamt.at/pub/ozonbericht/aktuell.json"> </script>
+
+
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="inner_header">
+            <div class="logo_container">
+                <h1> <span>Luftverschmutzung in Tirol</span></h1>
+            </div>
+
+            <ul class="navigation">
+                <a href="index.html">
+                    <li> Home</li>
+                </a>
+                <a href="luft.html">
+                    <li> Luft</li>
+                </a>
+                <a href="licht2.html">
+                    <li> Licht</li>
+                </a>
+                <a href="laerm.html">
+                    <li> Lärm</li>
+                </a>
+                <a href="research.html">
+                    <li>Research </li>
+                </a>
+                <a href="about.html">
+                    <li> About</li>
+                </a>
+
+            </ul>
+            <br>
+
+
+        </div>
+
+    </div>
+
+    <main>
+        <div class="background_image_luft">
+        </div>
+        <br>
+
+
+        <p>
+            <h3> Allgemeines:</h3>
+            <br>
+            <br>
+            <br>
+            <br>
+            Aktuell ist die Luftschadstoffbelastung großflächig bei Ozon und auf lokalerer Ebene (entlang von
+            Hauptverkehrsrouten, Ballungsräume, Industrie-/Gewerbegebiete) bei Feinstaub und Stickstoffoxide in einem
+            Ausmaß gegeben, die zu Beeinträchtigungen der Gesundheit des Menschen sowie zu negativen Auswirkungen bei
+            Ökosystemen führen bzw. führen können. Hier sind in den nächsten Jahren weitere Maßnahmen auf Tiroler aber
+            auch auf nationaler und internationaler Ebene notwendig, um die allgemeine Luftschadstoffsituation weiter zu
+            verbessern. <br>
+            Zu einer sauberen Luft kann jeder einzelne einen Beitrag leisten. Die Vermeidung von unnötigen Autofahrten
+            oder richtiges Heizverhalten insbesondere bei manuell beschickten Heizanlagen senken den Ausstoß von
+            Feinstaub und Stickstoffoxiden. <br>
+            ------------------- <br>
+            Quelle: <a href="https://www.tirol.gv.at/umwelt/luft/">tirol.gv.at</a>
+        </p>
+        <br>
+
+    </main>
+
     
 
-  </head>
-  <body>
-      <div class="header">
-          <div class="inner_header">
-              <div class="logo_container">
-                  <h1> <span>Luftverschmutzung in Tirol</span></h1>
-              </div>
-  
-              <ul class="navigation">
-                  <a href="index.html">
-                      <li> Home</li>
-                  </a>
-                  <a href="luft.html">
-                      <li> Luft</li>
-                  </a>
-                  <a href="licht2.html">
-                      <li> Licht</li>
-                  </a>
-                  <a href="laerm.html">
-                      <li> Lärm</li>
-                  </a>
-                  <a href="research.html">
-                          <li>Research </li>
-                      </a>
-                  <a href="about.html">
-                      <li> About</li>
-                  </a>
-                 
-              </ul>
-              <br>
-  
-  
-          </div>
-  
-      </div>
-  
-      <main>
-          <div class="background_image_luft">
-          </div>
-          <br>
-  
+
+    <body>
+        <h2>
+            Vorhersage - Luftqualitätsindex
+        </h2>
+        <p>Die Abbildung zeigt die vorhergesagte Schadstoffbelastung (sehr niedrig, ..., sehr hoch), dargestellt als
+            Luftqualitätsindex (<a
+                href="http://www.airqualitynow.eu/de/about_indices_definition.php">airqualitynow.eu</a>), für den
+            aktuellen und die nächsten Tage. In die Berechnung gehen die Vorhersagen verschiedener Schadstoffe (z.B.
+            Ozon, Stickstoffdioxid, Feinstaub, …) ein. Die Höhe des Luftqualitätsindex richtet sich nach dem Schadstoff,
+            für welchen die höchsten Konzentrationswerte zu erwarten sind. Quelle: <a
+                href="https://www.zamg.ac.at/cms/de/umwelt/luftqualitaetsvorhersagen/caqi">ZAMG</a>.</p><br>
+    </body>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">Heute</div>
+            <img src="https://www.zamg.ac.at/caqi/index.php/heute" width="637" height="325">
+            <img class="legende" src="images/luft/LEGENDE_caqi.gif">
+            <div class="text">Quelle: <a
+                    href="https://www.zamg.ac.at/cms/de/umwelt/luftqualitaetsvorhersagen/caqi">ZAMG</a></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">Morgen</div>
+            <img src="https://www.zamg.ac.at/caqi/index.php/morgen" width="637" height="325">
+            <img class="legende" src="images/luft/LEGENDE_caqi.gif">
+            <div class="text">Quelle: <a
+                    href="https://www.zamg.ac.at/cms/de/umwelt/luftqualitaetsvorhersagen/caqi">ZAMG</a></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">Übermorgen</div>
+            <img src="https://www.zamg.ac.at/caqi/index.php/uebermorgen" width="637" height="325">
+            <img class="legende" src="images/luft/LEGENDE_caqi.gif">
+            <div class="text">Quelle: <a
+                    href="https://www.zamg.ac.at/cms/de/umwelt/luftqualitaetsvorhersagen/caqi">ZAMG</a></div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        
+    </div>
+
+<body>
+        <br>
+    <h2>
+        Kartographische Darstellung der Ozonwerte
+    </h2>
+    <div id='map'></div>
+</body>
+<h2>
+        Linksammlung
+    </h2>
+<ul>
+        <li><a href="https://www.umweltbundesamt.at/umweltsituation/luft/">Umweltbundesamt Österreich - Luft</a>
+        </li>
+        <li><a href="https://www.zamg.ac.at/cms/de/umwelt/luftqualitaetsvorhersagen">ZAMG Luftqualitätsvorhersagen</a></li>
+        <li><a href="https://aqicn.org/map/austria/de/">The World AirQuality Project - Österreich</a></li>
+
+    </ul>
+
+    <footer>
+
+        <div class="footer">
+
           
-          <p>
-              <h3> Allgemeines:</h3>
-              <br>
-              <br>
-              <br>
-              <br>
-              Aktuell ist die Luftschadstoffbelastung großflächig bei Ozon und auf lokalerer Ebene (entlang von Hauptverkehrsrouten, Ballungsräume, Industrie-/Gewerbegebiete) bei Feinstaub und Stickstoffoxide in einem Ausmaß gegeben, die zu Beeinträchtigungen der Gesundheit des Menschen sowie zu negativen Auswirkungen bei Ökosystemen führen bzw. führen können. Hier sind in den nächsten Jahren weitere Maßnahmen auf Tiroler aber auch auf nationaler und internationaler Ebene notwendig, um die allgemeine Luftschadstoffsituation weiter zu verbessern.  <br>
-              Zu einer sauberen Luft kann jeder einzelne einen Beitrag leisten. Die Vermeidung von unnötigen Autofahrten oder richtiges Heizverhalten insbesondere bei manuell beschickten Heizanlagen senken den Ausstoß von Feinstaub und Stickstoffoxiden. <br>
-              ------------------- <br>
-              Quelle: <code></code><a href="https://www.tirol.gv.at/umwelt/luft/">tirol.gv.at</a></code>
-          </p>
-          <br>
-  
-      </main>
-  
-      <div id='map'></div>
-  
-  
-      <footer>
-          <!-- TODO: ein nav-Element mit zwei Links auf die vorherige Etappe und die nächste Etappe mit den Klassen "back" und "next" sowie den Link-Texten "vorhergehender Stop" und "nächster Stop". Die Links verweisen auf die entsprechenden Etappen in der Form https://username.github.io/nz/index.html -->
-          <div class="footer">
-  
-              <h2>
-                  Ende
-              </h2>
-  
-          </div>
-      </footer>
-  
-  </body>
+                
+            
+
+
+        </div>
+    </footer>
+
+</body>
+
 </html>
 <!-- Informationsschwelle 	180 µg/m³ 	Einstundenmittelwert
 Alarmschwelle 	240 µg/m³ 	Einstundenmittelwert (https://www.umweltbundesamt.at/grenzwerte/)-->
