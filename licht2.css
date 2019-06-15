@@ -329,3 +329,7 @@ p.strong{
     font-weight: bold
 }
 
+figcaption.fig{
+    font-family: 'Montserrat';
+    
+}
