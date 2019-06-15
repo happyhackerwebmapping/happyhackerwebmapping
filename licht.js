@@ -77,19 +77,19 @@ new L.Control.MiniMap(
 
 function createCustomIcon(feature, latlng) {
     let myIcon = L.icon({
-        iconUrl: 'images/milky_way.jpg',
+        iconUrl: 'icons/star.png',
         iconSize: [25, 25], // width and height of the image in pixels
         shadowSize: [35, 20], // width, height of optional shadow image
         iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
         shadowAnchor: [12, 6], // anchor point of the shadow. should be offset
         popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
     })
-    let marker =  L.marker(latlng, {
+    let marker = L.marker(latlng, {
         icon: myIcon
     })
     marker.bindPopup(`<h3> Cloud Cover: </h3>${feature.properties.CloudCover}<br>
     <h3>Limiting Mag </h3> ${feature.properties.LimitingMag}`)
-   // console.log(feature)
+    // console.log(feature)
     return marker
 }
 
@@ -115,7 +115,6 @@ let Innsbruck = L.marker([47.265351, 11.384622]).bindPopup('Innsbruck');
 let Hotspots = L.layerGroup([Stiegelreith, Innsbruck])
 
 objBasemaps = {
-
     "osm": kartenLayer.osm,
     "Stamen Terrain": kartenLayer.stamen_terrain,
     "Basemap Gelände": kartenLayer.bmapgelaende,
@@ -138,11 +137,19 @@ ctlLayers = L.control.layers(objBasemaps, objOverlays).addTo(karte);
 
 karte.addControl(new L.Control.Fullscreen());
 
-let map = L.map(`map2`).setView(new L.LatLng(0,0), 0); 
+let karte2 = L.map(`map2`, {
+    center: [47.238, 11.22],
+    zoom: 10
+});
 
-L.tileLayer.zoomify(`images/TileGroup`, { 
-            width: 5472, 
-            height: 3648,
-            tolerance: 0.8,
-            attribution: 'Photo: Bjørn Sandvik'
-        }).addTo(map);
+/*L.tileLayer.zoomify(`images/TileGroup`, {
+    width: 5472,
+    height: 3648,
+    tolerance: 0.8,
+    attribution: 'Photo: Bjørn Sandvik'
+}).addTo(karte2);*/
+
+var layer = new L.GIBSLayer('VIIRS_SNPP_DayNightBand_ENCC', {
+    date: new Date('2018/04/08'),
+    transparent: true
+}).addTo(karte2);
