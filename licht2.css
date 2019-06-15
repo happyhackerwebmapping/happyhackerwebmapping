@@ -124,8 +124,8 @@ body {
 
 .background_image_home {
     background-image: url('images/pollution.jpg');
-    height: 250px;
-    background-position: 0 50%;
+    height: 280px;
+    background-position: 75% 65%;
     margin: auto;
 
 
