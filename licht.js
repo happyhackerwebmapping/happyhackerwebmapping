@@ -171,8 +171,8 @@ objOverlays = {
 objOverlays2 = {
     "Hotspots": Hotspots,
     "Globe at Night": citiesatNight,
-   // "sqm": sqm,
-  //  "GLobal Sky Quality Meter": sqm,
+    // "sqm": sqm,
+    //  "GLobal Sky Quality Meter": sqm,
 }
 
 ctlLayers = L.control.layers(objBasemaps, objOverlays).addTo(karte);
@@ -180,7 +180,7 @@ ctlLayers2 = L.control.layers(objOverlays2).addTo(karte);
 
 karte.addControl(new L.Control.Fullscreen());
 
-let karte2 = L.map(`map2`, {
+/*let karte2 = L.map(`map2`, {
     center: [47.238, 11.22],
     zoom: 10
 });
@@ -190,9 +190,44 @@ let karte2 = L.map(`map2`, {
     height: 3648,
     tolerance: 0.8,
     attribution: 'Photo: Bjørn Sandvik'
-}).addTo(karte2);*/
+}).addTo(karte2);
 
 var layer = new L.GIBSLayer('VIIRS_CityLights_2012', {
     date: new Date('2012/04/16'),
     transparent: true
 }).addTo(karte2);
+*/
+
+//// ImageSlides
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {
+        slideIndex = 1
+    }
+    if (n < 1) {
+        slideIndex = slides.length
+    }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+}
