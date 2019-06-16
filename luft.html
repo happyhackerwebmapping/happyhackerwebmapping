@@ -27,8 +27,8 @@
     <script src="plugins/heatmap.js"></script>
     <script src="plugins/leaflet-heatmap.js"></script> -->
 
+    <script defer src="home.js"></script>
 
-    
 
     <link rel="stylesheet" href="licht2.css" />
 
@@ -94,8 +94,8 @@
             verbessern. <br>
             Zu einer sauberen Luft kann jeder einzelne einen Beitrag leisten. Die Vermeidung von unnötigen Autofahrten
             oder richtiges Heizverhalten insbesondere bei manuell beschickten Heizanlagen senken den Ausstoß von
-            Feinstaub und Stickstoffoxiden. <br>
-            ------------------- <br>
+            Feinstaub und Stickstoffoxiden.
+            <br>
             Quelle: <a href="https://www.tirol.gv.at/umwelt/luft/">tirol.gv.at</a>
         </p>
         <br>
@@ -103,47 +103,260 @@
     </main>
 
     <div>
-            <h2>Arten der Luftverschmutzung</h2>
-            <details>
-              <summary>Ozon</summary>
-              <p>test
-                Quelle: <a href="https://www.data.gv.at/katalog/dataset/80607cc6-8fc1-4b2e-8517-716de8f1ba63">Data.gv.at</a></p>
-            </details>
-            <details>
-                <summary>Staub</summary>
-                <p>test
-                  Quelle: <a href="https://www.data.gv.at/katalog/dataset/80607cc6-8fc1-4b2e-8517-716de8f1ba63">Data.gv.at</a></p>
-              </details>
-            <details>
-                <summary>Stickstoffoxide</summary>
-                <p>test
-                  Quelle: <a href="https://www.data.gv.at/katalog/dataset/80607cc6-8fc1-4b2e-8517-716de8f1ba63">Data.gv.at</a></p>
-              </details>
-              <details>
-                <summary>Schwefeldioxid</summary>
-                <p>test
-                  Quelle: <a href="https://www.data.gv.at/katalog/dataset/80607cc6-8fc1-4b2e-8517-716de8f1ba63">Data.gv.at</a></p>
-              </details>
-              <details>
-                <summary>Kohlenmonooxid</summary>
-                <p>test
-                  Quelle: <a href="https://www.data.gv.at/katalog/dataset/80607cc6-8fc1-4b2e-8517-716de8f1ba63">Data.gv.at</a></p>
-              </details>
-              <details>
-                <summary>Schwermetalle</summary>
-                <p>test
-                  Quelle: <a href="https://www.data.gv.at/katalog/dataset/80607cc6-8fc1-4b2e-8517-716de8f1ba63">Data.gv.at</a></p>
-              </details>
-              <details>
-                <summary>NMVOC</summary>
-                <p>test
-                  Quelle: <a href="https://www.data.gv.at/katalog/dataset/80607cc6-8fc1-4b2e-8517-716de8f1ba63">Data.gv.at</a></p>
-              </details>
-              <details>
-                <summary>Benzol, POPs, Benzo(a)pyren, Ammoniak</summary>
-                <p>test
-                  Quelle: <a href="https://www.data.gv.at/katalog/dataset/80607cc6-8fc1-4b2e-8517-716de8f1ba63">Data.gv.at</a></p>
-              </details>
+        <h2>Arten der Luftverschmutzung</h2>
+        <details>
+            <summary>Ozon</summary>
+
+            <p class="strong">Entstehung</p>
+            <p>In höheren Luftschichten, der Stratosphäre, schützt uns Ozon vor schädlicher UV-Strahlung. Am Boden
+                entsteht Ozon in höheren Konzentrationen erst durch andere Luftschadstoffe - die Ozonvorläufersubstanzen
+                - und Sonnenlicht. Die wichtigsten Ozonvorläufersubstanzen sind Stickstoffoxide und flüchtige organische
+                Verbindungen. Zur Ozonbildung in einem globalen Maßstab tragen auch Methan und Kohlenmonoxid (CO) bei.
+
+                <p class="strong">Wirkungen von Ozon</p>
+
+                <p>Beim Menschen kann es bei höheren Ozonkonzentrationen zu Beeinträchtigungen der Lungenfunktion, zu
+                    einem Anstieg von Lungenkrankheiten sowie möglicherweise zu vorzeitigen Todesfällen führen. Bei
+                    manchen Pflanzenarten führen kurzfristig erhöhte Ozonkonzentrationen zu Schädigungen der
+                    Blattorgane, bei langfristiger Belastung treten Wachstums- und Ernteverluste auf. Troposphärisches
+                    Ozon ist auch eines der bedeutendsten Treibhausgase, das allerdings nicht im Kyoto-Protokoll
+                    geregelt ist.</p>
+                <p class="strong">Gesetzliche Schwellen- und Zielwerte für Ozon</p>
+                <p>Das Ozongesetz setzt u.a. die Schwellen- und Zielwerte einer EU-Richtlinie in österreichisches Recht
+                    um. Festgelegt sind eine Informations- und die Alarmschwelle sowie Zielwerte. Sind die
+                    Schwellenwerte überschritten, wird die Bevölkerung über die Medien informiert. Die
+                    Informationsschwelle wird bei einer einstündigen Ozonkonzentration von mehr als 180 µg/m³, die
+                    Alarmschwelle wird bei einer einstündigen Ozonkonzentration von mehr als 240 µg/m³ erreicht.
+
+                    Der Zielwert zum Schutz der menschlichen Gesundheit ist seit dem Jahr 2010 einzuhalten. Der Zielwert
+                    ist festgelegt als höchster Achtstundenmittelwert eines Tages. Er beträgt 120 µg/m³ und darf an
+                    nicht mehr als 25 Tagen pro Jahr, gemittelt über drei Jahre, überschritten werden. Derzeit wird
+                    dieser Zielwert in einigen Regionen zum Teil erheblich überschritten. Nach dem Ozongesetz ist der
+                    Bund verpflichtet, ein Programm zur Einhaltung des Zielwerts auszuarbeiten.</p>
+                <p class="strong">Maßnahmen zur Reduktion der Ozonbelastung</p>
+                <p>Ozonbelastungen über der Informations- und Alarmschwelle treten vor allem im Osten Österreichs auf,
+                    vereinzelt auch in der Steiermark, Tirol und Vorarlberg. Da Ozon ein überregionales Problem
+                    darstellt, sind Maßnahmen auf nationaler und europäischer Ebene am zielführendsten. In Österreich
+                    und der EU werden daher die Emissionen der beiden wichtigsten Ozonverläufersubstanzen NOx und VOC
+                    durch die Richtlinie über nationale Emissionshöchstmengen limitiert und durch Maßnahmenprogramme
+                    reduziert. Die Emissionen von CO, einer weiteren Vorläufersubstanz reduzieren sich sukzessive durch
+                    verbesserte Verbrennungstechnologien. Auch jetzt schon kann jedeR Einzelne z.B. durch Verzicht auf
+                    unnötige Fahrten mit dem Auto etwas beitragen
+                    (Quelle: <a
+                        href="https://www.umweltbundesamt.at/umweltsituation/luft/luftschadstoffe/ozon/">Umweltbundesamt</a>).
+                </p>
+        </details>
+        <details>
+            <summary>Staub</summary>
+            <p>Staub ist ein komplexes, heterogenes Gemisch aus festen bzw. flüssigen Teilchen, die sich hinsichtlich
+                ihrer Größe, Form, Farbe, chemischen Zusammensetzung, physikalischen Eigenschaften und ihrer Herkunft
+                bzw. Entstehung unterscheiden. Üblicherweise wird die Staubbelastung anhand der Masse verschiedener
+                Größenfraktionen beschrieben.
+                <ul>
+                    <li>TSP (Total Suspended Particles): Masse des Gesamtstaubes (auch Schwebestaub genannt).</li>
+                    <li>PM10: Die als Feinstaub (PM10) bezeichnete Staubfraktion enthält 50% der Teilchen mit einem
+                        Durchmesser von 10 µm, einen höheren Anteil kleinerer Teilchen und einen niedrigeren Anteil
+                        größerer Teilchen. </li>
+                    <li>PM2,5: Die als Feinstaub (PM2,5) bezeichnete Staubfraktion enthält 50% der Teilchen mit einem
+                        Durchmesser von 2,5 µm, einen höheren Anteil kleinerer Teilchen und einen niedrigeren Anteil
+                        größerer Teilchen. </li>
+                    <li>PM10-2,5: Masse aller Partikel kleiner als 10 µm und größer als 2,5 µm. Im Englischen als
+                        "coarse particles" (grobe Partikel) bezeichnet.</li>
+                </ul>
+                Der Schwebestaub (TSP) umfasst alle luftgetragenen Partikel. PM10 stellt eine Teilmenge von TSP dar,
+                PM2,5 ist wiederum eine Teilmenge von PM10.
+
+
+
+                Im deutschen Sprachgebrauch hat sich die Bezeichnung Feinstaub für PM10, aber auch für PM2,5
+                eingebürgert. Feinstaub ist aber kein festgelegter Begriff. Mitunter wird auch PM2,5 als Feinststaub
+                bezeichnet.
+
+                Neben der Konzentration in der Atemluft, die mit den oben genannten Parametern bewertet wird, ist für
+                manche Fragestellungen auch die Deposition von Staub von Interesse. Diese wird mit Hilfe des
+                Staubniederschlag, d.h. jener Menge, die auf einer bestimmten Fläche in einem bestimmten Zeitraum
+                abgeschieden wird, bewertet. In diesem finden sich vor allem die größeren Staubpartikel.
+
+                Grundsätzlich kann zwischen primären und sekundären Partikeln unterschieden werden. Erstere werden als
+                primäre Emissionen direkt in die Atmosphäre abgegeben, letztere entstehen durch luftchemische Prozesse
+                aus gasförmig emittierten Vorläufersubstanzen (z.B. Ammoniak, Schwefeldioxid, Stickstoffoxide)(Quelle: <a
+                    href="https://www.umweltbundesamt.at/umweltsituation/luft/luftschadstoffe/staub/">Umweltbundesamt</a>).
+            </p>
+        </details>
+        <details>
+            <summary>Stickstoffoxide</summary>
+            <p class="strong">Allgemeines</p>
+            <p>Stickstoffoxide NOx (Stickstoffmonoxid (NO) und Stickstoffdioxid (NO2)) entstehen überwiegend als
+                unerwünschte Nebenprodukte bei der Verbrennung von Brenn- und Treibstoffen bei hoher Temperatur. Der mit
+                Abstand größte Verursacher ist der Verkehr. Für den Menschen besonders schädlich ist NO2, da es die
+                Lungenfunktion beeinträchtigt.</p>
+            <p class="strong">Auswirkungen auf Mensch und Umwelt</p>
+            <p>Für den Menschen besonders schädlich ist NO2, da es die Lungenfunktion beeinträchtigt, aber auch
+                Langzeiteffekte auf die kardiovaskulare Mortalität hat, das heißt Todesfälle durch
+                Herz-Kreislauferkrankungen. So wird für Deutschland mit etwa 6.000 vorzeitigen Todesfällen durch die
+                NO2-Belastung gerechnet.
+
+                Außerdem sind die Stickstoffoxide mitverantwortlich für die Versauerung und Eutrophierung (Überdüngung)
+                von Böden und Gewässern. In der kalten Jahreszeit entsteht aus gasförmigen Stickoxiden und Ammoniak
+                partikelförmiges Ammoniumnitrat. Dieses trägt zu einer großräumigen Belastung durch Feinstaub (PM10)
+                bei. Im Sommer führen Stickstoffoxide zusammen mit Kohlenwasserstoffen zur Bildung von Ozon.</p>
+            <p class="strong">Emissionstrend 1990-2017</p>
+            <p>Im Jahr 2017 wurden in Österreich - ohne Berücksichtigung des Kraftstoffexports - ca. 131.500 Tonnen
+                Stickstoffoxide emittiert und damit um 36 % weniger als 1990. Gegenüber dem vorangegangenen Jahr 2016
+                sind die Emissionen um 3,6% gesunken.</p>
+            <p class="strong">Reduktionsziel und Flexibilitätsmechanismen</p>
+            <p>Gemäß revidierter NEC-Richtlinie 2016/2284 können die EU-Mitgliedstaaten unter bestimmten Umständen
+                Flexibilitätsregelungen für die Zielerreichung nutzen. Österreich hat in den Jahren 2017 und 2018
+                Vorschläge zur Anpassung spezifischer Inventurdaten für die NOx-Zielerreichung bei der Europäischen
+                Kommission eingereicht, die bewilligt wurden.
+
+                Unter Berücksichtigung der bewilligten Anpassungen wird die festgesetzte Emissionshöchstmenge für NOx
+                (103.000 Tonnen) seit dem Jahr 2014 unterschritten.
+                <p class="strong">Belastungssituation</p>
+                <p>Die Grenzwerte für NO2 werden vor allem verkehrsnah in größeren Städten und im Inntal überschritten.
+                    Hauptverursacher dieser Überschreitungen ist der Verkehr. Zur Verringerung der Belastung wurde
+                    verschiedene Maßnahmen eingeführt, wie z.B. ein Nachtfahrverbot für schwere Nutzfahrzeuge, ein
+                    sektorales Fahrverbot oder Geschwindigkeitsbeschränkungen, eingeführt.
+
+
+
+                    Großflächig überschritten werden aber die kritischen Belastungsgrenzen für den Wald durch
+                    Überdüngung, wie Berechnungen des CCE zeigen. Nach einem Rückgang bis Ende der 90er-Jahre hat die
+                    NO2-Belastung an stärker befahrenen Straßen bis zum Jahr 2006 wieder zugenommen. Dies ist auf die
+                    Zunahme von Diesel-PKW mit Oxidationskatalysatoren zurrückzuführen. Erst in den letzten Jahren
+                    nehmen die Werte wieder ab.
+
+                    Auch die großflächigen Überschreitungen der kritischen Belastungsgrenzen des Waldes durch
+                    Überdüngung reduzierte sich in den letzten Jahren kaum (Quelle: <a
+                        href="https://www.umweltbundesamt.at/umweltsituation/luft/luftschadstoffe/nox/">Umweltbundesamt</a>.)
+                </p>
+        </details>
+        <details>
+            <summary>Schwefeldioxid</summary>
+            <p class="strong">Allgemeines</p>
+            <p>
+
+                    Schwefeldioxid (SO2) entsteht hauptsächlich bei der Verbrennung von Kohle und Heizöl (schwer). Zu den Hauptemissionsquellen zählen Feuerungsanlagen im Bereich der Energiewirtschaft, der Industrie und des Kleinverbrauchs. 
+                    
+                    In hohen Konzentrationen schädigt Schwefeldioxid Mensch, Tiere und Pflanzen. Die Oxidationsprodukte führen zu "Saurem Regen", der empfindliche Ökosysteme wie Wald und Seen (Skandinavien) gefährdet und Gebäude und Materialien angreift. Partikelförmige Sulfate tragen zur großräumigen Belastung durch Feinstaub (PM10) bei.
+                    </p>
+            <p class="strong">Emissionstrend 1990-2017</p>
+            <p>2017 wurden rund 12.800 Tonnen Schwefeldioxid emittiert und somit um 82 % weniger als 1990. Gegenüber dem Vorjahr 2016 sind die Emissionen ebenfalls gesunken (-5,3%).
+
+ 
+
+ 
+
+                    Die im Emissionshöchstmengengesetz-Luft (EG-L) festgesetzte Emissionshöchstmenge von 39 Kilotonnen wird in Österreich somit deutlich unterschritten.</p>
+                    <p class="strong">Belastungssituation</p>
+            <p>Überschreitungen des Grenzwertes traten bei Schwefeldioxid in den letzten Jahren nur noch vereinzelt auf. Betroffen war zumeist der Nahbereich von einzelnen Industriebetrieben und grenznahe Gebiete durch grenzüberschreitenden Schadstofftransport aus Slowenien und der Slowakei. Die SO2-Belastung zeigt in den letzten 15 Jahren einen deutlich rückläufigen Trend. Mit der Sanierung des slowenischen Kohlekraftwerkes Sostanj ging im grenznahen Gebiet im Süden Österreichs die SO2-Belastung ebenfalls deutlich zurück (Quelle: <a
+                    href="https://www.umweltbundesamt.at/umweltsituation/luft/luftschadstoffe/so2/">Umweltbundesamt</a>.)
+            </p>
+        </details>
+        <details>
+            <summary>Kohlenmonooxid</summary>
+            <p class="strong">Allgemeines</p>
+            <p>
+
+                    Kohlenmonoxid (CO) entsteht hauptsächlich bei der unvollständigen Verbrennung von Brenn- und Treibstoffen. Hauptquellen sind der Kleinverbrauch, der Verkehr und die Industrie.
+                    
+                    Als Luftschadstoff ist CO vor allem aufgrund der humantoxischen Wirkung (Beeinträchtigung der Sauerstoffaufnahmekapazität des Hämoglobins) von Bedeutung. CO spielt aber auch bei der photochemischen Bildung von bodennahem Ozon im globalen und kontinentalen Maßstab eine bedeutende Rolle.
+                    </p>
+            <p class="strong">Emissionstrend 1990-2017</p>
+            <p>Die CO-Emissionen Österreichs sind von 1990 bis 2017 um 55% auf rund 528.600 Tonnen zurückgegangen. Im Jahr 2017 wurde um 1,1% weniger emittiert als im Jahr davor.
+
+ 
+
+                    Eine besonders starke Emissionsreduktion wurde im Verkehrssektor erreicht durch die Optimierung der Verbrennungsvorgänge sowie die Einführung des Katalysators. 
+
+                    Die CO-Emissionen des Industriesektors - v.a. der Eisen- und Stahlindustrie - sind ebenfalls beträchtlich gesunken. Gründe dafür sind die Optimierung von Industriefeuerungen und die Restrukturierung der Stahlwerke. Im Bereich der Haushalte (Kleinverbrauch) wurden wesentliche Reduktionen durch den Umstieg auf verbesserte Technologien und den reduzierten Einsatz von Koks für Heizzwecke erzielt.
+                    
+                    
+                    </p>
+            <p class="strong">Belastungssituation</p>
+            <p>Die Belastung ist im Verlauf der 90er Jahre parallel zu den Emissionen deutlich zurück gegangen. Grenzwertüberschreitungen traten bei CO in den letzten Jahren keine mehr auf. Da CO zur weltweiten Bildung von bodennahem Ozon beiträgt, sollte die Emissionen weiter verringert werden (Quelle: <a
+                    href="https://www.umweltbundesamt.at/umweltsituation/luft/luftschadstoffe/co/">Umweltbundesamt</a>).
+            </p>
+        </details>
+        <details>
+            <summary>Schwermetalle</summary>
+            <p class="strong">Allgemeines</p>
+            <p>
+
+                    Erhöhte Schwermetallkonzentrationen treten in Österreich v.a. im Bereich einzelner Industriestandorte auf. Quecksilber und andere Schwermetalle können allerdings auch über weite Strecken transportiert werden. Die Belastung durch Arsen, Blei, Kadmium und Nickel wird im Feinstaub (PM10) und im Staubniederschlag (überwiegend Blei und Cadmium) bestimmt. Umfassendere Schwermetallmessungen wurden im Bereich einzelner Industriestandorte wie Linz, Brixlegg oder Arnoldstein durchgeführt.
+                    
+                    Bei Menschen als auch Tieren können Schädigungen (v.a. der Nieren, der Leber und des Nerven- und Blutgefäßsystems) durch erhöhte Konzentrationen von Schwermetallen hervorgerufen werden. Einige Schwermetalle haben zudem krebserregende Wirkung. Wichtigste Aufnahmepfade für Schwermetalle sind beim Menschen die Nahrung, das Trinkwasser sowie das Tabakrauchen.
+                    </p>
+            <p class="strong">Emissionstrend 1990-2017</p>
+            <p>Seit 1990 konnten die Blei-Emissionen um 93% auf 15,7 Tonnen (2017) reduziert werden. Die Emissionen von Kadmium gingen im selben Zeitraum um 31% (auf 1,2 Tonnen) und jene von Quecksilber um 52% (auf 1,1 Tonnen) zurück.
+
+ 
+
+                    Als wesentlichste Maßnahmen zur Reduktion von Schwermetallemissionen sind das Verbot von verbleitem Benzin, der rückläufige Einsatz von Kohle, Koks und schwerem Heizöl als Brennstoff sowie der Einbau von Staubfiltern in Industrie- und Abfallverbrennungsanlagen zu nennen. </p>
+            <p class="strong">Belastungssituation</p>
+            
+            <p>Schwermetalle werden in Österreich im Staubniederschlag und im Feinstaub (PM10) bestimmt. Die höchsten Konzentrationen von Schwermetallen in der Luft treten im Nahbereich von Industriebetrieben (z. B. Brixlegg, Arnoldstein) auf.
+
+ 
+
+                    Hier kommt es noch immer zu vereinzelten Grenzwertüberschreitungen bei Blei und Cadmium im Staubniederschlag. Dagegen wird der Grenzwert für Blei im PM10 von 0,5µg/m³ in Österreich eingehalten. Auch die Zielwerte für As, Cd und Ni werden in Österreich eingehalten.
+                    
+                    Andere Städte in Österreich weisen ein nur unwesentlich höheres Belastungsniveau als ländliche Regionen auf (Quelle: <a
+                    href="https://www.umweltbundesamt.at/umweltsituation/luft/luftschadstoffe/staub/">Umweltbundesamt</a>).
+            </p>
+        </details>
+        <details>
+            <summary>NMVOC</summary>
+            <p class="strong">Allgemeines</p>
+            <p>
+
+                    Flüchtige Organische Verbindungen ohne Methan (NMVOC) werden größtenteils durch die Verdunstung von Lösemitteln (in Farben, Lacken und Klebstoffen) und Treibstoffen sowie durch unvollständige Verbrennungsvorgänge freigesetzt. Einen nicht unbeträchtlichen Beitrag liefern auch biogene Quellen, vor allem der Wald. Die folgenden Emissionsangaben beziehen sich allerdings ausschließlich auf die anthropogenen Quellen.
+                    
+                    Diese Stoffgruppe ist vor allem aufgrund ihres Beitrags zur Bildung von Ozon und sekundärer organischer Partikel von Bedeutung.
+                    </p>
+            <p class="strong">Emissionstrend 1990-2017</p>
+            <p>Im Jahr 2017 wurden in Österreich rund 119.300 Tonnen NMVOC freigesetzt. Seit 1990 konnten die Emissionen um 63 % reduziert werden; gegenüber 2016 blieb das Emissionsniveau annähernd gleich (- 1,7 %).
+
+ 
+
+                    Die im Emissionshöchstmengengesetz-Luft (EG-L) festgesetzte zulässige Emissionshöchstmenge von 159 Kilotonnen wird somit deutlich unterschritten.</p>
+            <p class="strong">Messung</p>
+            
+            <p>In Wien wird bei der Messstelle Allgemeines Krankenhaus (AKH) die Konzentration verschiedener VOC gemessen. Die Probenahme erfolgt jeden sechsten Tag über jeweils einen Tag; die Proben werden anschließend mittels Gaschromatographie analysiert. Die Konzentration aller gemessenen VOC hat sich seit dem Jahr 2003 deutlich reduziert (Quelle: <a
+                    href="https://www.umweltbundesamt.at/umweltsituation/luft/luftschadstoffe/staub/">Umweltbundesamt</a>).
+            </p>
+        </details>
+        <details>
+            <summary>Benzol, POPs, Benzo(a)pyren, Ammoniak</summary>
+            <p class="strong">Benzol</p>
+            <p>
+
+                    Benzol ist eine flüchtige organische Verbindung, die beim Menschen krebserregend wirken kann. Nach derzeitigem Wissensstand existiert keine Wirkungsschwelle, unter der Benzol keine Schädigungen hervorrufen kann. Zur Risikominimierung sollten daher die Immissionskonzentrationen auf ein möglichst niedriges Niveau gesenkt werden.
+                    
+                    Die wichtigsten Quellen von Benzol sind der Verkehr (Benzol ist ein Bestandteil von Ottokraftstoffen) und der Hausbrand.
+                    <br>
+                    Der Grenzwert für Benzol wurde in den letzten Jahren in Österreich an keiner Messstelle überschritten. Eine längere Messreihe liegt nur aus der Stadt Salzburg vor. Die Messwerte zeigen dort eine stetige Abnahme der Benzol-Konzentration in der Atemluft.</p>
+            <p class="strong">Persistente organische Schadstoffe (POPs)</p>
+            Persistente organische Luftschadstoffe (POPs) sind schwer abbaubare Substanzen, die aufgrund ihrer Fettlöslichkeit in Menschen, Tieren und Ökosystemen angereichert werden können. Sie entstehen in erster Linie als Produkte unvollständiger Verbrennung und umfassen:
+            <ul>
+                <li>Polyzyklische aromatische Kohlenwasserstoffe (PAK)</li>
+<li>Dioxine und Furane</li>
+<li>Hexachlorbenzol (HCB)</li>
+<li>Polychlorierte Biphenyle (PCB)</li>
+            </ul>
+            <p class="strong">Benzo(a)pyren</p>
+            <p>Polyzyklische aromatische Kohlenwasserstoffe (PAK) wirken karzinogen und mutagen. Da PAK aus einer Mischung von vielen verschiedenen Substanzen bestehen und um die Belastung vergleichen zu können, wird Benzo(a)pyren als Leitsubstanz verwendet. Benzo(a)pyren ist im Hinblick auf Kanzerogenität und Mutagenität – im Gegensatz zu vielen anderen PAK – bestens untersucht.
+
+ 
+
+                    PAK entstehen bei der unvollständigen Verbrennung von organischem Material oder fossilen Brennstoffen in Heizungsanlagen, Kfz-Verkehr und Stahlwerken. Hauptverursacher sind veraltete Heizungsanlagen mit festen Brennstoffen.<br>
+                    Die Konzentration von Benzo(a)pyren in PM10 wird in Österreich an etwa 30 Messstellen bestimmt. Der Zielwert wird in einzelnen Städten und Gemeinden südlich des Alpenhauptkamms überschritten. Hauptquellen sind veraltete Holzheizungen in Kombination mit schlechten Ausbreitungsbedingungen</p>
+                    <p class="strong">Ammoniak</p>
+            <p>Ammoniak (NH3) entsteht hauptsächlich beim Abbau von organischem und mineralischem Dünger sowie bei der Lagerung von Gülle. Dementsprechend ist die Landwirtschaft Hauptquelle der Ammoniakemissionen. NH3 ist primär für die Bildung versauernder und eutrophierender Schadstoffe und für die Bildung sekundärer Partikel (Feinstaub) verantwortlich.<br>
+                2017 wurden in Österreich rund 68.900 Tonnen Ammoniak emittiert. Seit 1990 ist das Emissionsniveau zunehmend (+ 5,7 %), der Anstieg gegenüber dem vorangegangenen Jahr 2016 beträgt +1,2 % (Quelle: <a
+                    href="https://www.umweltbundesamt.at/umweltsituation/luft/luftschadstoffe/">Umweltbundesamt</a>).
+            </p>
+        </details>
     </div>
 
 
@@ -156,9 +369,9 @@
                 href="http://www.airqualitynow.eu/de/about_indices_definition.php">airqualitynow.eu</a>), für den
             aktuellen und die nächsten Tage. In die Berechnung gehen die Vorhersagen verschiedener Schadstoffe (z.B.
             Ozon, Stickstoffdioxid, Feinstaub, …) ein. Die Höhe des Luftqualitätsindex richtet sich nach dem Schadstoff,
-            für welchen die höchsten Konzentrationswerte zu erwarten sind. Quelle: <a
-                href="https://www.zamg.ac.at/cms/de/umwelt/luftqualitaetsvorhersagen/caqi">ZAMG</a>.</p><br>
-        </div>
+            für welchen die höchsten Konzentrationswerte zu erwarten sind (Quelle: <a
+                href="https://www.zamg.ac.at/cms/de/umwelt/luftqualitaetsvorhersagen/caqi">ZAMG</a>).</p><br>
+    </div>
 
     <!-- Slideshow container -->
     <div class="slideshow-container">
@@ -205,13 +418,14 @@
 
     </div>
     <br>
-    <figure style="text-align:center">
+    <figure style="text-align:center; position:relative">
         <img src="images/luft/Index_vorhersage.png" alt="Index_vorhersage"><br>
-        <figcaption class = "fig"><em>Quelle: <a
-            href="https://www.umweltbundesamt.at/umweltsituation/luft/luftguete_aktuell/luftqualitaetsindex/">Umweltbundesamt</a></em></figcaption>
+        <figcaption class="fig"><em>Quelle: <a
+                    href="https://www.umweltbundesamt.at/umweltsituation/luft/luftguete_aktuell/luftqualitaetsindex/">Umweltbundesamt</a></em>
+        </figcaption>
 
     </figure>
-    
+
     <div>
         <br>
         <h2>
@@ -225,12 +439,14 @@
     <ul>
         <li><a href="https://www.umweltbundesamt.at/umweltsituation/luft/">Umweltbundesamt Österreich - Luft</a>
         </li>
-        <li><a href="http://luft.umweltbundesamt.at/pub/gmap/start.html">Umweltbundesamt Österreich - Karte Luftverschmutzung</a>
+        <li><a href="http://luft.umweltbundesamt.at/pub/gmap/start.html">Umweltbundesamt Österreich - Karte
+                Luftverschmutzung</a>
         </li>
-        
+
         <li><a href="https://www.zamg.ac.at/cms/de/umwelt/luftqualitaetsvorhersagen">ZAMG Luftqualitätsvorhersagen</a>
         </li>
         <li><a href="https://aqicn.org/map/austria/de/">The World AirQuality Project - Österreich</a></li>
+        <li><a href="https://waqi.info/de/">Die Luftverschmutzung der Welt: Echtzeit-Luftqualitätsindex</li>
 
     </ul>
 
@@ -251,5 +467,5 @@
 </html>
 <!-- Informationsschwelle 	180 µg/m³ 	Einstundenmittelwert
 Alarmschwelle 	240 µg/m³ 	Einstundenmittelwert (https://www.umweltbundesamt.at/grenzwerte/)-->
-<script defer src="home.js"></script>
+
 <script src="luft.js"></script>

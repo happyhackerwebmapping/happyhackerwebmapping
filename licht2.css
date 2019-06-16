@@ -4,6 +4,7 @@
     display: block;
     background-color: #101010;
     width: 80vw;
+    z-index: 99;
 
 }
 
@@ -132,9 +133,9 @@ body {
 }
 
 .background_image_research {
-    background-image: url('images/science.jpg');
+    background-image: url('images/research.jpg');
     height: 250px;
-    background-position: 0 50%;
+    background-position: 20% 85%;
     margin: auto;
 
 
@@ -162,6 +163,7 @@ main p {
 #map {
     height: 600px;
     border: 2px solid black;
+    z-index: -1;
     
 
 }
@@ -331,8 +333,11 @@ p.strong{
 
 figcaption.fig{
     font-family: 'Montserrat';
+    position: absolute;
     
 }
+
+
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
