@@ -38,7 +38,8 @@ var kartenLayer = {
     }),
     VIIRS_2013: L.tileLayer.wms("https://www.lightpollutionmap.info/geoserver/gwc/service/wms?", {
         layers: 'PostGIS:VIIRS_2013',
-        attribution: 'Map tiles by <a href="https://www.lightpollutionmap.info">lightpollutionmap.info</a>'
+        attribution: 'Map tiles by <a href="https://www.lightpollutionmap.info">lightpollutionmap.info</a>',
+        opacity: 0.5,
     }),
     osm: L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", { //{} --> steht für Objekt   [] --> array,   //{s} kann Server für 
         subdomains: ["a", "b", "c"], //Server
@@ -54,16 +55,25 @@ var kartenLayer = {
     }),
     NNASAGIBS_ViirsEarthAtNight2012: L.tileLayer('https://map1.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_CityLights_2012/default/{time}/{tilematrixset}{maxZoom}/{z}/{y}/{x}.{format}', {
         attribution: 'Imagery provided by services from the Global Imagery Browse Services (GIBS), operated by the NASA/GSFC/Earth Science Data and Information System (<a href="https://earthdata.nasa.gov">ESDIS</a>) with funding provided by NASA/HQ.',
+        time: '',
+        tilematrixset: 'GoogleMapsCompatible_Level',
+        format: 'jpg',
+    }),
+    CartoDB_DarkMatterNoLabels: L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        subdomains: 'abcd',
+        maxZoom: 19
     })
 };
 
 karte.addLayer(
-    kartenLayer.osm,
+    kartenLayer.VIIRS_2013,
 );
 
 new L.Control.MiniMap(
-    L.tileLayer("https://{s}.wien.gv.at/basemap/geolandbasemap/normal/google3857/{z}/{y}/{x}.png", {
-        subdomains: ["maps", "maps1", "maps2", "maps3", "maps4"],
+    L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", { //{} --> steht für Objekt   [] --> array,   //{s} kann Server für 
+        subdomains: ["a", "b", "c"], //Server
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
     }), {
         zoomLevelOffset: -4,
         toggleDisplay: true,
@@ -77,7 +87,7 @@ new L.Control.MiniMap(
 
 function createCustomIcon(feature, latlng) {
     let myIcon = L.icon({
-        iconUrl: 'icons/star.png',
+        iconUrl: 'icons/milky_way.png',
         iconSize: [25, 25], // width and height of the image in pixels
         shadowSize: [35, 20], // width, height of optional shadow image
         iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
@@ -88,18 +98,44 @@ function createCustomIcon(feature, latlng) {
         icon: myIcon
     })
     marker.bindPopup(`<h3> Cloud Cover: </h3>${feature.properties.CloudCover}<br>
-    <h3>Limiting Mag </h3> ${feature.properties.LimitingMag}`)
-    // console.log(feature)
+    <h3>Limiting Mag </h3> ${feature.properties.LimitingMag} <br> <h3> Location Info: </h3>${feature.properties.LocationComment}`)
+    //console.log(feature.geometry.coordinates)
     return marker
 }
+
+
+/*function createCustomIcon2(feature, latlng) {
+    let myIcon2 = L.icon({
+        iconUrl: 'icons/milky_way.png',
+        iconSize: [25, 25], // width and height of the image in pixels
+        shadowSize: [35, 20], // width, height of optional shadow image
+        iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
+        shadowAnchor: [12, 6], // anchor point of the shadow. should be offset
+        popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+    })
+    let marker2 = L.marker(latlng, {
+        icon: myIcon2
+    })
+    marker2.bindPopup(`<h3> Cloud Cover: </h3>${feature.properties.Zenith}<br>
+    <h3>Limiting Mag </h3> ${feature.properties.Conditions}`)
+  
+    return marker2
+}*/
+
 
 
 // create an options object that specifies which function will called on each feature
 let myLayerOptions = {
     pointToLayer: createCustomIcon
 }
+
+/*let mysqmLayerOptions = {
+    pointToLayer: createCustomIcon2
+}*/
+
 // create the GeoJSON layer
 let citiesatNight = L.geoJSON(GLOBEATNIGHT, myLayerOptions)
+//let sqm = L.geoJSON(SQM, mysqmLayerOptions)
 
 
 
@@ -119,11 +155,10 @@ objBasemaps = {
     "Stamen Terrain": kartenLayer.stamen_terrain,
     "Basemap Gelände": kartenLayer.bmapgelaende,
     "NASA Provider": kartenLayer.NNASAGIBS_ViirsEarthAtNight2012,
+    "Carto": kartenLayer.CartoDB_DarkMatterNoLabels,
 };
 
 objOverlays = {
-    "Hotspots": Hotspots,
-    "Globe at Night": citiesatNight,
     "VIIRS_2019": kartenLayer.VIIRS_2019,
     "VIIRS_2018": kartenLayer.VIIRS_2018,
     "VIIRS_2017": kartenLayer.VIIRS_2017,
@@ -133,7 +168,15 @@ objOverlays = {
     "VIIRS_2013": kartenLayer.VIIRS_2013,
 }
 
+objOverlays2 = {
+    "Hotspots": Hotspots,
+    "Globe at Night": citiesatNight,
+   // "sqm": sqm,
+  //  "GLobal Sky Quality Meter": sqm,
+}
+
 ctlLayers = L.control.layers(objBasemaps, objOverlays).addTo(karte);
+ctlLayers2 = L.control.layers(objOverlays2).addTo(karte);
 
 karte.addControl(new L.Control.Fullscreen());
 
@@ -149,7 +192,7 @@ let karte2 = L.map(`map2`, {
     attribution: 'Photo: Bjørn Sandvik'
 }).addTo(karte2);*/
 
-var layer = new L.GIBSLayer('VIIRS_SNPP_DayNightBand_ENCC', {
-    date: new Date('2018/04/08'),
+var layer = new L.GIBSLayer('VIIRS_CityLights_2012', {
+    date: new Date('2012/04/16'),
     transparent: true
 }).addTo(karte2);

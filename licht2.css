@@ -333,3 +333,11 @@ figcaption.fig{
     font-family: 'Montserrat';
     
 }
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    width: 80vw;
+    float: left;
+  }
+  
