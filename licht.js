@@ -8,37 +8,37 @@ const hash = new L.Hash(karte);
 var kartenLayer = {
     VIIRS_2019: L.tileLayer.wms("https://www.lightpollutionmap.info/geoserver/gwc/service/wms?", {
         layers: 'PostGIS:VIIRS_2019',
-        attribution: 'Map tiles by <a href="https://www.lightpollutionmap.info">lightpollutionmap.info</a>',
+        attribution: 'Map tiles by Jurij Stare, <a href="https://www.lightpollutionmap.info"> www.lightpollutionmap.info</a> and Earth Observation Group, NOAA National Geophysical Data Center',
         opacity: 0.5,
     }),
     VIIRS_2018: L.tileLayer.wms("https://www.lightpollutionmap.info/geoserver/gwc/service/wms?", {
         layers: 'PostGIS:VIIRS_2018',
-        attribution: 'Map tiles by <a href="https://www.lightpollutionmap.info">lightpollutionmap.info</a>',
+        attribution: 'Map tiles by Jurij Stare, <a href="https://www.lightpollutionmap.info"> www.lightpollutionmap.info</a> and Earth Observation Group, NOAA National Geophysical Data Center',
         opacity: 0.5,
     }),
     VIIRS_2017: L.tileLayer.wms("https://www.lightpollutionmap.info/geoserver/gwc/service/wms?", {
         layers: 'PostGIS:VIIRS_2017',
-        attribution: 'Map tiles by <a href="https://www.lightpollutionmap.info">lightpollutionmap.info</a>',
+        attribution: 'Map tiles by Jurij Stare, <a href="https://www.lightpollutionmap.info"> www.lightpollutionmap.info</a> and Earth Observation Group, NOAA National Geophysical Data Center',
         opacity: 0.5,
     }),
     VIIRS_2016: L.tileLayer.wms("https://www.lightpollutionmap.info/geoserver/gwc/service/wms?", {
         layers: 'PostGIS:VIIRS_2016',
-        attribution: 'Map tiles by <a href="https://www.lightpollutionmap.info">lightpollutionmap.info</a>',
+        attribution: 'Map tiles by Jurij Stare, <a href="https://www.lightpollutionmap.info"> www.lightpollutionmap.info</a> and Earth Observation Group, NOAA National Geophysical Data Center',
         opacity: 0.5,
     }),
     VIIRS_2015: L.tileLayer.wms("https://www.lightpollutionmap.info/geoserver/gwc/service/wms?", {
         layers: 'PostGIS:VIIRS_2015',
-        attribution: 'Map tiles by <a href="https://www.lightpollutionmap.info">lightpollutionmap.info</a>',
+        attribution: 'Map tiles by Jurij Stare, <a href="https://www.lightpollutionmap.info"> www.lightpollutionmap.info</a> and Earth Observation Group, NOAA National Geophysical Data Center',
         opacity: 0.5,
     }),
     VIIRS_2014: L.tileLayer.wms("https://www.lightpollutionmap.info/geoserver/gwc/service/wms?", {
         layers: 'PostGIS:VIIRS_2014',
-        attribution: 'Map tiles by <a href="https://www.lightpollutionmap.info">lightpollutionmap.info</a>',
+        attribution: 'Map tiles by Jurij Stare, <a href="https://www.lightpollutionmap.info"> www.lightpollutionmap.info</a> and Earth Observation Group, NOAA National Geophysical Data Center',
         opacity: 0.5,
     }),
     VIIRS_2013: L.tileLayer.wms("https://www.lightpollutionmap.info/geoserver/gwc/service/wms?", {
         layers: 'PostGIS:VIIRS_2013',
-        attribution: 'Map tiles by <a href="https://www.lightpollutionmap.info">lightpollutionmap.info</a>',
+        attribution: 'Map tiles by Jurij Stare, <a href="https://www.lightpollutionmap.info"> www.lightpollutionmap.info</a> and Earth Observation Group, NOAA National Geophysical Data Center',
         opacity: 0.5,
     }),
     osm: L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", { //{} --> steht für Objekt   [] --> array,   //{s} kann Server für 
@@ -52,23 +52,17 @@ var kartenLayer = {
     bmapgelaende: L.tileLayer("https://{s}.wien.gv.at/basemap/bmapgelaende/grau/google3857/{z}/{y}/{x}.jpeg", {
         subdomains: ["maps", "maps1", "maps2", "maps3", "maps4"],
         attribution: 'Datenquelle: <a href="https://basemap.at“>basemap.at</a>'
-    }),
-    NNASAGIBS_ViirsEarthAtNight2012: L.tileLayer('https://map1.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_CityLights_2012/default/{time}/{tilematrixset}{maxZoom}/{z}/{y}/{x}.{format}', {
-        attribution: 'Imagery provided by services from the Global Imagery Browse Services (GIBS), operated by the NASA/GSFC/Earth Science Data and Information System (<a href="https://earthdata.nasa.gov">ESDIS</a>) with funding provided by NASA/HQ.',
-        time: '',
-        tilematrixset: 'GoogleMapsCompatible_Level',
-        format: 'jpg',
-    }),
-    CartoDB_DarkMatterNoLabels: L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-        subdomains: 'abcd',
-        maxZoom: 19
     })
 };
 
-karte.addLayer(
-    kartenLayer.VIIRS_2013,
-);
+var citylights = new L.GIBSLayer('VIIRS_CityLights_2012', {
+    date: new Date('2012/04/16'),
+    transparent: true
+})
+
+kartenLayer.stamen_terrain.addTo(karte);
+
+
 
 new L.Control.MiniMap(
     L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", { //{} --> steht für Objekt   [] --> array,   //{s} kann Server für 
@@ -154,11 +148,10 @@ objBasemaps = {
     "osm": kartenLayer.osm,
     "Stamen Terrain": kartenLayer.stamen_terrain,
     "Basemap Gelände": kartenLayer.bmapgelaende,
-    "NASA Provider": kartenLayer.NNASAGIBS_ViirsEarthAtNight2012,
-    "Carto": kartenLayer.CartoDB_DarkMatterNoLabels,
-};
+}
 
 objOverlays = {
+    "City Lights": citylights,
     "VIIRS_2019": kartenLayer.VIIRS_2019,
     "VIIRS_2018": kartenLayer.VIIRS_2018,
     "VIIRS_2017": kartenLayer.VIIRS_2017,
