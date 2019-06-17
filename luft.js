@@ -35,10 +35,12 @@ const layerControl = L.control.layers({
 
 const heatgruppe = L.featureGroup();
 const markergruppe = L.featureGroup();
+const idwgruppe = L.featureGroup();
 
 // Jsonp abfragen
 let jsonpResponse = function (data) {
     let ozonPoints = [];
+    
 
     // console.log(data);
     for (let i in data) {
@@ -72,6 +74,7 @@ let jsonpResponse = function (data) {
         <strong>Datum:</strong> ${date}<br>
         <strong>Uhrzeit:</strong> ${time}<br>
         <strong>Ozon 1h max:</strong> ${ozon1hmax}<br>
+        <strong>Ozon 1h:</strong> ${ozon1h}<br>
         <strong>Ozon 8h:</strong> ${ozon8h}</p>
         `).addTo(markergruppe);
 
@@ -81,6 +84,7 @@ let jsonpResponse = function (data) {
         // Heatmap
 
         ozonPoints.push([lat, lng, parseFloat(ozon1h/300)]);
+        
         //console.log(ozonPoints)
 
         
@@ -90,15 +94,17 @@ let jsonpResponse = function (data) {
     L.heatLayer(ozonPoints, // lat, lng, intensity
 
     {
-        radius: 25,
-        minOpacity: 0.4,
+        radius: 50,
+        minOpacity: 0.2,
+        blur: 15,
         
         
         
         
         
         
-        //Grenzwerte
+        
+        //Grenzwerte für Skala mittles colorbrewer
         //300µg: 1
         //270µg: 0.9
         //240µg: 0.8
@@ -112,19 +118,44 @@ let jsonpResponse = function (data) {
 
 
         gradient: {   
-            0.0: "blue",
-            0.1: "black",
-            0.2: "yellow",
-            0.3: "orange",
-            0.4: "red",
-            0.5: "purple",
+            0.1: "#005824",
+            0.2: "#1a9850",
+            0.3: "#d9ef8b",
+            0.4: "#ffffbf",
+            0.5: "#fee08b",
+            0.6: "#fdae61",
+            0.7: "#f46d43",
+            0.8: "#d73027",
+            0.9: "#8B0000",
             
             
 
         }
     }).addTo(heatgruppe); 
+    L.idwLayer(ozonPoints,
+        {
+        opacity: 0.3, 
+        gradient: {   
+            0.1: "#005824",
+            0.2: "#1a9850",
+            0.3: "#d9ef8b",
+            0.4: "#ffffbf",
+            0.5: "#fee08b",
+            0.6: "#fdae61",
+            0.7: "#f46d43",
+            0.8: "#d73027",
+            0.9: "#8B0000",
+            
+            
+
+        },
+        cellSize: 10, 
+        exp: 3, 
+        max: 1}).addTo(idwgruppe);
+        
     layerControl.addOverlay(markergruppe, "Ozonmessstationen")
     layerControl.addOverlay(heatgruppe, "Heatmap")
+    layerControl.addOverlay(idwgruppe, "IDW Interpolation")
     
 
 
