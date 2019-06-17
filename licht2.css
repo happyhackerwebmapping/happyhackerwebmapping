@@ -89,51 +89,52 @@ body {
 
 .background_image_licht {
     background-image: url('images/eigeneAufnahemen/pano_innsbruck2.jpg');
-    height: 350px;
+    height: 320px;
     background-position: 39% 97%;
 
 }
 
 .background_image_luft {
-    background-image: url('images/runner.jpg');
-    height: 350px;
+    background-image: url('images/header/runner.jpg');
+    height: 320px;
     background-position: 40% 48%;
-    margin: auto;
+    
+    
 
 
 }
 
 .background_image_laerm {
-    background-image: url('images/flugzeuge.jpg');
-    height: 350px;
-    background-position: 0 50%;
-    margin: auto;
+    background-image: url('images/header/airplane.jpg');
+    height: 320px;
+    background-position: -84px 50%;
+    
 
 
 }
 
 .background_image_about {
     background-image: url('images/milky_way_1920.jpg');
-    height: 350px;
+    height: 320px;
     background-position: 0 50%;
-    margin: auto;
+    
 
 
 }
 
 .background_image_home {
-    background-image: url('images/pollution.jpg');
-    height: 350px;
-    background-position: 75% 65%;
-    margin: auto;
+    background-image: url('images/header/home.jpg');
+    height: 320px;
+    background-position: 0px 71%;
+    
 
 
 }
 
 .background_image_research {
-    background-image: url('images/research.jpg');
-    height: 350px;
-    background-position: 20% 85%;
+    background-image: url('images/header/research.jpg');
+    height: 320px;
+    background-position: 10% 86%;
     margin: auto;
 
 
@@ -199,7 +200,7 @@ main p {
 }
 
 .zoom {
-    background-image: "images/allerheiligen.jpg""images/ursulinen.jpg""images/voels.jpg";
+    background-image: "images/laerm/allerheiligen.jpg""images/laerm/ursulinen.jpg""images/laerm/voels.jpg";
     transition: transform .2s;
 }
 

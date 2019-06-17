@@ -53,15 +53,15 @@ let allerheiligen = L.marker(
 Element 
 ursulinen.bindPopup(
     `<h1>Standtort: Ursulinen
-        <img class='zoom' src="images/ursulinen.jpg" style="width:300px;height:200px;">`
+        <img class='zoom' src="images/laerm/ursulinen.jpg" style="width:300px;height:200px;">`
 );
 völs.bindPopup(
     `<h1>Standtort: Völs
-        <img class='zoom' src="images/voels.jpg" style="width:300px;height:200px;">`
+        <img class='zoom' src="images/laerm/voels.jpg" style="width:300px;height:200px;">`
 );
 allerheiligen.bindPopup(
     `<h1>Standtort: Allerheiligen
-        <img class='zoom' src="images/allerheiligen.jpg" style="width:300px;height:200px;">`
+        <img class='zoom' src="images/laerm/allerheiligen.jpg" style="width:300px;height:200px;">`
 );
 
 
