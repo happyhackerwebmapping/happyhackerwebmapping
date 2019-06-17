@@ -392,3 +392,9 @@ p.left{
     border-color:  gainsboro;
     border-width: 10px;
 }
+
+.videos {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
