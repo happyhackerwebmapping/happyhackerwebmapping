@@ -42,7 +42,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.min.js"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.min.css" rel="stylesheet" />
   <script defer src="home.js"></script>
-  
+
   <link rel="stylesheet" href="licht2.css" />
   <script defer src="laerm.js"></script>
 
@@ -109,7 +109,8 @@
       Eine Korrelationssoftware ordnet die registrierten Schallereignisse den Radardaten zu. Dadurch erfolgt eine
       Zuordnung der gemessenen Schallereignisse zu Fluglärm bzw.Umgebungslärm.
 
-      <br>------------------- <br>
+      <br>
+      <br>
       Quelle: <code></code><a
         href="https://www.tirol.gv.at/arbeit-wirtschaft/esa/laerm/fluglaerm/">Tirol.gv.at</a></code>
     </p>
@@ -124,7 +125,7 @@
         der Quelle entfernt sind. Je nach Medium breitet sich Schall mit unterschiedlicher Geschwindigkeit
         aus, in der Luft mit 333 m/s.
         Wenn nichts anderes angegeben ist, wird unter dem Begriff Schallpegel immer der Schalldruckpegel
-        verstanden. Handelsübliche Schallpegelmessgeräte messen den Schalldruckpegel.
+        verstanden. Handelsübliche Schallpegelmessgeräte messen den Schalldruckpegel. <br>
         Quelle: <a href="https://www.data.gv.at/katalog/dataset/80607cc6-8fc1-4b2e-8517-716de8f1ba63">Data.gv.at</a></p>
     </details>
     <br>
@@ -145,7 +146,7 @@
         nicht darstellbar. Deshalb ist es naheliegend, den Schalldruck in einem logarithmischen Maßstab
         anzugeben, um somit einen überschaubaren Bereich zu erhalten. Dieser Bereich wurde dem Hörfeld
         angepasst, wobei 0 dB die Hörschwelle bei 20 μPa und 130 dB die Schmerzschwelle bei ca. 100 Pa
-        repräsentieren.
+        repräsentieren. <br>
         Quelle: <a href="https://www.data.gv.at/katalog/dataset/80607cc6-8fc1-4b2e-8517-716de8f1ba63">Data.gv.at</a></p>
     </details>
     <br>
@@ -156,7 +157,7 @@
         einer Lautstärke von 40 dB vom Ohr gleich laut empfunden wie ein Ton von 31,5 Hz bei 80 dB.
         Da das Schallpegelmessgerät nur in der Lage ist, den physikalischen Schalldruckpegel zu messen,
         muss diese Eigenschaft des Gehörs nachgebildet werden. Die A - Bewertung stellt die bestmögliche
-        Anpassung an das menschliche Gehör dar.
+        Anpassung an das menschliche Gehör dar.<br>
         Quelle: <a href="https://www.data.gv.at/katalog/dataset/80607cc6-8fc1-4b2e-8517-716de8f1ba63">Data.gv.at</a></p>
     </details>
     <br>
@@ -164,14 +165,14 @@
       <summary>Der A-bewertete Schalldruckpegel</summary>
       <p> Der A-bewertete Schalldruckpegel ist der mit Frequenzbewertung A gemessene Schalldruckpegel und
         berücksichtigt die Lautheitsempfindung des menschlichen Gehörs. Für die Beschreibung der
-        Schallimmissionen wird in der Regel der A-bewertete Schalldruckpegel verwendet.
+        Schallimmissionen wird in der Regel der A-bewertete Schalldruckpegel verwendet. <br>
         Quelle: <a href="https://www.data.gv.at/katalog/dataset/80607cc6-8fc1-4b2e-8517-716de8f1ba63">Data.gv.at</a></p>
     </details>
-<br>
-<br>
+    <br>
+    <br>
 
   </main>
-<h4>Übersichtskarte: Fluglärm in Innsbruck</h4>
+  <h4>Übersichtskarte: Fluglärm in Innsbruck</h4>
   <div id='map'></div>
   <br>
   <h4>Erklärungen zur Karte:</h4>
@@ -200,16 +201,47 @@
     </table>
     Quelle: <a href="https://www.data.gv.at/katalog/dataset/80607cc6-8fc1-4b2e-8517-716de8f1ba63">Data.gv.at</a>
   </div>
+  <br>
+  <br>
+  <h4>Monatsberichte </h4>
+  <p>monatlich erstellt vom Land Tirol</p>
+  <div class="box1">
+    <img src="icons/pdf.png">
+    <a href="pdfs/Monatsbericht_Jaenner_2019.pdf">Jänner 2019</a>
+  </div>
+  <div class="box2"><img src="icons/pdf.png"><a href="pdfs/Monatsbericht_Feber_2019.pdf">Feber 2019</a></div>
 
+  <div class="box3"><img src="icons/pdf.png"><a href="pdfs/Monatsbericht_Maerz_2019.pdf">März 2019</a></div>
+
+  <div class="box4"><img src="icons/pdf.png"><a href="pdfs/Monatsbericht_April_2019.pdf">April 2019</a></div>
+
+  <div class="box5"><img src="icons/pdf.png"><a href="pdfs/Monatsbericht_Mai_2019.pdf">Mai 2019</a></div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr>
+  <h4>Interessantes zum Thema:</h4>
+  <ul>
+    <li><a href="https://www.tirol.gv.at/arbeit-wirtschaft/esa/laerm/fluglaerm/">Fluglärm Land Tirol</a></li>
+    <li><a
+        href="https://www.tt.com/panorama/gesellschaft/14231397/laermbericht-fast-alle-innsbrucker-leiden-unter-dem-laerm">Lärmbericht
+        Tiroler Tageszeitung</a></li>
+    <li><a href="http://www.aia-tirol.at/">Anrainerschutzgemeinschaft Innsbruck Airport</a></li>
+    <li><a href="https://www.innsbruck.gv.at/page.cfm?vpath=wohnen/foerderungen/laermschutz">Flughafen Lärmschutz
+        Förderungen</a></li>
+  </ul>
   <footer>
-      <div class="footer">
-          <p class = "left"><a href="https://github.com/happyhackerwebmapping"><i class="fab fa-github"></i> github.com</a></p>
-        <p></p>
-  
-      </div>
-    </footer>
+    <div class="footer">
+      <p class="left"><a href="https://github.com/happyhackerwebmapping"><i class="fab fa-github"></i> github.com</a>
+      </p>
+      <p></p>
+
+    </div>
+  </footer>
 
 </body>
 
 </html>
-

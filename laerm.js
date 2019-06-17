@@ -52,7 +52,7 @@ let allerheiligen = L.marker(
 // Popup hinzufügen
 ursulinen.bindPopup(
     `<h1>Standtort: Ursulinen
-        <img class='zoom' src="images/ursulinen_klein.jpg">`
+        <img class='zoom' src="images/ursulinen_mittel.jpg">`
 );
 völs.bindPopup(
     `<h1>Standtort: Völs
@@ -63,7 +63,4 @@ allerheiligen.bindPopup(
         <img class='zoom' src="images/allerheiligen_klein.jpg">`
 );
 
-function imagesoeffnen {
-    Fenster=window.open(target= "_blank" <img src="images/allerheiligen.jpg"> );
-    Fenster.focus()
-};
+
