@@ -199,13 +199,13 @@ main p {
 }
 
 .zoom {
-    background-image: "images/allerheiligen_klein.jpg""images/ursulinen_klein.jpg""images/voels_klein.jpg";
+    background-image: "images/allerheiligen.jpg""images/ursulinen.jpg""images/voels.jpg";
     transition: transform .2s;
 }
 
 .zoom:hover {
-    transform: scale(4);
-}
+    transform: scale(2);
+}.
 
 h4.marker {
     font-family: 'Montserrat';
@@ -380,4 +380,14 @@ p.left{
     text-decoration: none;
   }
 
-
+.box1, .box2, .box3, .box4, .box5  {
+    float: left;
+    width: 20%;
+    height: 18%;
+    margin-right: auto;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    border-style: solid;
+    border-color:  gainsboro;
+    border-width: 10px;
+}
