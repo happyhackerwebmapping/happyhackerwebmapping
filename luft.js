@@ -38,6 +38,8 @@ const markergruppe = L.featureGroup();
 
 // Jsonp abfragen
 let jsonpResponse = function (data) {
+    let ozonPoints = [];
+
     // console.log(data);
     for (let i in data) {
         // console.log(data[i].lat);
@@ -78,51 +80,49 @@ let jsonpResponse = function (data) {
         
         // Heatmap
 
-        var ozonPoints = [lat, lng, parseFloat(ozon1h/300)]
-        console.log(ozonPoints)
+        ozonPoints.push([lat, lng, parseFloat(ozon1h/300)]);
+        //console.log(ozonPoints)
 
         
 
-        L.heatLayer([
-                ozonPoints
-            ], // lat, lng, intensity
-
-            {
-                radius: 25,
-                minOpacity: 0.4,
-                
-                
-                
-                
-                
-                
-                //Grenzwerte
-                //300µg: 1
-                //270µg: 0.9
-                //240µg: 0.8
-                //210µg: 0.7
-                //180µg: 0.6
-                //150µg: 0.5
-                //120µg: 0.4
-                //90µg: 0.3
-                //60µg: 0.2
-                //30µg: 0.1
-
-
-                gradient: {   
-                    0.0: "blue",
-                    0.1: "black",
-                    0.2: "yellow",
-                    0.3: "orange",
-                    0.4: "red",
-                    0.5: "purple",
-                    
-                    
-
-                }
-            }).addTo(heatgruppe);
+        
     }
-    
+    L.heatLayer(ozonPoints, // lat, lng, intensity
+
+    {
+        radius: 25,
+        minOpacity: 0.4,
+        
+        
+        
+        
+        
+        
+        //Grenzwerte
+        //300µg: 1
+        //270µg: 0.9
+        //240µg: 0.8
+        //210µg: 0.7
+        //180µg: 0.6
+        //150µg: 0.5
+        //120µg: 0.4
+        //90µg: 0.3
+        //60µg: 0.2
+        //30µg: 0.1
+
+
+        gradient: {   
+            0.0: "blue",
+            0.1: "black",
+            0.2: "yellow",
+            0.3: "orange",
+            0.4: "red",
+            0.5: "purple",
+            
+            
+
+        }
+    }).addTo(heatgruppe); 
     layerControl.addOverlay(markergruppe, "Ozonmessstationen")
     layerControl.addOverlay(heatgruppe, "Heatmap")
     
