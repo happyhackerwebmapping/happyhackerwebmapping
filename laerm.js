@@ -34,7 +34,7 @@ const layerControl = L.control.layers({
 kartenLayer.bmapgrau.addTo(karte);
 karte.addControl(new L.Control.Fullscreen());
 karte.setView(
-    [47.260707, 11.345558], 13
+    [47.330707, 11.345558], 11
 );
 
 
@@ -50,17 +50,18 @@ let allerheiligen = L.marker(
 ).addTo(karte);
 
 // Popup hinzufügen
+Element 
 ursulinen.bindPopup(
     `<h1>Standtort: Ursulinen
-        <img class='zoom' src="images/ursulinen_mittel.jpg">`
+        <img class='zoom' src="images/ursulinen.jpg" style="width:300px;height:200px;">`
 );
 völs.bindPopup(
     `<h1>Standtort: Völs
-        <img class='zoom' src="images/voels_klein.jpg">`
+        <img class='zoom' src="images/voels.jpg" style="width:300px;height:200px;">`
 );
 allerheiligen.bindPopup(
     `<h1>Standtort: Allerheiligen
-        <img class='zoom' src="images/allerheiligen_klein.jpg">`
+        <img class='zoom' src="images/allerheiligen.jpg" style="width:300px;height:200px;">`
 );
 
 

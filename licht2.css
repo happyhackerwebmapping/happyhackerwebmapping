@@ -199,12 +199,12 @@ main p {
 }
 
 .zoom {
-    background-image: "images/allerheiligen_klein.jpg""images/ursulinen_mittel.jpg""images/voels_klein.jpg";
+    background-image: "images/allerheiligen.jpg""images/ursulinen.jpg""images/voels.jpg";
     transition: transform .2s;
 }
 
 .zoom:hover {
-    transform: scale(2.5);
+    transform: scale(2);
 }.
 
 h4.marker {
@@ -386,9 +386,8 @@ p.left{
     height: 18%;
     margin-right: auto;
     padding: 20px;
-    background: rgb(88, 189, 223);
+    background: rgb(255, 255, 255);
     border-style: solid;
     border-color:  gainsboro;
     border-width: 10px;
 }
-
