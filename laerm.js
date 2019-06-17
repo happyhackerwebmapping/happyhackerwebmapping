@@ -50,7 +50,6 @@ let allerheiligen = L.marker(
 ).addTo(karte);
 
 // Popup hinzufügen
-Element 
 ursulinen.bindPopup(
     `<h1>Standtort: Ursulinen
         <img class='zoom' src="images/laerm/ursulinen.jpg" style="width:300px;height:200px;">`

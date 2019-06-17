@@ -203,10 +203,9 @@ main p {
     background-image: "images/laerm/allerheiligen.jpg""images/laerm/ursulinen.jpg""images/laerm/voels.jpg";
     transition: transform .2s;
 }
-
 .zoom:hover {
     transform: scale(2);
-}.
+}
 
 h4.marker {
     font-family: 'Montserrat';
