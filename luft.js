@@ -60,35 +60,7 @@ let jsonpResponse = function (data) {
 
         // Marker
 
-        // const farbpalette_marker = [
-        //     [0,"#41ab5d"],
-        //     [30,"#d9f0a3"],
-        //     [60,"#ffffcc"],
-        //     [90,"#ffeda0"],
-        //     [120,"#fed976"],
-        //     [150,"#feb24c"],
-        //     [180,"#fd8d3c"],
-        //     [210,"#fc4e2a"],
-        //     [240,"#e31a1c"],
-        //     [270,"#bd0026"],
-        //     [300,"#800026"],
-        // ]
-
-        // if (ozon1h) {
-        //     let color = "green";
-        //     for (let i =0; i <farbpalette_marker.length; i++) {
-        //         if (ozon1h < farbpalette_marker[i][0]) {
-        //             color = farbpalette_marker[i][1];
-        //             break
-        //         }
-        //     }
-        //     return L.marker(lat, lng, {
-        //         icon: L.divIcon({
-        //             html: `style ="background-color: ${color}">${ozon1h}`
-        //         })
-        //     }).addTo(markergruppe)
-        // }
-
+      
         let ozonMarker = L.marker([lat, lng], {}).addTo(karte)
         
         ozonMarker.bindPopup(`
