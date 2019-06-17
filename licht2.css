@@ -96,7 +96,7 @@ body {
 
 .background_image_luft {
     background-image: url('images/runner.jpg');
-    height: 320px;
+    height: 350px;
     background-position: 40% 48%;
     margin: auto;
 
@@ -105,7 +105,7 @@ body {
 
 .background_image_laerm {
     background-image: url('images/flugzeuge.jpg');
-    height: 250px;
+    height: 350px;
     background-position: 0 50%;
     margin: auto;
 
@@ -114,7 +114,7 @@ body {
 
 .background_image_about {
     background-image: url('images/milky_way_1920.jpg');
-    height: 250px;
+    height: 350px;
     background-position: 0 50%;
     margin: auto;
 
@@ -123,7 +123,7 @@ body {
 
 .background_image_home {
     background-image: url('images/pollution.jpg');
-    height: 280px;
+    height: 350px;
     background-position: 75% 65%;
     margin: auto;
 
@@ -132,7 +132,7 @@ body {
 
 .background_image_research {
     background-image: url('images/research.jpg');
-    height: 250px;
+    height: 350px;
     background-position: 20% 85%;
     margin: auto;
 
