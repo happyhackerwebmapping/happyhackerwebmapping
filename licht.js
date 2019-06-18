@@ -98,9 +98,9 @@ function createCustomIcon(feature, latlng) {
 }
 
 
-/*function createCustomIcon2(feature, latlng) {
+function createCustomIcon2(feature, latlng) {
     let myIcon2 = L.icon({
-        iconUrl: 'icons/milky_way.png',
+        iconUrl: 'icons/star.png',
         iconSize: [25, 25], // width and height of the image in pixels
         shadowSize: [35, 20], // width, height of optional shadow image
         iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
@@ -110,11 +110,11 @@ function createCustomIcon(feature, latlng) {
     let marker2 = L.marker(latlng, {
         icon: myIcon2
     })
-    marker2.bindPopup(`<h3> Cloud Cover: </h3>${feature.properties.Zenith}<br>
-    <h3>Limiting Mag </h3> ${feature.properties.Conditions}`)
+    marker2.bindPopup(`<h5> UT_datetime: </h5>${feature.properties.UT_datetime}<br>
+    <h5>Brightness </h5> ${feature.properties.Brightness} <h5> Conditions </h5> ${feature.properties.Conditions} `)
   
     return marker2
-}*/
+}
 
 
 
@@ -123,13 +123,13 @@ let myLayerOptions = {
     pointToLayer: createCustomIcon
 }
 
-/*let mysqmLayerOptions = {
+let mysqmLayerOptions = {
     pointToLayer: createCustomIcon2
-}*/
+}
 
 // create the GeoJSON layer
 let citiesatNight = L.geoJSON(GLOBEATNIGHT, myLayerOptions)
-//let sqm = L.geoJSON(SQM, mysqmLayerOptions)
+let sqm = L.geoJSON(SQM, mysqmLayerOptions)
 
 
 
@@ -170,7 +170,7 @@ objOverlays = {
 objOverlays2 = {
     "Hotspots": Hotspots,
     "Globe at Night": citiesatNight,
-    // "sqm": sqm,
+    "sqm": sqm,
     //  "GLobal Sky Quality Meter": sqm,
 }
 
@@ -179,23 +179,6 @@ ctlLayers2 = L.control.layers(objOverlays2).addTo(karte);
 
 karte.addControl(new L.Control.Fullscreen());
 
-/*let karte2 = L.map(`map2`, {
-    center: [47.238, 11.22],
-    zoom: 10
-});
-
-/*L.tileLayer.zoomify(`images/TileGroup`, {
-    width: 5472,
-    height: 3648,
-    tolerance: 0.8,
-    attribution: 'Photo: Bjørn Sandvik'
-}).addTo(karte2);
-
-var layer = new L.GIBSLayer('VIIRS_CityLights_2012', {
-    date: new Date('2012/04/16'),
-    transparent: true
-}).addTo(karte2);
-*/
 
 
 //// ImageSlides
