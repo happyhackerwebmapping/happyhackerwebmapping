@@ -92,7 +92,7 @@ function createCustomIcon(feature, latlng) {
         icon: myIcon
     })
     marker.bindPopup(`<h3> Cloud Cover: </h3>${feature.properties.CloudCover}<br>
-    <h3>Limiting Mag </h3> ${feature.properties.LimitingMag} <br> <h3> Location Info: </h3>${feature.properties.LocationComment}`)
+    <h3>Limiting Mag </h3> ${feature.properties.LimitingMag} `)
     //console.log(feature.geometry.coordinates)
     return marker
 }
@@ -135,14 +135,20 @@ let citiesatNight = L.geoJSON(GLOBEATNIGHT, myLayerOptions)
 
 let Stiegelreith = L.marker([47.238, 11.223]).bindPopup(
     `<h1>Standtort: Stiegelreith
-        <img src="images/milky_way.jpg">`
+        <img src= "images/eigeneAufnahmen/pano_innsbruck.jpg" height="200" width="600">`
 );
-let Innsbruck = L.marker([47.265351, 11.384622]).bindPopup('Innsbruck');
+
+let Innsbruck = L.marker([47.265351, 11.384622]).bindPopup(
+    '<h1> Standtort: Innsbruck <img src = "images/innsbruck.png" height="400" width="600"> '
+);
+
+let Griesen = L.marker([47.478624, 10.937590]).bindPopup(
+    '<h1> Standort: Griesen <img src="images/griesen.png" height="400" width="600">'
+)
 
 
 
-
-let Hotspots = L.layerGroup([Stiegelreith, Innsbruck])
+let Hotspots = L.layerGroup([Stiegelreith, Innsbruck, Griesen])
 
 objBasemaps = {
     "osm": kartenLayer.osm,
@@ -198,27 +204,30 @@ showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
-  showSlides(slideIndex += n);
+    showSlides(slideIndex += n);
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+    showSlides(slideIndex = n);
 }
 
 function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-} 
-
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {
+        slideIndex = 1
+    }
+    if (n < 1) {
+        slideIndex = slides.length
+    }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+}
