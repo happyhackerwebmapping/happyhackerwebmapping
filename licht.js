@@ -53,7 +53,7 @@ var kartenLayer = {
         subdomains: ["maps", "maps1", "maps2", "maps3", "maps4"],
         attribution: 'Datenquelle: <a href="https://basemap.at“>basemap.at</a>'
     }),
-    blackmarble2012: L.tileLayer('http://scripts.digital-geography.com/black_marble/2012/{z}/{x}/{y}.png', {
+    blackmarble2012: L.tileLayer("http://scripts.digital-geography.com/black_marble/2012/{z}/{x}/{y}.png", {
         maxZoom: 8,
         minZoom: 3,
         attribution: "data by Nasa 2012, composition by <a href='http://geolicious.de'>Geolicious</a>"
