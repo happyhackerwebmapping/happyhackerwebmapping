@@ -93,11 +93,11 @@ new L.Control.MiniMap(
 function createCustomIcon(feature, latlng) {
     let myIcon = L.icon({
         iconUrl: 'icons/milkyway_icon.png',
-        iconSize: [25, 25], // width and height of the image in pixels
-        shadowSize: [35, 20], // width, height of optional shadow image
-        iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
-        shadowAnchor: [12, 6], // anchor point of the shadow. should be offset
-        popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+        iconSize: [25, 25], 
+        shadowSize: [35, 20],
+        iconAnchor: [12, 12], 
+        shadowAnchor: [12, 6], 
+        popupAnchor: [0, 0] 
     })
     let marker = L.marker(latlng, {
         icon: myIcon
@@ -112,11 +112,11 @@ function createCustomIcon(feature, latlng) {
 function createCustomIcon2(feature, latlng) {
     let myIcon2 = L.icon({
         iconUrl: 'icons/star.png',
-        iconSize: [25, 25], // width and height of the image in pixels
-        shadowSize: [35, 20], // width, height of optional shadow image
-        iconAnchor: [12, 12], // point of the icon which will correspond to marker's location
-        shadowAnchor: [12, 6], // anchor point of the shadow. should be offset
-        popupAnchor: [0, 0] // point from which the popup should open relative to the iconAnchor
+        iconSize: [25, 25], 
+        shadowSize: [35, 20],
+        iconAnchor: [12, 12], 
+        shadowAnchor: [12, 6], 
+        popupAnchor: [0, 0] 
     })
     let marker2 = L.marker(latlng, {
         icon: myIcon2
