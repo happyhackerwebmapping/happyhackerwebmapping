@@ -82,8 +82,10 @@ let jsonpResponse = function (data) {
        
         
         // Heatmap
-
-        ozonPoints.push([lat, lng, parseFloat(ozon1h/300)]);
+        if (ozon1h >0) {
+            ozonPoints.push([lat, lng, parseFloat(ozon1h/300)]);
+        }
+        
         
         //console.log(ozonPoints)
 
