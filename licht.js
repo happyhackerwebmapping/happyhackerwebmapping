@@ -1,6 +1,6 @@
 let karte = L.map('map', {
-    center: [47.238, 11.22],
-    zoom: 10
+    center: [47.2930, 11.4272],
+    zoom: 12
 });
 
 const hash = new L.Hash(karte);
@@ -52,15 +52,26 @@ var kartenLayer = {
     bmapgelaende: L.tileLayer("https://{s}.wien.gv.at/basemap/bmapgelaende/grau/google3857/{z}/{y}/{x}.jpeg", {
         subdomains: ["maps", "maps1", "maps2", "maps3", "maps4"],
         attribution: 'Datenquelle: <a href="https://basemap.at“>basemap.at</a>'
+    }),
+    blackmarble2012: L.tileLayer('http://scripts.digital-geography.com/black_marble/2012/{z}/{x}/{y}.png', {
+        maxZoom: 8,
+        minZoom: 3,
+        attribution: "data by Nasa 2012, composition by <a href='http://geolicious.de'>Geolicious</a>"
+    }),
+    blackmarble2016: L.tileLayer("http://scripts.digital-geography.com/black_marble/2016/{z}/{x}/{y}.png", {
+        maxZoom: 8,
+        minZoom: 3,
+        attribution: "data by Nasa 2016, composition by <a href='http://geolicious.de'>Geolicious</a>"
     })
 };
 
 var citylights = new L.GIBSLayer('VIIRS_CityLights_2012', {
     date: new Date('2012/04/16'),
     transparent: true
-})
+});
 
 kartenLayer.stamen_terrain.addTo(karte);
+kartenLayer.VIIRS_2019.addTo(karte);
 
 
 
@@ -112,7 +123,7 @@ function createCustomIcon2(feature, latlng) {
     })
     marker2.bindPopup(`<h5> UT_datetime: </h5>${feature.properties.UT_datetime}<br>
     <h5>Brightness </h5> ${feature.properties.Brightness} <h5> Conditions </h5> ${feature.properties.Conditions} `)
-  
+
     return marker2
 }
 
@@ -154,6 +165,8 @@ objBasemaps = {
     "osm": kartenLayer.osm,
     "Stamen Terrain": kartenLayer.stamen_terrain,
     "Basemap Gelände": kartenLayer.bmapgelaende,
+    "Black Marble 2012": kartenLayer.blackmarble2012,
+    "Black Marble 2016": kartenLayer.blackmarble2016,
 }
 
 objOverlays = {
