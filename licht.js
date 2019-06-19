@@ -65,10 +65,10 @@ var kartenLayer = {
     })
 };
 
-/*var citylights = new L.GIBSLayer('VIIRS_CityLights_2012', {
+let citylights = new L.GIBSLayer('VIIRS_CityLights_2012', {
     date: new Date('2012/04/16'),
     transparent: true
-});*/
+});
 
 kartenLayer.stamen_terrain.addTo(karte);
 kartenLayer.VIIRS_2019.addTo(karte);
@@ -162,15 +162,16 @@ let Griesen = L.marker([47.478624, 10.937590]).bindPopup(
 let Hotspots = L.layerGroup([Stiegelreith, Innsbruck, Griesen])
 
 objBasemaps = {
+    "Black Marble 2012": kartenLayer.blackmarble2012,
+    "Black Marble 2016": kartenLayer.blackmarble2016,
     "osm": kartenLayer.osm,
     "Stamen Terrain": kartenLayer.stamen_terrain,
     "Basemap Gelände": kartenLayer.bmapgelaende,
-    "Black Marble 2012": kartenLayer.blackmarble2012,
-    "Black Marble 2016": kartenLayer.blackmarble2016,
+    
 }
 
 objOverlays = {
-  //  "City Lights": citylights,
+    "City Lights": citylights,
     "VIIRS_2019": kartenLayer.VIIRS_2019,
     "VIIRS_2018": kartenLayer.VIIRS_2018,
     "VIIRS_2017": kartenLayer.VIIRS_2017,
